@@ -1,0 +1,89 @@
+[-- DEFINE PAGE --]
+[-- IF PAGE.NumProducts 0 --]
+[-- ELSE --]
+
+<style>
+/* NEW slider START */
+.price-slider {
+  font-size: 21px;
+}
+.price-slider-monthly {
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.price-slider-monthly a {
+  color: black;
+}
+.item-holder {
+  margin-bottom: 0px;
+  padding:  0px;
+}
+.item-holder:hover {border: 1px solid #d6d6d6; border-collapse: collapse;}
+.item-holder .title {
+  padding-top: 10px;
+}
+h5.slick-prodName {
+  margin-bottom: 0px;
+  line-height: 1.3em!important;
+  font-weight: 505;
+  // white-space: nowrap;
+  min-height: 2.6em;
+  max-height: 2.6em;
+  display: -webkit-box;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+h4.slick-prodBrand {
+  margin-bottom: 5px;
+}
+.star_container {
+  margin-top: 5px;
+}
+.brand-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 5px;
+}
+.slider { visibility: hidden; }
+.slider:first-child { visibility: visible; }
+.slider.slick-initialized { visibility: visible; }
+.star_container span.ind_cnt { visibility: hidden; }
+.slider-deets { font-size:21px; line-height:1.5; font-weight:700; }
+/* NEW slider END */
+</style>
+
+        <div class="space-20"></div>
+        <!--new arrivals-->
+        <section class="new-arrivals">
+          <div class="container">
+            <h2 class="section-heading">
+              <span>
+                <!--<span>Shop by</span><br />-->[-- PAGE.Field7 --]
+              </span>
+              <!-- <div>
+                <a href="#">VIEW ALL</a>
+              </div> -->
+            </h2>
+            <!--owl carousel-->
+            <div class="row">
+              <div class="col-md-12 top-products">
+                [--LOOP PRODUCTS--]
+                <div class="item">
+                  <div class="item_holder">
+                    [-- PRODUCT -SMP-MM-top-products-v3--]
+                  </div>
+                </div>
+                [--END_LOOP PRODUCTS--]  
+              </div>
+            </div>
+            <!--owl end-->
+          </div>
+        </section>
+        <!--end new arrivals-->
+[--END_IF--]
+[-- END_DEFINE PAGE --]
