@@ -1,0 +1,1639 @@
+	body {
+		vertical-align:top;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#lpChat div.minimized, #lpChat div.maximized {
+		margin-right: 8%;
+	}
+
+	/* HEADER STYLES */
+
+	div.head1 {
+		/* This is the top strip of the site header, where the SewingMachinesPlus.com logo is and everything to the right */
+
+		background-image: url(/images/layout/top-bg1a.gif);
+		background-repeat: repeat-x;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		bottom: auto;
+		right: auto;
+		height: 80px;
+		margin: 0px;
+		width: 100%;
+		overflow: hidden;
+	}
+
+	td.headerInfo {
+		vertical-align: middle;
+		height: 49px;
+		width: 175px;
+	}
+
+	td.headlinks {
+		/* Controls the links between the phone numbers and McAfee seal */
+
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 10pt;
+		vertical-align: center;
+		line-height: 150%;
+	}
+
+	td.headlinks a {
+		color: #000000;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	#headerText {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	div.head2 {
+		/* This is the middle strip of the site header, with the grey background */
+
+		background-image: url(/images/layout/top-bg2.gif);
+		background-repeat: repeat-x;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		bottom: auto;
+		right: auto;
+		height: 50px;
+		margin: 0px;
+		width: 100%;
+		vertical-align: middle;
+		overflow: hidden;
+	}
+
+	div.head2 img {
+		/* Controls any banners placed in head2 */
+
+		margin: 1px 3px 0px 0px;
+		float: left;
+	}
+
+	div.head3 {
+		/* This is the bottom strip of the site header, with the red background and the dropdown nav menus */
+
+		background-image: url(/images/layout/top-bg3.gif);
+		background-repeat: repeat-x;
+		position: relative;
+		top: 0px;
+		left: 0px;
+		bottom: auto;
+		right: auto;
+		height: 39px; /*41px;*/
+		margin: 0px;
+		width: 100%;
+		z-index: 4;
+	}
+
+	/* END HEADER STYLES */
+
+	table.varHeight {
+		/* varHeight is the table that encompasses the leftbar, the content section in the center, and the rightbar */
+		vertical-align:top;
+		margin: 0px;
+		padding: 0px;
+		width: 1008px;
+		height:100%;
+	}
+
+	table.varHeight tr td {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	td.sidenav {
+		/* This is the red column on the left, containing the side navigation */
+
+		width: 200px;
+		height: 100% !important; /*FIXES LEFT NAV BAR BACKGROUND FROM CUTTING OFF IF THE PAGE IS LONGER THAN THE CONTENTS 5-13-13 CZ*/
+		vertical-align: top;
+	}
+
+	td.sidenav div.top {
+		/* contains the top image of the red sidebar */
+		position:relative;
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		bottom: auto;
+		height: 14px;
+		overflow: hidden;
+	}
+
+	td.sidenav div.mid {
+		/* contains the navigation links in the red sidebar */
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		background-image: url(/images/layout/side-bg.gif);
+		background-repeat: repeat-y;
+		height: 100%;
+		vertical-align:top;   /*5-13-13 CZ */
+	}
+
+	#mid {
+		/* contains the navigation links in the red sidebar */
+		margin: 0px;
+		padding: 0px;
+		border: none;
+		background-image: url(/images/layout/side-bg.gif);
+		background-repeat: repeat-y;
+		height: 100%;
+		vertical-align:top;   /*5-13-13 CZ */
+	}
+
+	td.sidenav div.mid p {
+		/* Controls the appearance of the text in the red sidebar */
+
+		margin: 0px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+
+	td.sidenav div.mid p a {
+		/* Controls the appearance of the links in the red sidebar */
+
+		color: #FFFFFF;
+		text-decoration: none;
+		display: block;
+		width: 190px;
+		text-indent: 15px;
+		background-image: url(/images/layout/wh-arrow.gif);
+		background-repeat: no-repeat;
+	}
+
+	td.sidenav div.mid p a:hover {
+		/* Controls the rollover effects on the links in the red sidebar */
+
+		background-color: #b63b3e;
+		background-image: url(/images/layout/bl-arrow.gif);
+	}
+
+	td.sidenav div.mid p.category {
+		/* Controls the appearance of the category headers in the red sidebar */
+
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		margin-right: 15px;
+		margin-left: 4px;
+		margin-bottom: 5px;
+		background-color: #c9c9c9;
+		border: 1px solid #000000;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+
+	td.sidenav div.mid br {
+		/* Controls the height of explicit line breaks (<br> tags) inserted between navigational categories */
+
+	}
+
+	td.body {
+		/* the center of the page where the content will change */
+
+		width: 680px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		vertical-align: top;
+	}
+
+	div.subpage {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		color: #751113;
+		font-size: 14pt;
+		margin-bottom: 5px;
+		margin-top: 15px;
+		padding-bottom: 2px;
+		padding-top: 2px;
+		width: 100%;
+		border-bottom: 2px solid #751113;
+		border-top: 2px solid #751113;
+	}
+
+	td.body table.content {
+		font-size: 8pt;
+		margin: 10px;
+		width: 663px;
+	}
+
+	td.body table.content h1 {
+		/* The name/title of a product on the product page */
+
+		font-size: 14pt;
+		font-weight: normal;
+		display: block;
+		/*border-color: #d0a940;
+		border-style: double;*/
+		padding: 10px;
+		padding-left: 30px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		text-indent: 0px;
+		margin: 0px;
+	}
+
+	form.cr table * {
+		font-size: 8pt;
+	}
+
+	.content * p.info {
+		font-weight: bold;
+		margin: 5px;
+	}
+
+	.content * p.info span {
+		padding-left: 10px;
+		font-size: 8pt;
+	}
+
+	#moreInfo * {
+		font-size: 8pt;
+	}
+
+	/* Alternate moreInfo id attribute eliminates duplicate instance on the page.  each id must be unique on the page.  GC June 24, 2011 */
+	#moreInfo2 * {
+		font-size: 8pt;
+	}
+
+	/* Upgrade multiple id attribute instances to class attribute. id must be unique on the page, class can appear multiple times   GC June 24, 2011 */
+	.moreInfo2 * {
+		font-size: 8pt;
+	}
+
+	#moreInfo ul {
+		list-style-position: inside !important;
+		text-indent: -1em;
+		display: table;
+		margin: .5em 0 .5em -2em;
+	}
+
+	#moreInfo ul  ul , #moreInfo ul  ol, #moreInfo ol  ul {
+		display: inherit;
+	}
+
+	img.bord1 {
+		border: 1px solid #ddd;
+		border-collapse: collapse;
+	}
+
+	ul.dlist, ul.dlist ul, ul.dlist ul ul , ul.dlist ol {
+		display: inline-block !important;
+		position: relative;
+		padding-right: 5px;
+	}
+
+	ol.dlist, ol.dlist ol, ol.dlist ol ol, ol.dlist ul {
+		display: inline-block !important;
+		position: relative;
+		padding-right: 5px;
+	}
+
+	div.dbox {
+		clear: both;
+		float: left;
+		width: 650px;
+	}
+
+	div.pbox {
+		clear: both;
+		float: left;
+		width: 100%;
+		display: block;
+		position: relative;
+		margin: 0 auto;
+	}
+
+	div.pbox p, div.pbox span {
+		padding-right: 1em;
+	}
+
+	div.dbox p, div.dbox span , div.dbox h2 {
+		padding-right: 1em;
+	}
+
+	div.dbox #whiteTable {
+		border: 1px solid #ffffff !important;
+		border-spacing: 0;
+		padding: 10px;
+		border-collapse: collapse;
+		text-align: left;
+		width: 95%;
+		background-color: transparent;
+		margin: 0px;
+	}
+
+	div.dbox #whiteTable th {
+		font-size: larger;
+		font-style: bold;
+		border: 1px solid #ffffff !important;
+		border-spacing: 0;
+		border-collapse: collapse;
+		padding:2px;
+	}
+
+	div.dbox #whiteTable td {
+		border: 1px solid #ffffff !important;
+		border-spacing: 0;
+		border-collapse: collapse;
+		padding:2px;
+	}
+
+	div#multiCol2 {
+		-webkit-column-count: 2 !important; /* Chrome, Safari, Opera */
+		-moz-column-count: 2 !important; /* Firefox */
+		column-count: 2 !important;
+		-webkit-column-width: 50% !important; /* Chrome, Safari, Opera */
+		column-width: 50% !important;
+	}
+
+	div#multiCol2 ul {
+		display: block !important;
+		text-indent: 0;
+		margin: 0 1em 1em 0;
+	}
+
+	div.dcol2 {
+		float: left;
+		width: 48%;
+		margin: 0 1em 1em 0;
+	}
+
+	div.dcol2c {
+		float: left;
+		width: 48%;
+		margin: .5em auto;
+		text-align: center !important;
+		display: block;
+		position: relative;
+	}
+
+	div.dcol3 {
+		float: left;
+		width: 31%;
+		margin: 0 1em 1em 0;
+	}
+
+	div.dcol3c {
+		float: left;
+		width: 31%;
+		margin: 0 1em 1em 0;
+		text-align: center;
+		display: block;
+		position: relative;
+	}
+
+	div.dcol4 {
+		float: left;
+		width: 24%;
+		margin: 0 .6em .6em 0;
+	}
+
+	div.dcol4c {
+		float: left;
+		width: 24%;
+		margin: 0 .6em .6em 0;
+		text-align: center;
+		display: block;
+		position: relative;
+	}
+
+	div.rowflex {
+		display: flex;
+		width: 100%;
+		max-width:650px;
+		margin: 1em auto;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-betweeen;
+		align-items: center;
+		align-content: center;
+	}
+
+	div.nowrapflex {
+		display: inline-flex;
+		width: 100%;
+		max-width:650px;
+		margin: .5em auto;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center !important;
+		align-items: flex-start;
+		align-content: center;
+	}
+
+	.fcol {
+		flex: 0 1 auto;
+		padding: .3em;
+	}
+
+	.fcol4 {
+		flex: 0 1 auto;
+		padding: .3em;
+		max-width: 152px;
+	}
+
+	.fincol {
+		flex: 0 1 auto;
+		padding: 1em;
+	}
+
+	.fincolc {
+		flex: 0 1 auto;
+		padding: 1em;
+		text-align: center !important;
+	}
+
+	div.dcol6 {
+		float: left;
+		width: 24%;
+		margin: 0 .6em .6em 0;
+	}
+
+	div.pcol5 {
+		float: left;
+		width: 123px;
+		margin: 0 .6em .6em 0;
+		text-align: center;
+		border: 1px solid #999999;
+		padding: 0;
+	}
+	div.pcol5 h2 {
+		color: #000000 !important;
+	}
+	.compare * {
+		font-size: 8pt;
+		vertical-align: middle;
+	}
+
+	.compare tr td {
+		padding-bottom: 20px;
+	}
+
+	.compare * input {
+		height: 20px;
+	}
+
+	.content * p.info span a {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	td.productListing {
+		font-size: 8pt;
+		width: 165px;
+		border: 1px solid #000000;
+		height: 230px;
+	}
+
+	td.productListing-flash{
+		font-size: 8pt;
+		width: 161px;
+		/*border: 1px solid #000000;*/
+		height: 230px;
+	}
+
+	td.productListing2 {
+		font-size: 8pt;
+		width: 215px;
+		height: 240px;
+	}
+
+	td.productListing3 {
+		font-size: 8pt;
+		width: 220px;
+		border: none;
+		height: 165px;
+	}
+
+	span#reviews * {
+		font-size: 8pt;
+	}
+
+	div.productLinkName {
+		height: 55px;
+		display: block;
+		overflow: hidden;
+		background-color: #FFFFFF;
+		padding: 5px 5px 0px 5px;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+	div.productLinkName2 {
+		height: 45px;
+		display: block;
+		overflow: hidden;
+		background-color: #FFFFFF;
+		padding: 5px 5px 0px 5px;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	div.productLinkName3 {
+		height: 60px;
+		display: block;
+		overflow: hidden;
+		background-color: #FFFFFF;
+		padding: 5px 5px 0px 5px;
+		margin-bottom: 1px;
+		font-weight: bold;
+	}
+
+	img.productLinkImg {
+		width: 100px;
+		height: 100px;
+		border: none;
+		margin-bottom: 5px;
+	}
+
+	img.productLinkImg2 {
+	width: 130px;
+	height: 130px;
+	border: none;
+	margin-bottom: 5px;
+	}
+
+	img.productLinkImg3 {
+		/*width: 170px;
+		height: 170px;*/
+		border: none;
+		margin-bottom: 0px;
+	}
+
+	.productLinkPrice {
+		font-weight: bold;
+		color: #FF0000;
+		font-size: 10pt;
+	}
+
+	div.tab {
+		/* Controls the tabbed blocks in the product more info page */
+
+		border-width: 1px;
+		border-style: solid;
+		border-top-color: #000000;
+		border-right-color: #000000;
+		border-left-color: #000000;
+		margin-right: 10px;
+		padding: 5px 10px;
+		float: left;
+		font-weight: bold;
+		font-size: 11pt;
+		font-family: Arial, Helvetica, sans-serif;
+		cursor: pointer;
+
+	}
+
+	div#infoLink, div#imageLink, div#reviewLink, div#accLink {
+		background-color: #ffffff !important;
+		border-bottom-color: #000000;
+	}
+
+	td.pageLink {
+		height: 150px;
+		width: 120px;
+		font-size: 10pt;
+		border: 1px solid #999999;
+		padding: 5px;
+		vertical-align: top;
+	}
+	td.pageLink3 {
+		height: 220px;
+		width: 220px;
+		font-size: 10pt;
+		border: 1px solid #999999;
+		padding: 5px;
+	}
+	td.pageLink a {
+		color: #000000;
+		text-decoration: none;
+	}
+
+	td.pageLink * img {
+		margin: 0px 0px 5px 0px;
+	}
+
+	/* RIGHT BAR STYLES */
+
+	td.right {
+		vertical-align: top;
+		width: 125px;
+		height:100%;
+	}
+
+	td.right div.brands	{
+		/* the vertical nav bar containing all the brand logos */
+		vertical-align:top;/*5-13-13 CZ*/
+		padding-left: 2px;
+		padding-right: 1px;
+		width: 120px;
+		border: 1px solid #aaaaaa;
+		margin: 0px;
+		text-align: center;
+	}
+
+	td.right div.brands img {
+		/* controls the brand logos */
+		vertical-align:top;
+		border: none;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	/* END RIGHT BAR STYLES */
+
+
+/* MINI-CART STYLES */
+
+	#cart{
+	vertical-align:top;
+	background-image: url(/images/layout/minicart-top.gif);
+	background-repeat: no-repeat;
+	width: 125px;
+	margin: 4px 0 0px 0;
+	padding: 13px 0 0 0;
+}
+#cart-inner1{
+	background-image: url(/images/layout/minicart-bottom.gif);
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+	padding: 0 0 12px 0;
+}
+#cart-inner2{
+	background-image: url(/images/layout/minicart-bg.gif);
+	padding: 0px;
+	text-align: center;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#cart-inner2 a{
+	color: #990000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	display: block;
+}
+#cart-inner2 .subtotal{
+	width: 120px;
+	padding: 0px;
+	margin: 0px;
+}
+#cart-inner2 .qty{
+	margin: 0px;
+}
+
+#cart-inner2 a.yourcart{
+	color: #0000FF;
+	font-weight: bold;
+	margin: 0;
+	position: relative;
+	top: -6px;
+}
+
+/* END MINI-CART STYLES */
+
+
+	div.footer {
+		background-color: #751113;
+		border-top: 1px solid #999999;
+		padding: 20px;
+		color: #FFFFFF;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		clear: both;
+	}
+
+	div.footer-checkout {
+		text-align:center;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+		clear: both;
+	}
+
+	div.footer * {
+		color: #FFFFFF;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12px;
+	}
+
+	div.footer * td {
+		padding: 10px;
+	}
+
+	div.footer * a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+
+	div.topnav {
+		max-width: 1012px;
+		margin: 0px;
+		padding: 0px;
+
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-betweeen;
+	}
+
+	img {
+		border: none;
+	}
+
+	img.logo {
+		margin: 0px;
+		width: 460px;
+		height: 80px;
+		vertical-align: top;
+	}
+
+	img.side {
+		/* controls the image at the top of the red sidebar on the left */
+		vertical-align:top; /*FIXES MOZILLA TOP IMAGE JUMPING 5-13-13 CZ*/
+		margin: 0px;
+		padding: 0px;
+		height: 14px;
+		width: 200px;
+	}
+
+
+
+/* TOP NAV MENUS BELOW THIS LINE */
+
+
+/* All <ul> tags in the menu including the first level */
+.menulist, .menulist  ul {
+ display: inline-flex;
+ flex-direction: row;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+/* Submenus (<ul> tags) are hidden and absolutely positioned downwards from their parent */
+.menulist ul {
+ display: none;
+ position: absolute;
+ top: 23px; margin-top: 13px; /* I'm using ems and px to allow people to zoom their font */
+ left: -1px;
+ width: 150px;
+}
+
+/* Second and third etc. level submenus - position across from parent instead */
+.menulist ul ul {
+ top: -1px; margin-top: 0;
+ left: 148px;
+}
+
+/*
+ All menu items (<li> tags). 'float: left' lines them up horizontally, and they are
+ positioned relatively to correctly offset submenus. Also, they have overlapping borders.
+*/
+.menulist li {
+ float: left;
+ display: block;
+ position: relative;
+ margin-right: -1px;
+/*  width: 124px; */
+ height: 35px;
+border-left: 1px solid #9f9f9d;
+border-right: 1px solid #9f9f9d;
+padding: 0px 1.35em;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		color: #FFFFFF;
+		text-align: center;
+		line-height: 14px;
+}
+
+/* Items in submenus - override float/border/margin from above, restoring default vertical style */
+.menulist ul li {
+ float: none;
+ margin: 0;
+ margin-bottom: -1px;
+}
+.menulist ul>li:last-child {
+ margin-bottom: 1px; /* Mozilla fix */
+}
+
+/* Links inside the menu */
+.menulist li a {
+ display: block;
+ padding: 3px;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+
+/* Lit  items: 'hover' is mouseover, 'highlighted' are parent items to visible menus */
+.menulist a:hover, .menulist a.highlighted:hover, .menulist a:focus {
+ color: #FFFFFF;
+}
+.menulist a.highlighted {
+ color: #FFFFFF;
+}
+
+	ul.submenu li {
+		width: 124px;
+		background-color: #390100;
+		padding: 0px;
+		margin: 0px;
+		font-size: 12px;
+		text-align: left;
+		border-left: 1px solid #a0a09e;
+		border-bottom: 1px solid #a0a09e;
+		border-right: 1px solid #a0a09e;
+		height: auto;
+	}
+
+	ul.submenu li a:hover {
+		background-color: #b63b3e;
+	}
+
+
+/*
+ If you want per-item background images in your menu items, here's how to do it.
+ 1) Assign a unique ID tag to each link in your menu, like so: <a id="xyz" href="#">
+ 2) Copy and paste these next lines for each link you want to have an image:
+    .menulist a#xyz {
+      background-image: url(out.gif);
+    }
+    .menulist a#xyz:hover, .menulist a.highlighted#xyz, .menulist a:focus {
+     background-image: url(over.gif);
+    }
+*/
+
+/* Only style submenu indicators within submenus. */
+.menulist a .subind {
+ display: none;
+}
+.menulist ul a .subind {
+ display: block;
+ float: right;
+}
+
+
+/* 'Escaped Comment' hack for horizontal menubar width in IE5/Mac */
+.menulist a {
+ float: left;
+}
+.menulist ul a {
+ float: none;
+}
+/* \*/
+.menulist a {
+ float: none;
+}
+/* */
+
+
+/*
+ HACKS: IE/Win:
+ A small height on <li> and <a> tags and floating prevents gaps in menu.
+ * html affects <=IE6 and *:first-child+html affects IE7.
+ You may want to move these to browser-specific style sheets.
+*/
+*:first-child+html .menulist ul li {
+ float: left;
+ width: 100%;
+}
+
+* html .menulist ul li {
+ float: left;
+ height: 1%;
+}
+* html .menulist ul a {
+ height: 1%;
+}
+/* End Hacks */
+
+
+#hq16 .financing {
+	font: 16px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+#hq16 h2 {
+	font: 22px;
+}
+
+#hq16 h3 {
+	font: 16px;
+	font-weight: bold;
+}
+
+.oddhighlight {
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #b1a4ff;
+	text-align: center;
+}
+
+#pr1000spec {
+	width: 600px;
+}
+
+#pr1000spec tr .even {
+	width: 170px;
+}
+
+#pr1000spec tr .evenright {
+	width: 400px;
+	margin-left: 10px;
+}
+
+/*
+ Martha Pullen Event - December 2-4, 2010
+*/
+.clear {
+	clear:both;
+}
+
+#event_banner {
+	width: 650px;
+	height: 400px;
+	background-image:url('https://www.sewingmachinesplus.com/images/marthapullen/headerbackground.jpg');
+}
+
+#event_banner  .content img {
+	margin-left: 20px;
+}
+
+#event_banner  p{
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+#event_banner  ul{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+#event_banner  ul ul{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+#event_banner #bannerbutton {
+	float: right;
+	margin-right: 10px;
+	margin-top: -40px;
+}
+
+#event_banner span {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.container .content p {
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+.container #marthaface {
+	float: right;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+.container .lecture {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container .lecture .odd {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.container .lecture h4 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #c36126;
+	margin-bottom: 5px;
+}
+
+.container .lecture .content p {
+	font-size: 12px;
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.container .lecture .even {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.container .sewingclass {
+	margin-left: 90px;
+	margin-right: 10px;
+	width: 470px;
+
+}
+
+.container .sewingclass .odd {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.container .sewingclass h4 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #c36126;
+	margin-bottom: 5px;
+}
+
+.container .sewingclass .content p {
+	font-size: 12px;
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.container .sewingclass .even {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#footer  p{
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 14px;
+}
+
+#footer   ul{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+#footer   ul ul{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+#footer  #footerbutton {
+	float: right;
+	margin-right: 10px;
+	margin-top: -40px;
+}
+
+#footer  span {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*
+Janome Products
+*/
+
+.related_product {
+	width: 300px;
+	float: left;
+}
+
+.related_product img{
+	float: left;
+	padding-right: 10px;
+}
+
+.related_product h4{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.related_product .related_product_info {
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.related_product ul {
+	list-style-type: none;
+}
+
+.related_product .related_list_price {
+	text-decoration: line-through;
+
+}
+
+.related_product .related_sale_price {
+	font-size: 14px;
+	font-weight: bold;
+	color: #3e8612;
+}
+
+.addtocart_button:hover {
+	background-image:url('/images/addtocart2_hover.png');
+}
+
+/*
+Brand Page
+*/
+
+#brands_page h2 {
+	font-size: 18px;
+	color: #911e1e;
+}
+
+#brands_page h3 {
+
+}
+
+#brands_page .brands_lineup  {
+	width: 620px;
+}
+
+#brands_page .brands_lineup  a {
+	height: 60px;
+}
+
+#brands_page .brands_lineup img {
+	float: left;
+	padding: 10px;
+	vertical-align:middle;
+	width: 100px
+}
+
+/*
+Brand Page
+*/
+
+.product_content {
+	width: 640px;
+}
+
+.restrict_width {
+	width: 660px;
+}
+
+
+/*
+ARTICLES
+*/
+.articles-faq dt { font-weight: bold;
+     margin-top: 1em;
+     margin-left: 0; }
+.articles-faq dd { text-align: justify;
+     margin-top: 1ex;
+     margin-right: 2em;
+     margin-left: 2em; }
+.articles-faq li { margin-top: 1ex; }
+.articles-faq p  { margin-left: 0; }
+
+/*
+THUMBNAILS
+*/
+#images .thumbnailoverflow {
+	border: 1px solid #666666;
+	height: 80px;
+	margin: 5px;
+	width: 80px;
+	overflow: hidden;
+	float: left;
+}
+#images-test .thumbnailoverflow {
+	border: 1px solid #666666;
+	height: 72px;
+	margin: 5px;
+	width: 72px;
+	overflow: hidden;
+	float: left;
+}
+.thumbnails {
+	height: 80px;
+}
+
+#images .thumbnailoverflow2 {
+	border: 1px solid #666666;
+	height: 72px;
+	margin: 5px;
+	width: 72px;
+	overflow: hidden;
+
+}
+.thumbnails2 {
+	height: 72px;
+}
+
+.content .medimagebox #bigpic img {
+	width: 250px;
+}
+#thumbs ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#thumbs ul li{
+	float: left;
+	width: 65px;
+}
+#thumbs .thumbnail {
+	width: 50px;
+}
+
+/*
+THUMBNAILS
+*/
+.content .medimagebox #bigpic {
+	height: 250px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#thumbs .thumbnail-smaller-productimage {
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	border: 1px solid #666666;
+	margin: 1px;
+}
+
+#thumbs .thumbnail-smaller-productimage:hover {
+	border: 1px solid #890E1C;
+}
+
+#borderTable {
+	border: 1px solid black;
+	margin: .5em;
+	padding: 0 5px;
+	max-width: 98%;
+	border-collapse: collapse;
+}
+#borderTable tr td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 0 5px;
+}
+
+/* ------------------- Optimizer ------------------- */
+
+/* ------------------------------------------------- */
+/* Div blocks used to make columns instead of tables */
+
+div.smp2 { width: 47%; float: left; margin-right: 1%; }     /* Use twice to make two columns */
+div.smp3 { width: 32%; float: left; margin-right: 1%; }     /* Use thrice to make three columns */
+div.smp4 { width: 23%; float: left; margin-right: 1%; }     /* Use four times to make four columns */
+
+/* --------------------------------------- */
+/* Inset boxes on the right or left margin */
+
+div.rightinset { width: 30%; float: right; clear: right;
+                 margin: 1em; padding: 1em;
+                 text-align: justify;
+                 border: solid medium #890e1c; }            /* Use as an aside comment */
+
+div.leftinset  { width: 30%; float: left;  clear: left;
+                 margin: 1em; padding: 1em;
+                 text-align: justify;
+                 border: solid medium #890e1c; }            /* Use as an aside comment */
+
+div.rightinset p { text-align: justify; }                   /* Paragraph within an inset */
+div.leftinset  p { text-align: justify; }
+
+div.rightinset dl { text-align: left; }                     /* Definition list within an inset */
+div.leftinset  dl { text-align: left; }
+
+div.rightinset ol { text-align: left;
+                    margin-left: 1em; }                     /* Ordered list within an inset */
+div.leftinset  ol { text-align: left;
+                    margin-left: 1em; }
+
+div.rightinset ul { text-align: left;
+                    margin-left: 1em; }                     /* Unordered list within an inset */
+div.leftinset  ul { text-align: left;
+                    margin-left: 1em; }
+
+/* End of inset boxes */
+/* --------------------------------------- */
+/* Adjustments to the Definition List */
+/* Use dl instead of ul or ol when space is tight, start text with bullet character if needed. */
+
+dt.smp2 { font-weight: bold;  margin-top: 0.5ex; }
+dd.smp2 { margin-left: 0; }                                 /* Eliminate standard dd indent */
+
+dt.smp3 { font-weight: normal;
+          margin-left: 0; margin-top: 0.5em;
+          padding-left: 1em; padding-right: 1em; }
+dd.smp3 { font-weight: normal;
+          margin-left: 0; margin-top: 0.5ex;
+          padding-left: 1em; padding-right: 1em; }          /* dt has bigger upper margin than dd */
+
+dt.smp4 { font-weight: bold;    margin-top: 1em; }          /* Greater spacing between blocks than smp2 */
+dd.smp4 { margin-left: 0; }
+
+/* USE DL CLASSES INSTEAD OF DD & DT FROM NOW ON */
+dl.smp2 dt { font-weight: bold; margin-top: 0.5ex; }
+dl.smp2 dd { margin-left: 0;}
+dl.smp3 dt { font-weight: normal; margin-left: 0; margin-top: 0.5em; padding-left: 1em; padding-right: 1em; }
+dl.smp3 dd { font-weight: normal; margin-left: 0; margin-top: 0.5ex; padding-left: 1em; padding-right: 1em; }
+dl.smp4 dt { font-weight: bold; margin-top: 1em; }
+dl.smp4 dd { margin-left: 0;}
+
+/* End of adjustments to the Definition List */
+/* ----------------------------------------- */
+/* Horizontal rule adjustments */
+
+hr.smp2 { width: 85%; color: #890e1c;}          /* Content separator */
+hr.smp3 { width: 80%; color: #890e1c; margin: 1em auto 1em auto; clear:both;}          /* Content separator */
+hr.smp4 {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	width: 80%;
+	margin: 1.5em auto 1.5em auto;
+	clear: both; }
+div.hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	width: 80%;
+	margin: 15px auto 15px auto;
+	clear: both; }
+/* End of horizontal rule adjustments */
+/* ------------------------------------------------------------------ */
+/* Headline adjustments.  May need to specify font size in page code. */
+
+h1.smp2 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 14pt; clear: both; color: #890e1c;
+          text-align: center; }
+
+h2.smp2 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 12pt;
+		  clear: left;
+		  color: #890e1c; }
+
+h3.smp2 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 10pt; clear: both; color: #890e1c; }
+
+h4.smp2 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size:  9pt; clear: both; color: #890e1c; }
+
+/* Headline size fix */
+h2.smp21 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 16pt !important; text-align:left;
+		  clear: both;
+		  color: #890e1c; }
+
+h2.smp22 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 14pt !important; text-align:left;
+		  clear: left;
+		  color: #890e1c; }
+
+h2.smp23 { font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 12pt !important; text-align:left;
+		  clear: left;
+		  color: #890e1c; }
+
+h2.smp24 { font-family: Quicksand,Arial Narrow,Arial,sans-serif;
+			font-size:large !important; text-align:center; font-style:normal;
+			margin:auto; clear: both; color:black; font-weight: normal;
+			display:block; text-transform: uppercase;
+			padding-bottom:.5em; padding-top:.5em;}
+
+h3.smp24 { font-family: Quicksand,Arial Narrow,Arial,sans-serif;
+			font-size:large !important; text-align:center; font-style:normal;
+			margin:auto; color:red; font-weight: normal;
+			display:block; text-transform: uppercase;
+			padding-bottom:.5em; padding-top:.5em;}
+
+h1.smp24 { font-family: Quicksand,Arial Narrow,Arial,sans-serif;
+			font-size:large !important; text-align:left; font-style:normal;
+			margin:auto; clear: both; color:black; font-weight: bold;
+			display:block; text-transform: uppercase;
+			padding-top:.5em;color: #890e1c;}
+
+h2.smp25 { font-family: Quicksand,Arial Narrow,Arial,sans-serif;
+			font-size:large !important; text-align:left; font-style:normal;
+			margin:auto; clear: both; color:black; font-weight: bold;
+			display:block; text-transform: uppercase;
+			padding-top:.5em;color: #890e1c;}
+
+h2.smp26 { font-family: Quicksand,Arial Narrow,Arial,sans-serif;
+			font-size:28px !important; text-align:left; font-style:normal;
+			margin:auto; clear: both; color:black; font-weight: bold;
+			display:block; text-transform: uppercase;
+			padding-top:.5em;color: #890e1c;}
+
+div.expertsewingconsultants p {
+	font-size: 12px;
+}
+/* Headline size fix */
+
+/* End of headline adjustments. */
+/* --------------------------------------------*/
+/* Image adjustments.  Wrap text beside images.*/
+
+img.smp2left  { float: left;  clear: left;
+                margin-right: 1em; margin-bottom: 1em;
+                border: none; }
+
+img.smp2right { float: right; clear: right;
+                margin-left:  1em; margin-bottom: 1em;
+                border: none; }
+
+img.smp21left  { float: left;  clear: left;
+                margin-right: 1em; margin-bottom: 1em;
+                border: 1px solid #ddd; border-collapse: collapse; }
+
+img.smp21right { float: right; clear: right;
+                margin-left:  1em; margin-bottom: 1em;
+                border: 1px solid #ddd; border-collapse: collapse; }
+
+img.smp3left  { float: left;  clear: left;
+                margin-right: 1em; margin-bottom: 1em;
+                padding: 1ex;
+                border: solid medium #890e1c; }
+
+img.smp3right { float: right; clear: right;
+                margin-left:  1em; margin-bottom: 1em;
+                padding: 1ex;
+                border: solid medium #890e1c; }
+
+img.smp4left  { float: left;  clear: left;
+                margin-right: 1em; margin-bottom: 1em;
+                padding: 1ex;
+                border: double medium #890e1c; }
+
+img.smp4right { float: right; clear: right;
+                margin-left:  1em; margin-bottom: 1em;
+                padding: 1ex;
+                border: double medium #890e1c; }
+
+img.smp5left  { float: left;  clear: left;
+                margin-right: 1em; margin-bottom: 1em;
+				border: thin solid #000000; }
+
+img.smp5right { float: right;  clear: right;
+                margin-left: 1em; margin-right: 2em; margin-bottom: 1em;
+				border: thin solid #000000; }
+
+img.smp51right { float: right;  clear: right;
+                margin-left: 1em; margin-right: -1px; margin-bottom: 1em;
+				border: 1px solid #000000;  border-collapse: collapse; }
+
+img.smp650 { float: right;  clear: right;
+                margin-right: -1px; margin-bottom: 1em; z-index: -1; position: relative;
+				border: none;  border-collapse: collapse; max-width:650px;}
+
+img.center { clear: both; display: block; position: relative;
+                margin: 1em auto 1em auto; text-align: center;}
+
+img.negBanner { text-align:center; margin: -15px auto -25px auto; display:block;
+				position:relative; max-width:650px; border:none;}
+/* End of image adjustments. */
+/* ------------------------------------- */
+/* Paragraph and Blockquote adjustments. */
+
+blockquote.smp2  { margin: 0; }
+
+p.bold       { font-weight: bold; }
+
+p.italic     { font-style: italic; }
+
+p.bolditalic { font-weight: bold; font-style: italic; }
+
+p.important  { margin: 1em; padding: 1em;
+               border: double thick #890e1c; }      /* Important info, use sparingly */
+
+p.vital      { margin: 1em; padding: 1em;
+               border: double thick red; }          /* Vital info, future use, use sparingly */
+
+/* End of Paragraph and Blockquote adjustments. */
+/* -------------------------------------------- */
+
+/* ------------- End of Optimizer ------------- */
+
+#share { margin:0 30px; vertical-align: top }
+#share ul { margin:0 0 10px 0; padding:0 0 5px 0; list-style:none; border-bottom:1px solid #eee }
+#share li { display:inline;
+		vertical-align:top; }
+#quiltmonth {
+	text-align:center;
+}
+#financingprice {
+	font-size: 22px;
+	color: green;
+}
+#sewsteadysummersale {
+	text-align: center;
+}
+.callforbest {
+	color: green;
+	font-size: 12px;
+	font-weight: bold;
+}
+#happyreviews {
+	margin-bottom: 15px;
+}
+#sixtydayreturnpolicycart {
+	display:block;
+	float:right;
+	color:#d60018;
+	font-size:22px;
+	font-weight:bold;
+	font-style:italic;
+	font-family:arial;
+	text-decoration:underline;
+}
+.bestsellerlist {
+	font-size: 14px;
+	font-weight: bold;
+	clear: left;
+}
+.bestsellerlistheader {
+	font-size: 14px;
+	font-weight: bold;
+}
+.bestsellerlistlist {
+	font-size: 14px;
+}
+#basicstour img {
+	display: block;
+	float: left;
+}
+#friendsandfamily img {
+	width: 650px;
+}
+#callnowtap {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin:0;
+	padding:0;
+	margin-left: -389.5px;
+	margin-bottom: -1px;
+	z-index: 100000px;
+}
+@media only screen and (max-device-width: 480px) {
+	#callnowtap {
+		display: block;
+	}
+}
+#callnowtap2 {
+	display: none !important;
+}
+#pfaffworkswithbtns {
+	background-color: black;
+	color: white;
+	margin: 5px;
+	padding: 15px;
+	font-size: 12px;
+}
+#pfaffworkswithhdr {
+	text-decoration: underline;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+#pfaffworkswithmine {
+	display: block;
+	clear:left;
+	margin-top: 20px;
+	background-color: rgb(216, 220, 223);
+	width: 150px;
+	color: white;
+	padding: 20px 0px;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+}
+#pfaffworkswithmine:hover {
+	background-color: red;
+}
+.social-icon.addshoppers.s32 {
+	display:none;
+}
+#ghsealstyle {
+	margin-right:70px;
+}
+#ghsealliveheader {
+	margin-bottom:10px;
+}
+#review_header .percentage {
+	width: 164px !important;
+}
+.FourTellContainer .owl-carousel .owl-wrapper-outer .owl-wrapper .owl-item .product4T {
+	border: none !important;
+}
+#shopapprovedrevs .percentage {
+	margin-left: 0px !important;
+}
