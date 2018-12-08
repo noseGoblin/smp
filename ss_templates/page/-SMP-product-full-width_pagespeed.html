@@ -920,7 +920,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             }
                             if($n==0){
                               // echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image."' data-title='".$ititle."' ><img class='mediumImage img-responsive' alt='[-- PRODUCT.Name --]' src='https://cdn.sewingmachinesplus.com/".$medImgLarge."' style='max-height:400px;' /></a>";
-                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image."' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='mediumImage img-responsive' style='max-height:400px;'></picture></a>";
+                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image.".jpg' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='mediumImage img-responsive' style='max-height:400px;'></picture></a>";
                               //     echo "<a href='//cdn.sewingmachinesplus.com/media/".$image."' title='".$ititle."' ><img class='mediumImage' // alt='[-- PRODUCT.Name --]' src='".$medImg."' style=\"display: none;\" /></a>";
                             }
                           };
@@ -964,11 +964,17 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 $medImg = substr_replace($medImg, '_size3.', $pos, 1);
                                 $medImg = substr_replace($medImg, '/resized/', strrpos($medImg, '/'), 1);
                                 echo "<div class='thumbnailoverflow'>";
+
+
                                 // echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image."'><img class='thumbnails' alt='[-- PRODUCT.Name --]' src='//cdn.sewingmachinesplus.com/".$medImg."' /></a>";
-                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image."'><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='thumbnails'></picture></a>";
+
+                                
+                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image.".jpg'><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='thumbnails'></picture></a>";
                                 echo "</div>";
                               };
                             ?>
+
+
                         [-- ELSE --]
                           (More images coming later.)
                         [-- END_IF --]
