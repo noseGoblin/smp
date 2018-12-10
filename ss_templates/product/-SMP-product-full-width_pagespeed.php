@@ -959,13 +959,13 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             <?
                               $field5img = explode("|", "[-- PRODUCT.Field5 --]");
                               foreach ($field5img as &$image) {
-                                $medImg = "media/" . $image;
+                                $medImg = $image;
+                                $image2 = $image . "jpg";
+                                $medImg = substr_replace($medImg, '/resized/', strrpos($medImg, '/'), 1);
                                 $pos = strrpos($medImg, '.');
                                 $medImg = substr_replace($medImg, '_size3.', $pos, 1);
-                                $medImg = substr_replace($medImg, '/resized/', strrpos($medImg, '/'), 1);
                                 echo "<div class='thumbnailoverflow'>";
-                                // echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image."'><img class='thumbnails' alt='[-- PRODUCT.Name --]' src='//cdn.sewingmachinesplus.com/".$medImg."' /></a>";
-                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image."'><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='thumbnails'></picture></a>";
+                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image2."'><picture><source srcset='https://cdn.sewingmachinesplus.com/media/".$medImg."webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/media/".$medImg."jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/media/".$medImg."jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='thumbnails'></picture></a>";
                                 echo "</div>";
                               };
                             ?>
