@@ -2,14 +2,7 @@
 [-- IF PRODUCT.DisplayPrice --]
   <div class="media" align="center">
     <div class="media-left">
-      <a href="[-- PRODUCT.MoreInfoURL --]" style="text-decoration:none;" target="_blank">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="img-responsive" style="min-height:10px; max-height:180px;"/> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --].webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --].jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --].jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="img-responsive">
-        </picture>
-      </a>
+      <a href="[-- PRODUCT.MoreInfoURL --]" style="text-decoration:none;" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="img-responsive" style="min-height:10px; max-height:180px;"/></a>
       <!--<a href="[-- PRODUCT.MoreInfoURL --]" style="color: #000000; text-decoration: none;" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" width="75" height="75" /></a>-->
       <!--<input type="checkbox" name="itemnum" value="[-- PRODUCT.RECORDNUMBER --]">-->
     </div>
@@ -69,10 +62,6 @@
 [-- END_IF --]
 [-- END_DEFINE SUBPRODUCT --]
 
-
-
-
-[-- VAR.Secure "no" --]
 [-- DEFINE PRODUCT --]
   <input type="hidden" class="viewlist" value="[-- PRODUCT.Field13 --]" />
   <input type="hidden" class="googleProdCat" value="[-- Product.GoogleProductType --]"/>
@@ -82,20 +71,22 @@
       font-size:12pt;
       text-transform:uppercase;
       font-weight:bold;
-      margin-bottom:1%;
+      margin-bottom:10px;
       clear:both;
-      line-height: 1em;
-      min-height: 2em;
-      max-height: 2em;
+      line-height: 1.2;
+      min-height: 24px;
+      max-height: 24px;
     }
     .productLinkName{
       width:85%;
       font-family:Lato;
       font-weight:bold;
-      line-height:1em;
-      min-height:4em;
-      max-height:4em;
+      line-height:1.2;
+      /* min-height:39px;
+      max-height:43px;
       overflow:hidden;
+      text-overflow:ellipsis; */
+      margin-bottom:10px;
     }
     .productPricesInfo{
       line-height:1em;
@@ -179,78 +170,103 @@
       }
     }
   </style>
-  <!--BEGIN OVERLAY IMAGE CHRISTIAN 9/17/2013-->
-  [--IF PRODUCT.DisplayMoreInformationPage--]
-    [--IF PRODUCT.Field14--]
-      <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
-        <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden; background-image: url(/media/[-- IMAGE PRODUCT.Graphic --]); background-size:130px 130px; background-position: center; background-repeat: no-repeat;">
-          <img src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="productLinkImg" width="130" height="130"/>
-          <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
-        </div>
-        <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
-        <div class="productLinkName">[-- PRODUCT.Name --]</div>
-      </a>
+
+    <!--BEGIN _size2 IMAGE jacob 10/19/2018 -->
+    [--IF PRODUCT.DisplayMoreInformationPage--]
+      [--IF PRODUCT.Field14--]
+      <?php if(strpos($_SERVER['REQUEST_URI'], 'gift-guide-2018.php') !== false):?>
+        <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
+          <div style="margin:5px; min-height:250px; max-height:250px; background-image:url(/media/[-- IMAGE Product.MoreInformationGraphic --]); background-position:center; background-repeat:no-repeat;">
+            <img src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="productLinkImg productLinkImg_giftguide" />
+            <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap product-flag_gift-guide"></div>
+          </div>
+          <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
+          <div class="productLinkName">[-- PRODUCT.Name --]</div>
+        </a>
+      <?php else: ?>
+        <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
+          <div style="margin:5px; min-height:130px; max-height:130px; background-image:url(/media/[-- IMAGE PRODUCT.Graphic --]); background-position:center; background-repeat:no-repeat;">
+            <img src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="productLinkImg productLinkImg_giftguide" width="130" height="130"/>
+            <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap product-flag_gift-guide"></div>
+          </div>
+          <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
+          <div class="productLinkName">[-- PRODUCT.Name --]</div>
+        </a>
+      <?php endif; ?>
+      [--ELSE--]
+      <?php if(strpos($_SERVER['REQUEST_URI'], 'gift-guide-2018.php') !== false):?>
+        <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
+          <div style="margin:5px; min-height:250px; max-height:250px;">
+            <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="productLinkImg productLinkImg_giftguide" />
+            <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap product-flag_gift-guide"></div>
+          </div>
+          <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
+          <div class="productLinkName">[-- PRODUCT.Name --]</div>
+        </a>
+      <?php else: ?>
+        <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
+          <div style="margin:5px; min-height:130px; max-height:130px;">
+            <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" class="productLinkImg productLinkImg_giftguide" width="130" height="130" />
+            <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap product-flag_gift-guide"></div>
+          </div>
+          <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
+          <div class="productLinkName">[-- PRODUCT.Name --]</div>
+        </a>
+      <?php endif; ?>
+      [--END_IF--]
     [--ELSE--]
-      <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
-        <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden;">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" class="productLinkImg" width="130" height="130" /> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].webp" type="image/webp" class="productLinkImg" width="130" height="130">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
-          </picture>
-          <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
+      <?php if(strpos($_SERVER['REQUEST_URI'], 'gift-guide-2018.php') !== false):?>
+      <a href="[-- PRODUCT.MoreInfoURL --]" style="color: #000000; text-decoration: none;">
+        <div style="margin:5px; min-height:250px; max-height:250px;">
+          <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="productLinkImg productLinkImg_giftguide" />
+          <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap product-flag_gift-guide"></div>
         </div>
         <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
         <div class="productLinkName">[-- PRODUCT.Name --]</div>
       </a>
+      <?php else: ?>
+      <a href="[-- PRODUCT.MoreInfoURL --]" style="color: #000000; text-decoration: none;">
+        <div style="margin:5px; min-height:130px; max-height:130px;">
+          <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" class="productLinkImg productLinkImg_giftguide" width="130px" height="130px" />
+          <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap product-flag_gift-guide"></div>
+        </div>
+        <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
+        <div class="productLinkName">[-- PRODUCT.Name --]</div>
+      </a>
+      <?php endif; ?>
     [--END_IF--]
-  [--ELSE--]
-    <a href="[-- PRODUCT.MoreInfoURL --]" style="color: #000000; text-decoration: none;">
-      <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden;">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" class="productLinkImg" width="130px" height="130px" /> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].webp" type="image/webp" class="productLinkImg" width="130" height="130">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
-        </picture>
-        <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
-      </div>
-      <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
-      <div class="productLinkName">[-- PRODUCT.Name --]</div>
-    </a>
-  [--END_IF--]
-  <!--END OVERLAY IMAGE CHRISTIAN 9/17/2013-->
+    <!--END _size2 IMAGE jacob 10/19/2018 -->
+
   [--IF PRODUCT.Field48--]
-  <script>
-    j(function(){
-      var freeShip = "[--PRODUCT.Field10--]"
-      var flagVal = "[--PRODUCT.Field48--]";
-      var flagsUp = "";
-      if (flagVal.indexOf("top")!==-1){
-        flagsUp+=("<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>")
-      }
-      if (flagVal.indexOf("new")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/new-product.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/new-product.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/new-product.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
-      }
-      if (flagVal.indexOf("best")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
-      }
-      if (flagVal.indexOf("staff")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
-      }
-      if (freeShip.indexOf("free")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
-      }
-      j('#flag-[--PRODUCT.sku--]').append(flagsUp);
-    });
-  </script>
-  [--ELSE--]
-  [--IF Product.Field10 "free"--]
     <script>
-      j('#flag-[--PRODUCT.sku--]').append("<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture>");
+      j(function(){
+        var freeShip = "[--PRODUCT.Field10--]"
+        var flagVal = "[--PRODUCT.Field48--]";
+        var flagsUp = "";
+        if (flagVal.indexOf("top")!==-1){
+          flagsUp+="<img src='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.png' class='product-flag'><br>"
+        }
+        if (flagVal.indexOf("new")!==-1){
+          flagsUp+="<img src='//cdn.sewingmachinesplus.com/media/images/flags/new-product.png' class='product-flag'><br>"
+        }
+        if (flagVal.indexOf("best")!==-1){
+          flagsUp+="<img src='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.png' class='product-flag'><br>"
+        }
+        if (flagVal.indexOf("staff")!==-1){
+          flagsUp+="<img src='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.png' class='product-flag'><br>"
+        }
+        if (freeShip.indexOf("free")!==-1){
+          flagsUp+="<img src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.png' class='product-flag'><br>"
+        }
+        j('#flag-[--PRODUCT.sku--]').append(flagsUp);
+      });
     </script>
-  [-- END_IF --]
+  [--ELSE--]
+    [--IF Product.Field10 "free"--]
+      <script>
+        j('#flag-[--PRODUCT.sku--]').append("<img src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.png' class='product-flag'>");
+      </script>
+    [-- END_IF --]
   [--END_IF--]
   <!--<br clear="all" />-->
   <div class="productPricesInfo">
@@ -271,22 +287,12 @@
     [--IF Product.Field10 "free3day"--]
       <span style="color: #7f5eb3; font-size:10pt;"><strong>Free 3-Day Delivery</strong></span>
     [-- END_IF --]
-    
+
     [--IF Product.de "nov"--]
-      <!-- <img src="//cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.webp"> -->
-      <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.webp" type="image/webp" class="productLinkImg">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.jpg" type="image/jpeg" class="productLinkImg">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.jpg" alt="" title="" class="productLinkImg">
-      </picture>
+      <img src="//cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.jpg">
     [-- END_IF --]
     [--IF Product.Field10 "cyber"--]
-      <!-- <img src="//cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.webp"> -->
-      <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.webp" type="image/webp" class="productLinkImg">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.jpg" type="image/jpeg" class="productLinkImg">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.jpg" alt="" title="" class="productLinkImg">
-      </picture>
+      <img src="//cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.jpg">
     [-- END_IF --]
     [--IF Product.Field10 "nextday"--]
       <span style="color: #30bd3a;"><strong>Free Next Day Air!</strong></span>
@@ -294,12 +300,6 @@
   </div>
   [-- INCLUDE LexiConnAACSimpleProduct PROCESS --]<!--AJAX CART-->
 [-- END_DEFINE PRODUCT --]
-
-
-
-
-
-
 
 [-- DEFINE MORE_INFO_PAGE --]
   <?php
@@ -351,7 +351,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     [--IF PRODUCT.Field23--]
       [--PRODUCT.Field23--]
     [--END_IF--]
-    <script src="//cdn.sewingmachinesplus.com/includes/smp.js" type="text/javascript"></script>
+    <script language="JavaScript" src="//cdn.sewingmachinesplus.com/includes/smp.js" type="text/javascript"></script>
     <style>
       .ui-dialog-titlebar{
         background-color:#ec010b !important;
@@ -679,7 +679,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
               }
               /*.btn-att-cart-sticky:before{
                 content:'';
-                background: url(/AE/images/addtocart.webp) no-repeat center center;
+                background: url(/AE/images/addtocart.png) no-repeat center center;
                 background-size: 142px 21px;
                 height: 21px;
                 left: 0;
@@ -884,12 +884,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                 </script>
                 [-- IF PRODUCT.Field47--]
                   <div class="col-md-12">
-                    <!-- <img src="[--PRODUCT.Field47--]" class="img-responsive"> -->
-                    <picture>
-                      <source srcset="[--PRODUCT.Field47--].webp" type="image/webp">
-                      <source srcset="[--PRODUCT.Field47--].jpg" type="image/jpeg">
-                      <img data-src="[--PRODUCT.Field47--].jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]">
-                    </picture>
+                    <img src="[--PRODUCT.Field47--]" class="img-responsive">
                   </div>
                 [--END_IF--]
                 <div class="col-md-6">
@@ -919,8 +914,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                               $ititle = $img_title;
                             }
                             if($n==0){
-                              // echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image."' data-title='".$ititle."' ><img class='mediumImage img-responsive' alt='[-- PRODUCT.Name --]' src='https://cdn.sewingmachinesplus.com/".$medImgLarge."' style='max-height:400px;' /></a>";
-                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image.".jpg' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='mediumImage img-responsive' style='max-height:400px;'></picture></a>";
+                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image."' data-title='".$ititle."' ><img class='mediumImage img-responsive' alt='[-- PRODUCT.Name --]' src='https://cdn.sewingmachinesplus.com/".$medImgLarge."' style=\"max-height:400px;\" /></a>";
                               //     echo "<a href='//cdn.sewingmachinesplus.com/media/".$image."' title='".$ititle."' ><img class='mediumImage' // alt='[-- PRODUCT.Name --]' src='".$medImg."' style=\"display: none;\" /></a>";
                             }
                           };
@@ -935,15 +929,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                       <!--360 img-->
                       [-- IF PRODUCT.Field19 "yes"--]
                         <div align="center">
-                          <a href="" onclick="javascript:void window.open('//cdn.sewingmachinesplus.com/media/products360/[--PRODUCT.SKU--]/[--PRODUCT.SKU--].html','1413931890203','width=800,height=800,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;">
-                          <!-- <img src="//cdn.sewingmachinesplus.com/media/products360/button.webp" border="0"> -->
-
-                          <picture>
-                            <source srcset="https://cdn.sewingmachinesplus.com/media/products360/button.webp" type="image/webp" class="image-360">
-                            <source srcset="https://cdn.sewingmachinesplus.com/media/products360/button.jpg" type="image/jpeg" class="image-360">
-                            <img data-src="https://cdn.sewingmachinesplus.com/media/products360/button.jpg" alt="" title="" class="image-360">
-                          </picture>
-                          </a>
+                          <a href="" onclick="javascript:void window.open('//cdn.sewingmachinesplus.com/media/products360/[--PRODUCT.SKU--]/[--PRODUCT.SKU--].html','1413931890203','width=800,height=800,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=1,left=0,top=0');return false;"><img src="//cdn.sewingmachinesplus.com/media/products360/button.jpg" border="0"></a>
                         </div>
                       [--ELSE--]
                       [--END_IF--]
@@ -964,34 +950,47 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 $medImg = substr_replace($medImg, '_size3.', $pos, 1);
                                 $medImg = substr_replace($medImg, '/resized/', strrpos($medImg, '/'), 1);
                                 echo "<div class='thumbnailoverflow'>";
-
-
-                                // echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image."'><img class='thumbnails' alt='[-- PRODUCT.Name --]' src='//cdn.sewingmachinesplus.com/".$medImg."' /></a>";
-
-                                
-                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image.".jpg'><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/".$medImg.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='thumbnails'></picture></a>";
+                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image."'><img class='thumbnails' alt='[-- PRODUCT.Name --]' src='//cdn.sewingmachinesplus.com/".$medImg."' /></a>";
                                 echo "</div>";
                               };
                             ?>
-
-
                         [-- ELSE --]
                           (More images coming later.)
                         [-- END_IF --]
                         <!-- END ZOOM + POPUP -->
                       </center>
+                      <!--craftsy banner-->
+                      <script>
+                        var title="[--PRODUCT.Name--]";
+                        var title2="[-- PRODUCT.MoreInformationTitle --]"
+                        title=title.toLowerCase();
+                        title2=title2.toLowerCase();
+
+                        $(function(){
+                          if(title.indexOf("machine")>-1){
+                            document.getElementById('craftsy').style.display="block";
+                          }
+                        });
+                      </script>
+                      <!--<div id="craftsy" style="display:none;"><br><br><br>
+                      <a href="#" onclick="return popCraftsy('//cdn.sewingmachinesplus.com/media/popups/craftsy/pop-up.html')"><img src="//cdn.sewingmachinesplus.com/media/banners/craftsy-250.jpg" border="0"></a></div>-->
                       </div>
                     </div>
+                    <!--<ul class="alt-views list-inline">
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    <li><img src="//cdn.sewingmachinesplus.com/images/product/detail-page-1.jpg" class="img-responsive"></li>
+                    </ul> -->
                     [--IF PRODUCT.Field17--]
                       <div class="social-buttons" align="center">
-                        <a href="#videosLink" id="videos-anchor-btn">
-                          <!-- <img src="//cdn.sewingmachinesplus.com/media/images/view-videos.webp"> -->
-                          <picture>
-                            <source srcset="https://cdn.sewingmachinesplus.com/media/images/view-videos.webp" type="image/webp" class="view-videos">
-                            <source srcset="https://cdn.sewingmachinesplus.com/media/images/view-videos.jpg" type="image/jpeg" class="view-videos">
-                            <img data-src="https://cdn.sewingmachinesplus.com/media/images/view-videos.jpg" alt="Click to view videos" title="Click to view videos" class="view-videos">
-                          </picture>
-                        </a>
+                        <a href="#videosLink" id="videos-anchor-btn"><img src="//cdn.sewingmachinesplus.com/media/images/view-videos.jpg"></a>
                       </div>
                       <script>
                         $('#videos-anchor-btn').click(function(event){
@@ -1050,14 +1049,24 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           </script>
           [-- END_IF --]
                   <div class="product-banner">
-                    <!--<a href="#craftsy-pop" class="craftsy-pop_open"><img src="//cdn.sewingmachinesplus.com/AE/images/product-details-banner.webp" class="img-responsive" alt="" /></a>-->
+                    <!--<a href="#craftsy-pop" class="craftsy-pop_open"><img src="//cdn.sewingmachinesplus.com/AE/images/product-details-banner.jpg" class="img-responsive" alt="" /></a>-->
                   </div>
                 </div>
                 <div class="col-md-6 col-md-push-6-item-details">
                   <!--XMAS SHIPPING BANNER-->
-
+                  <!--<div id="xmas-shipping" align="center">
+                  <img src="//cdn.sewingmachinesplus.com/media/promotions/2014-holiday/2014-shipping-call-in-special-banner.jpg">
+                  </div>-->
                   <!--END XMAS SHIPPING BANNER-->
                   <!--CUSTOM DYNAMIC BANNER FOR PROMOTIONS CZ 9/11/2014-->
+                  <script>
+                    var title="[--PRODUCT.Name--]";
+                    $(function(){
+                      if(title.indexOf("king quilter")>-1){
+                        document.getElementById('longarmsale').style.display="none";
+                      }
+                    });
+                  </script>
                   <div id="data_4Tell" data-products="[--PRODUCT.SKU--]" data-customer="" data-cart=""></div>
                   <script type="text/javascript">
                     function getCookie(cname) {
@@ -1073,6 +1082,14 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                     var fourTellCookieContents = getCookie("fourtellemail");
                     document.getElementById("data_4Tell").setAttribute("data-customer", fourTellCookieContents);
                   </script>
+                  <!--
+                  <div id="longarmsale" style="text-align:center;">
+                  <a href="/2015-king-of-long-arms-sale.php"><img src="//cdn.sewingmachinesplus.com/media/email/2015-king-of-long-arms-sale/long-arm-650x100.jpg"/></a>
+                  </div>
+                  <div id="promo-banner" style="display:none; color:#fff;">
+                  <a href="/promotions-clearance.php"><img src="//cdn.sewingmachinesplus.com/media/promotions/2014-october/page-banner.jpg" border="0"></a>
+                  </div>
+                  -->
                     
                     <div class="product-detail-desc">
                       <h4 class="brand">
@@ -1339,7 +1356,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             [-- END_IF --]
                           <!--close form-->
                           <!--Wishlist -->
-                          <!--<a href="/wishlist/listmanage.php/add/i_[-- PRODUCT.SKU --]" title="Add To Your Wish List"><img border="0" alt="Add To Your Wish List" src="//cdn.sewingmachinesplus.com/media/images/add-to-wishlist-green.webp" class="wishlist_button"></a>-->
+                          <!--<a href="/wishlist/listmanage.php/add/i_[-- PRODUCT.SKU --]" title="Add To Your Wish List"><img border="0" alt="Add To Your Wish List" src="https://www.shopsite.com/templates/cookbook/buttons/add-to-wishlist-green.gif" class="wishlist_button"></a>-->
                         [--END_IF--]
                       [-- END_IF --]
                       <script type="text/javascript">
@@ -1348,7 +1365,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                         //-->
                       </script>
                       <!--<a href="#" onClick="window.open('/cgi-sewdemo2/sb/tellfriend.cgi?storeid=*1a55e44c50fd5a9e18c062cfd94a5c&str=[-- PRODUCT.Name --]&from=[-- PRODUCT.MoreInfoURL --]','tellfriend','width=560,height=560,resizable=yes,scrollbars=yes, status=yes');return false;">
-                      <img src="//cdn.sewingmachinesplus.com/images/send-to-friend2.webp" width="120" style="border: 0px; float: right;" />
+                      <img src="//cdn.sewingmachinesplus.com/images/send-to-friend2.jpg" width="120" style="border: 0px; float: right;" />
                       </a>-->
                     <!--</div>end product-detail-desc original extra div-->
 
@@ -1427,13 +1444,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     
                                   <div class="col-lg-6 col-md-6 col-sm-12">
                                     <a href="/sanmarcos.php">
-                                      <picture>
-                                        <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" type="image/webp">
-                                        <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" type="image/jpeg">
-                                        <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location">
-                                      </picture>
-                                      <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" alt="San Marcos, CA location" title="San Marcos, CA location" /> -->
-                                    </a>
+                                    <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location" /></a>
                                     <h4><i>Call Local:</i></h4>
                                     <h3 style="margin:10px 0 20px 0; font-size:36px;"><b><a href="tel:760-739-8222">760-739-8222</a></b></h3>
                                     <h4><i>Store Hours:</i></h4>
@@ -1445,13 +1456,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   </div>
                                   <div class="col-lg-6 col-md-6 col-sm-12">
                                     <a href="/missionbay.php">
-                                      <picture>
-                                        <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" type="image/webp">
-                                        <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" type="image/jpeg">
-                                        <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!">
-                                      </picture>
-                                      <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" /> -->
-                                    </a>
+                                    <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" /></a>
                                     <h4><i>Call Local: <span class="greentxt"><i>NOW OPEN!</i></span></i></h4>
                                     <h3 style="margin:10px 0 20px 0; font-size:36px;"><b><a href="tel:858-225-2739">858-225-2739</a></b></h3>
                                     <h4><i>Store Hours:</i></h4>
@@ -1570,13 +1575,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
   
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                   <a href="/sanmarcos.php">
-                                    <picture>
-                                      <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" type="image/webp">
-                                      <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" type="image/jpeg">
-                                      <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location">
-                                    </picture>
-                                    <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" alt="San Marcos, CA location" title="San Marcos, CA location" /> -->
-                                  </a>
+                                  <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location" /></a>
                                   <h4><i>Call Local:</i></h4>
                                   <h3 style="margin:10px 0 20px 0; font-size:36px;"><b><a href="tel:760-739-8222">760-739-8222</a></b></h3>
                                   <h4><i>Store Hours:</i></h4>
@@ -1588,13 +1587,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                   <a href="/missionbay.php">
-                                    <picture>
-                                      <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" type="image/webp">
-                                      <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" type="image/jpeg">
-                                      <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!">
-                                    </picture>
-                                    <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" /> -->
-                                  </a>
+                                  <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" /></a>
                                   <h4><i>Call Local: <span class="greentxt"><i>NOW OPEN!</i></span></i></h4>
                                   <h3 style="margin:10px 0 20px 0; font-size:36px;"><b><a href="tel:858-225-2739">858-225-2739</a></b></h3>
                                   <h4><i>Store Hours:</i></h4>
@@ -1624,44 +1617,44 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             name=name.toLowerCase();
 
                             if(name.indexOf("singer") > -1){
-                              document.getElementById('disclink').innerHTML='<a href="/singer-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                              document.getElementById('disclink').innerHTML='<a href="/singer-sewing-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                             }else{
                               if(name.indexOf("lizzie") > -1){
-                              document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                              document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                               }else{
                                 if(name.indexOf("long arm") > -1){
-                                  document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                  document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                 }else{
                                   if(name.indexOf("reliable") > -1){
-                                    document.getElementById('disclink').innerHTML='<a href="/reliable-brands.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                    document.getElementById('disclink').innerHTML='<a href="/reliable-brands.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                   }else{
                                     if(name.indexOf("brother") > -1){
-                                      document.getElementById('disclink').innerHTML='<a href="/brother-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                      document.getElementById('disclink').innerHTML='<a href="/brother-sewing-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                     }else{
                                       if(name.indexOf("janome")>-1){
                                         if(name.indexOf("9500")>-1 || name.indexOf("9700")>-1){
-                                          document.getElementById('disclink').innerHTML='<a href="/janome-mc11000se.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                          document.getElementById('disclink').innerHTML='<a href="/janome-mc11000se.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                         }else{
-                                          document.getElementById('disclink').innerHTML='<a href="/janome-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                          document.getElementById('disclink').innerHTML='<a href="/janome-sewing-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                         }
                                       }else{
                                         if(name.indexOf("juki")>-1){
-                                          document.getElementById('disclink').innerHTML='<a href="/juki-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                          document.getElementById('disclink').innerHTML='<a href="/juki-sewing-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                         }else{
                                           if(name.indexOf("miele")>-1){
-                                            document.getElementById('disclink').innerHTML='<a href="/miele.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                            document.getElementById('disclink').innerHTML='<a href="/miele.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                           }else{
                                             if(name.indexOf("consew")>-1){
-                                              document.getElementById('disclink').innerHTML='<a href="/consew-industrial-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                              document.getElementById('disclink').innerHTML='<a href="/consew-industrial-machines.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                             }else{
                                               if(name.indexOf("handi")>-1){
-                                                document.getElementById('disclink').innerHTML='<a href="/quilt-brand-hq.php.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                                document.getElementById('disclink').innerHTML='<a href="/quilt-brand-hq.php.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                               }else{
                                                 if(name.indexOf("arrow")>-1){
-                                                  document.getElementById('disclink').innerHTML='<a href="/arrow-sewing-cabinets.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                                  document.getElementById('disclink').innerHTML='<a href="/arrow-sewing-cabinets.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                                 }else{
                                                   if(name.indexOf("kangaroo")>-1){
-                                                    document.getElementById('disclink').innerHTML='<a href="/kangaroo-kabinets.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                                    document.getElementById('disclink').innerHTML='<a href="/kangaroo-kabinets.php"><img src="//cdn.sewingmachinesplus.com/media/images/disclink.jpg"></a>';
                                                   }else{
                                                     document.getElementById('disclink').innerHTML='<p><b>This product has been discontinued and is no longer available</b></p>';
                                                   }
@@ -1885,8 +1878,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 }
                               }
                             </style>
-                        <!--     <div id="b2ssaledesktop" style="text-align:center;margin-bottom:20px;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_02.webp"/></a></div>
-                            <div id="b2ssalemobile" style="text-align:center;margin-bottom:20px;display:none;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_09.webp"/></a></div>  -->
+                        <!--     <div id="b2ssaledesktop" style="text-align:center;margin-bottom:20px;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_02.jpg"/></a></div>
+                            <div id="b2ssalemobile" style="text-align:center;margin-bottom:20px;display:none;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_09.jpg"/></a></div>  -->
                             [-- IF PRODUCT.Field50 "bernette" --]
                               <?php include('manufacturerwarranties/bernette.html'); ?>
                             [-- ELSE_IF PRODUCT.Field50 "bernina"--]
@@ -1914,20 +1907,10 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                               <hr />
                               <div class="cbox">
                                 <div class="fcol">
-                                  <!-- <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.webp" class="2col" /> -->
-                                  <picture>
-                                    <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.webp" type="image/webp">
-                                    <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.jpg" type="image/jpeg">
-                                    <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.jpg" alt="Long Arm 3 Year Warranty Included" title="Long Arm 3 Year Warranty Included" class="2col">
-                                  </picture>
+                                  <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.png" class="2col" />
                                 </div>
                                 <div class="cTxt2">
-                                  <!-- <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.webp" class="smp650" style="flex: 0 0 100%;width:100%;" /> -->
-                                  <picture>
-                                    <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.webp" type="image/webp">
-                                    <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.jpg" type="image/jpeg">
-                                    <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.jpg" alt="Long Arm 5 Year Warranty Included" title="Long Arm 5 Year Warranty Included" class="2col">
-                                  </picture>
+                                  <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.png" class="smp650" style="flex: 0 0 100%;width:100%;" />
                                   <h2 class="smp21">Long Arm 3 Year Warranty Included <i>FREE</i></h2>
                                   <ul>
                                     <li>3 years FREE Parts &amp; Labor</li>
@@ -1936,12 +1919,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   </ul>
                                   <hr style="margin-bottom:0;" />
                                   <blockquote cite="http://" style="margin-bottom:0;" style="padding:20px 40px 20px 40px;">
-                                    <!-- <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.webp" style="float:left !important;border-bottom:1px solid #d6d6d6;" /> -->
-                                    <picture>
-                                      <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.webp" type="image/webp">
-                                      <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.jpg" type="image/jpeg">
-                                      <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.jpg" alt="" title="" style="float:left !important;border-bottom:1px solid #d6d6d6;">
-                                    </picture>
+                                    <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.png" style="float:left !important;border-bottom:1px solid #d6d6d6;" />
                                     <p style="font-style:italic; text-align:center; padding:15px 30px;line-height:1.5;">I Ron Martin, owner, have 40 years in the sewing machine business & I give my personal assurance.</p>
                                     <hr />
                                     <span class="quote-name">Ron Martin</span>
@@ -1955,83 +1933,83 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             <!-- MODEL COMPARE CODE START -->
                             [-- IF PRODUCT.Field51 --]
                               <style type="text/css">
-                                .modelCompare-outter table, .modelCompare-outter table td, .modelCompare-outter table th {
-                                  border-collapse:collapse;
-                                }
-                                .modelCompare-outter table {
-                                  border: 1px solid #ccc;
-                                  border: 0;
-                                }
-                                .modelCompare-outter table tr {
-                                  border: 1px solid #ddd; 
-                                  padding: 5px;
-                                }
-                                .modelCompare-outter table tr.darkBG {
-                                  background-color: #f8f8f8 !important;
-                                }
-                                .modelCompare-outter table tr.lightBG td:nth-child(2) {
-                                  background-color: #ffffe0 !important;
-                                }
-                                .modelCompare-outter table tr.darkBG td:nth-child(2) {
-                                  background-color: #fafac4 !important;
-                                }
-                                .modelCompare-outter table tr:first-child {
-                                  border-bottom:none;
-                                }
-                                .modelCompare-outter table tr:nth-child(2) {
-                                  border-top:none;
-                                }
-                                .modelCompare-outter table td {
-                                  text-align: center;
-                                  vertical-align: middle;
-                                }
-                                #moreInfo .modelCompare-outter table tr td:first-child {
-                                  text-align: left;
-                                  padding-left:10px;
-                                }
-                                .modelCompareText {
-                                  font-size:12px;
-                                }
+                              .modelCompare-outter table, .modelCompare-outter table td, .modelCompare-outter table th {
+                                border-collapse:collapse;
+                              }
+                              .modelCompare-outter table {
+                                border: 1px solid #ccc;
+                                border: 0;
+                              }
+                              .modelCompare-outter table tr {
+                                border: 1px solid #ddd; 
+                                padding: 5px;
+                              }
+                              .modelCompare-outter table tr.darkBG {
+                                background-color: #f8f8f8 !important;
+                              }
+                              .modelCompare-outter table tr.lightBG td:nth-child(2) {
+                                background-color: #ffffe0 !important;
+                              }
+                              .modelCompare-outter table tr.darkBG td:nth-child(2) {
+                                background-color: #fafac4 !important;
+                              }
+                              .modelCompare-outter table tr:first-child {
+                                border-bottom:none;
+                              }
+                              .modelCompare-outter table tr:nth-child(2) {
+                                border-top:none;
+                              }
+                              .modelCompare-outter table td {
+                                text-align: center;
+                                vertical-align: middle;
+                              }
+                              #moreInfo .modelCompare-outter table tr td:first-child {
+                                text-align: left;
+                                padding-left:10px;
+                              }
+                              .modelCompareText {
+                                font-size:12px;
+                              }
+                              #moreInfo .modelCompare-outter #modelCompare-table {
+                                width: 1135px !important;
+                              }
+                              @media screen and (max-width: 1399px) {
                                 #moreInfo .modelCompare-outter #modelCompare-table {
-                                  width: 1135px !important;
+                                  width:810px !important;
                                 }
-                                @media screen and (max-width: 1399px) {
-                                  #moreInfo .modelCompare-outter #modelCompare-table {
-                                    width:810px !important;
-                                  }
-                                  #moreInfo .modelCompare-outter #modelCompare-table td {
-                                    width: 162px !important;
-                                  }
+                                #moreInfo .modelCompare-outter #modelCompare-table td {
+                                  width: 162px !important;
                                 }
-                                @media screen and (max-width: 1024px) {
-                                  #moreInfo .modelCompare-outter #modelCompare-table {
-                                    width: 768px !important;
-                                  }
-                                  #moreInfo .modelCompare-outter #modelCompare-table td {
-                                    width: 153px !important;
-                                  }
-                                  .modelCompare-outter { 
-                                  overflow-x: scroll;
-                                  }
+                              }
+                              @media screen and (max-width: 1024px) {
+                                #moreInfo .modelCompare-outter #modelCompare-table {
+                                  width: 768px !important;
                                 }
-                                #moreInfo .modelCompare-outter #modelCompare-table a {
-                                  color: black !important;
+                                #moreInfo .modelCompare-outter #modelCompare-table td {
+                                  width: 153px !important;
                                 }
-                                .modelCompare-outter .group-stars .ind_cnt {
-                                  padding-right: 0px;
-                                  font-size:11px;
+                                .modelCompare-outter { 
+                                overflow-x: scroll;
                                 }
-                                #dwnButton {
-                                  margin:0px !important;
-                                  padding-top:5px !important;
-                                  padding-bottom:5px !important;
-                                }
-                                .mctt {
-                                  cursor: help;
-                                }
-                                .mcc {
-                                  color:green;
-                                }
+                              }
+                              #moreInfo .modelCompare-outter #modelCompare-table a {
+                                color: black !important;
+                              }
+                              .modelCompare-outter .group-stars .ind_cnt {
+                                padding-right: 0px;
+                                font-size:11px;
+                              }
+                              #dwnButton {
+                                margin:0px !important;
+                                padding-top:5px !important;
+                                padding-bottom:5px !important;
+                              }
+                              .mctt {
+                                cursor: help;
+                              }
+                              .mcc {
+                                color:green;
+                              }
                               </style>
                               <br/>
                               <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/tooltipster.bundle.min.css"/>
@@ -2149,12 +2127,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   });
                                 </script>
                                 <div id="moreInfo">
-                                  <!-- <img src="https://cdn.sewingmachinesplus.com/platinum-protection.webp" style="float:right !important; max-width:200px;"/> -->
-                                  <picture>
-                                    <source srcset="https://cdn.sewingmachinesplus.com/platinum-protection.webp" type="image/webp">
-                                    <source srcset="https://cdn.sewingmachinesplus.com/platinum-protection.jpg" type="image/jpeg">
-                                    <img data-src="https://cdn.sewingmachinesplus.com/platinum-protection.jpg" alt="3 Year Platinum Protection Warranty" title="3 Year Platinum Protection Warranty" style="float:right !important; max-width:200px;">
-                                  </picture>
+                                  <img src="https://cdn.sewingmachinesplus.com/platinum-protection.jpg" style="float:right !important; max-width:200px;"/>
                                   <h2 class="smp23">3 Year Platinum Protection Warranty</h2>
                                   <h3>Add on a 3 Year Platinum Protection Warranty to your new machine For 100% Peace Of Mind!</h3>
                                   <p>SewingMachinesPlus.com is proud to offer its Platinum Protection Plan, for sewing, embroidery, longarm quilting and overlock machines sold in the U.S.A.</p>
@@ -2209,7 +2182,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             </div>
                             [-- IF PRODUCT.DisplayPrice --]
                               [-- IF PRODUCT.SubProduct --]
-                                <!--  <input class="addtocart_button" src="//cdn.sewingmachinesplus.com/images/addtocart2.webp" name="Add to Bag" type="image" style="float: right; margin-right: 10px;" />
+                                <!--  <input class="addtocart_button" src="//cdn.sewingmachinesplus.com/images/addtocart2.png" name="Add to Bag" type="image" style="float: right; margin-right: 10px;" />
                                 /images/addtocart.gif-->
                               [-- ELSE --]
                                 <span style="display: none;"></span>
@@ -2293,7 +2266,115 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         };
       });
     </script>
-
+    <!--Craftsy pop up content-->
+    <div id="craftsy-pop" class="container well" style="background-color:#ededeb; overflow-x:hidden;" align="center">
+      <div class="col-md-12" align="center" style="background-color:#f05331;">
+        <img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/craftsy-popup-01.png" class="img-responsive">
+      </div>
+      <!--sewing-->
+      <div class="col-md-12" align="center">
+        <img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/craftsy-02.jpg" class="img-responsive">
+      </div>
+      <div class="row" align="center">
+        <!--row 1-->
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/the-classic-tailored-shirt/132" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-04.jpg" class="img-responsive"><p style="color:#393433;"><strong>The Classic Tailored Shirt</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/getting-started-with-upholstery/5027" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-02.jpg" class="img-responsive"><p style="color:#393433;"><strong>Getting Started with Upholstery</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$69.99</span><br><span style="text-decoration:strike; color:#393433;">$34.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/sewing/classes/pant-construction-techniques-in-the-details/36790" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-05.jpg" class="img-responsive"><p style="color:#393433;"><strong>Pant Construction Techniques: In the Details</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/fitting-essentials-customize-your-dress-form/4860" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-03.jpg" class="img-responsive"><p style="color:#393433;"><strong>Fitting Essentials: Customize Your Dress Form</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$19.99</span></p></a>
+        </div>
+      </div>
+      <!--row 2-->
+      <div class="row" align="center">
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/sewing/classes/creative-serging-beyond-the-basics/35347" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-16.jpg" class="img-responsive"><p style="color:#393433;"><strong>Creative Serging: Beyond the Basics</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/pattern-drafting-from-ready-to-wear/191" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-01.jpg" class="img-responsive"><p style="color:#393433;"><strong>Pattern Drafting from Ready-to-Wear</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br><span style="text-decoration:strike; color:#393433;">$34.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/sewing/classes/the-ultimate-t-shirt-fitting-construction/35311" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-17.jpg" class="img-responsive"><p style="color:#393433;"><strong>The Ultimate T-Shirt: Fitting & Construction</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br><span style="text-decoration:strike; color:#393433;">$34.98</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/sewing/classes/sewing-bras-designer-techniques/39795" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-18.jpg" class="img-responsive"><p style="color:#393433;"><strong>Sewing Bras: Designer Techniques</strong></p><p><!--<span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br>--><span style="text-decoration:strike; color:#393433;">$49.99</span></p></a>
+        </div>
+      </div>
+      <!--embroidery-->
+      <div class="col-md-12" align="center">
+        <img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/craftsy-03.jpg" class="img-responsive">
+      </div>
+      <div class="row" align="center">
+        <!--row 1-->
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/continuous-line-embroidery/4255" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-09.jpg" class="img-responsive"><p style="color:#393433;"><strong>Continuous-Line Embroidery</strong></p><p><!--<span style="text-decoration:strike; color:#a2a2a2;">$49.99</span><br>--><span style="text-decoration:strike; color:#393433;">$39.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/embroidering-monograms-by-machine/4842" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-07.jpg" class="img-responsive"><p style="color:#393433;"><strong>Embroidering Monograms by Machine</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/elements-of-design-editing-machine-embroidery/4617" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-10.jpg" class="img-responsive"><p style="color:#393433;"><strong>Elements of Design Editing</strong></p><p><!--<span style="text-decoration:strike; color:#a2a2a2;">$69.99</span><br>--><span style="text-decoration:strike; color:#393433;">$39.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/machine-embroidery-with-terrycloth-and-more/355" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-08.jpg" class="img-responsive"><p style="color:#393433;"><strong>Machine Embroidery with Terrycloth and More</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+        </div>
+      </div>
+      <!--row 2-->
+      <div class="row" align="center">
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/embroidery/classes/custom-sweatshirt-jackets-sewing-embroidery-techniques/37121" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-19.jpg" class="img-responsive"><p style="color:#393433;"><strong>Custom Sweatshirt Jackets: Sewing & Embroidery Techniques</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/class/embroidering-with-ribbon/4736" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-06.jpg" class="img-responsive"><p style="color:#393433;"><strong>Embroidering with Ribbon</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$29.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/embroidery/classes/artistic-digitizing-from-inspiration-to-stitch/35287" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-20.jpg" class="img-responsive"><p style="color:#393433;"><strong>Artistic Digitizing: From Inspiration to Stitch</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$19.99</span></p></a>
+        </div>
+        <div class="col-lg-3" style="padding:5px;" align="center">
+          <a href="https://www.craftsy.com/embroidery/classes/embroidering-luxury-fabrics-by-machine/35716" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-21.jpg" class="img-responsive"><p style="color:#393433;"><strong>Embroidering Luxury Fabrics by Machine</strong></p><p><!--<span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br>--><span style="text-decoration:strike; color:#393433;">$39.99</span></p></a>
+        </div>
+      </div>
+      <!--quilting-->
+      <div class="col-md-12" align="center">
+        <img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/craftsy-04.jpg" class="img-responsive">
+      </div>
+      <div class="row" align="center">
+      <!--row 1-->
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/class/crazy-quilts/312" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-11.jpg" class="img-responsive"><p style="color:#393433;"><strong>Crazy Quilts</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$29.99</span></p></a>
+      </div>
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/class/magical-blocks-out-of-the-box/3933" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-15.jpg" class="img-responsive"><p style="color:#393433;"><strong>Magical Blocks: Out of the Box</strong></p><p><!--<span style="text-decoration:strike; color:#a2a2a2;">$69.99</span><br>--><span style="text-decoration:strike; color:#393433;">$39.99</span></p></a>
+      </div>
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/class/thread-art/105" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-13.jpg" class="img-responsive"><p style="color:#393433;"><strong>Thread Art</strong></p><p><!--<span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br>--><span style="text-decoration:strike; color:#393433;">$39.99</span></p></a>
+      </div>
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/quilting/classes/magical-jelly-roll-quilts/35218" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-22.jpg" class="img-responsive"><p style="color:#393433;"><strong>Magical Jelly Roll Quilts</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$29.99</span><br><span style="text-decoration:strike; color:#393433;">$14.99</span></p></a>
+      </div>
+    </div>
+    <!--row 2-->
+    <div class="row" align="center">
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/class/ultimate-free-motion-quilting/4270" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-14.jpg" class="img-responsive"><p style="color:#393433;"><strong>Ultimate Free-Motion Quilting</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$44.99</span><br><span style="text-decoration:strike; color:#393433;">$24.99</span></p></a>
+      </div>
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/class/traditional-blocks-made-simple/158" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/class-12.jpg" class="img-responsive"><p style="color:#393433;"><strong>Traditional Blocks Made Simple</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$29.99</span><br><span style="text-decoration:strike; color:#393433;">$14.99</span></p></a>
+      </div>
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/quilting/classes/free-motion-quilting-a-sampler/35694" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-23.jpg" class="img-responsive"><p style="color:#393433;"><strong>Free Motion Quilting a Sampler</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$39.99</span><br><span style="text-decoration:strike; color:#393433;">$19.99</span></p></a>
+      </div>
+      <div class="col-lg-3" style="padding:5px;" align="center">
+        <a href="https://www.craftsy.com/quilting/classes/dot-to-dot-quilting/35431" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/popups/craftsy/v2/class-24.jpg" class="img-responsive"><p style="color:#393433;"><strong>Dot-to-Dot Quilting</strong></p><p><span style="text-decoration:strike; color:#a2a2a2;">$24.99</span><br><span style="text-decoration:strike; color:#393433;">$14.99</span></p></a>
+      </div>
+    </div>
+    <p><a class="btn btn-secondary btn-lg craftsy-pop_close" style="background-color:#e70000 !important;" href="#" role="button">Close</a></p>
+  </div>
   <!-- Packages pop up content -->
   <div id="packages" class="container well" style="background-color:#ffffff; max-width:65%;">
     <div class="col-lg-12 col-sm-12" style="background-color:#323333; color:#ffffff; font-family:Arial, Helvetica; padding:10px; text-align:center;">
@@ -2302,30 +2383,15 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <!--sewing essentials-->
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-02.webp" class="img-responsive" style="margin:0 auto;"> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-02.jpg" class="img-responsive" style="margin:0 auto;">
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.webp" class="img-responsive" style="margin:0 auto;"> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.jpg" class="img-responsive" style="margin:0 auto;">
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.webp" class="img-responsive" style="margin:0 auto;"> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.jpg" class="img-responsive" style="margin:0 auto;">
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <p>Buy any sewing machine and add the Sewing Essentials Package for only $99!</p>
@@ -2348,30 +2414,15 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <!--quilting essentials-->
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-03.webp" class="img-responsive" style="margin:0 auto;"> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-03.jpg" class="img-responsive" style="margin:0 auto;">
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.webp" class="img-responsive" style="margin:0 auto;"> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.jpg" class="img-responsive" style="margin:0 auto;">
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.webp" class="img-responsive" style="margin:0 auto;"> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.jpg" class="img-responsive" style="margin:0 auto;">
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <p>Buy any quilting machine and add the Quilting Essentials Package for only $119!</p>
@@ -2392,30 +2443,15 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <!--embroidery essentials-->
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-04.webp" class="img-responsive" style="margin:0 auto;"> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-04.jpg" class="img-responsive" style="margin:0 auto;">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.webp" class="img-responsive" style="margin:0 auto;"> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.jpg" class="img-responsive" style="margin:0 auto;">
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.webp" class="img-responsive" style="margin:0 auto;"> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.jpg" class="img-responsive" style="margin:0 auto;">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <p>Buy any embroidery machine and add the Embroidery Essentials Package for only $129!</p>
@@ -2437,30 +2473,15 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <!--longarm essentials-->
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-05.webp" class="img-responsive" style="margin:0 auto;"> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/title-05.jpg" class="img-responsive" style="margin:0 auto;">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.webp" class="img-responsive" style="margin:0 auto;"> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.jpg" class="img-responsive" style="margin:0 auto;">
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.webp" class="img-responsive" style="margin:0 auto;"> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.jpg" class="img-responsive" style="margin:0 auto;">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <p>Buy any Longarm Machine and add the Longarm Essentials Package for only $279!</p>
@@ -2485,12 +2506,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <!-- Financing pop up content -->
     <div id="financing-pop" class="container well" style="background-color:#ffffff; max-width:400px;padding-right:0px;padding-left:0px;">
       <div style="width:100% !important; text-align:center;" class="container">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/financing-popup/secure-application.webp" style="float: left;margin-bottom: 5px;"/> -->
-        <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.webp" type="image/webp" style="float: left;margin-bottom: 5px;">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.jpg" type="image/jpeg" style="float: left;margin-bottom: 5px;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.jpg" alt="" title="" style="float: left;margin-bottom: 5px;">
-        </picture>
+        <img src="//cdn.sewingmachinesplus.com/media/financing-popup/secure-application.jpg" style="float: left;margin-bottom: 5px;"/>
         <p style="text-align:right;"><a class="btn btn-secondary btn-lg financing-pop_close" style="background-color:#e70000 !important;" href="#" role="button">Close</a></p>
         <div id="FAstart">
           <img src="//cdn.sewingmachinesplus.com/media/financing-popup/logo.png"/>
@@ -2511,12 +2527,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <p style="color:#333; font-size:2em;">Your Almost There</p>
           <p>Once your application is completed please write down your application/reference number, you will need to enter this number into the account number field during checkout on our website. Add the items you wish to purchase into your shopping cart and submit your order. An expert sewing consultant will contact you after you place your order to confirm the purchase and complete the financing.</p>
           <!-- <p>Synchrony Financial has a history of strong financial performance, long-standing partnerships, and operational excellence, all in service of helping put the things that matter most within reach. Whether you need a new sewing machine or sewing furniture or supplies, why wait? Apply now, and you could be shopping for those items the same day!</p> -->
-          <!-- <img src="//cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.webp"/> -->
-          <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.webp" type="image/webp">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.jpg" type="image/jpeg">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.jpg" alt="" title="">
-          </picture>
+          <img src="//cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.png"/>
           <p><a class="btn btn-secondary btn-lg" href="https://etail.mysynchrony.com/eapply/eapply.action?uniqueId=D2895D9FF3CADB4EF670CD22E0CF1A52D5A064E2C1629DFE&client=Sewing%20Machines%20Plus" target="_blank" role="button">Apply Online <span class="icon-arrowlink"></span></a></p>
           <img id="FAemailSend" src="" width="0" height="0" border="0" alt="" style="height:0px;"/>
         </div>

@@ -101,7 +101,7 @@
             <!--<p><a href="http://www.americaneagle.com/" target="new">Website design by Americaneagle.com</a></p>--><p>&nbsp;</p>
           </div>
           <div class="col-md-6">
-            <img src="//cdn.sewingmachinesplus.com/AE/images/footer-logos.webp" alt="" class="img-responsive payment">
+            <img src="//cdn.sewingmachinesplus.com/AE/images/footer-logos.png" alt="" class="img-responsive payment">
           </div>
         </div>
       </div>
