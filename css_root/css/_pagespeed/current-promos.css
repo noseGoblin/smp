@@ -1,0 +1,142 @@
+/*----SALES PAGE STYLES----*/
+@media (min-width:1024px){
+	.sale-container{
+		width:100%;
+		margin:25px 0;
+	}
+	.shadowed-box{
+		box-shadow:0 5px 25px 0 #8c8c8c;
+		padding:0px;
+	}
+	.promo-counter{
+		color:#fff;
+		font-family:"Oswald",sans-serif ;
+		font-weight:bold;
+		font-size:20px;
+		min-height:25px;
+		max-height:50px;
+		line-height:20px;
+		text-align: center;
+		padding:5px 0;
+	}
+	div.promo-time:before{
+		display:inline-block;
+		content:"\f017";
+		font-family:'FontAwesome';
+		font-weight:normal;
+		font-size:20px;
+		color:#fff;
+		margin-right:10px;
+		font-size:1.3em;
+		font-style: normal;
+	}
+	.coupon-content{
+		color:#313131;
+	}
+	.coupon-content:hover{
+		color:#ec010b;
+	}
+	.conf-left{
+		padding-right:0px;
+	}
+	.conf-right{
+		padding-left:0px;
+	}
+	.conf-right img{
+		margin-left:0px;
+	}
+}
+@media (max-width:1023px) and (min-width:768px){
+	.sale-container{
+		width:100%;
+		margin:25px 0;
+	}
+	.shadowed-box{
+		box-shadow:0 5px 25px 0 #8c8c8c;
+		padding:0px;
+	}
+	.promo-counter{
+		color:#fff;
+		font-family:"Oswald",sans-serif ;
+		font-weight:bold;
+		font-size:20px;
+		min-height:25px;
+		max-height:50px;
+		line-height:20px;
+		text-align: center;
+		padding:5px 0;
+	}
+	div.promo-time:before{
+		display:inline-block;
+		content:"\f017";
+		font-family:'FontAwesome';
+		font-weight:normal;
+		font-size:20px;
+		color:#fff;
+		margin-right:10px;
+		font-size:1.3em;
+		font-style: normal;
+	}
+	.coupon-content{
+		color:#313131;
+	}
+	.coupon-content:hover{
+		color:#ec010b;
+	}
+	.conf-left{
+		padding-right:0px;
+	}
+	.conf-right{
+		padding-left:0px;
+	}
+	.conf-right img{
+		margin-left:0px;
+	}
+}
+@media (max-width:767px){
+	.sale-container{
+		width:100%;
+		margin:25px 0;
+	}
+	.shadowed-box{
+		box-shadow:0 5px 25px 0 #8c8c8c;
+		padding:0px;
+	}
+	.promo-counter{
+		color:#fff;
+		font-family:"Oswald",sans-serif ;
+		font-weight:bold;
+		font-size:20px;
+		min-height:25px;
+		max-height:50px;
+		line-height:20px;
+		text-align: center;
+		padding:5px 0;
+	}
+	div.promo-time:before{
+		display:inline-block;
+		content:"\f017";
+		font-family:'FontAwesome';
+		font-weight:normal;
+		font-size:20px;
+		color:#fff;
+		margin-right:10px;
+		font-size:1.3em;
+		font-style: normal;
+	}
+	.coupon-content{
+		color:#313131;
+	}
+	.coupon-content:hover{
+		color:#ec010b;
+	}
+	.conf-left{
+		padding-right:0px;
+	}
+	.conf-right{
+		padding-left:0px;
+	}
+	.conf-right img{
+		margin-left:0px;
+	}
+}

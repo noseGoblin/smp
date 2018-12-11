@@ -1,0 +1,327 @@
+
+hr.gift-guide-hr{border-top:1px solid #bd0904; background:repeating-linear-gradient(-45deg,#cb5a5e,#cb5a5e 12px,white 10px,white 23px); height:12px; border-radius:5px 5px 5px 5px;}
+.flex-parent-product{display:flex; flex-direction:row; flex-wrap:wrap;justify-content:center;}
+.margin-flex-product{width:355px; margin:10px; flex:1 3 auto;}
+.section-heading_gift-guide {
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #349435;
+  position: relative;
+  text-shadow: none;
+}
+.xmas-lights {
+  pointer-events: none;
+}
+.section-heading_gift-guide > span {
+  padding-right: 12px;
+  position: relative;
+  z-index: 5;
+  text-transform: capitalize;
+  font-size: 1em;
+}
+.section-heading_gift-guide > span span.shopBy-giftguide {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #ff0000 !important;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+.section-heading_gift-guide div {position:absolute; padding-left:20px; right:0; top:50%; margin-top:-4px; z-index:101;}
+.section-heading_gift-guide div a {padding:10px 25px; font-size:15px; line-height:16px; font-weight:normal; color:#313113;}
+.section-heading_gift-guide:before {content: ""; display: block; height: 1px; width: 100%; display: block; position: absolute; bottom: 30%; z-index: 1;}
+.brand-text{
+  color:#b5b5b5;
+  font-size:12pt;
+  text-transform:uppercase;
+  font-weight:bold;
+  margin-bottom:10px;
+  clear:both;
+  line-height: 1.2;
+  min-height: 24px;
+  max-height: 24px;
+}
+.productLinkName {
+  width:85%;
+  font-family:Lato;
+  font-weight:bold;
+  line-height:1.2;
+  margin-bottom:10px;
+  color: #349435 !important;
+  /* min-height:39px;
+  max-height:43px;
+  overflow:hidden;
+  text-overflow:ellipsis; */
+}
+.productPricesInfo {
+  line-height:1em;
+  min-height:3em;
+  max-height:3em;
+}
+.productLinkPrice {
+  color:#ec010b;
+}
+.productmsrp {
+  color:#b5b5b5;
+}
+.callfordeets_giftguide {
+  font-weight:bold;
+  color:#12a900;
+  text-shadow: 1px 1px #000;
+}
+.product-list-grid3_giftguide .productLinkName,
+.product-list-grid3_giftguide .brand-text{
+  /* text-shadow: 1px 1px #000; */
+}
+.product-list-grid3_giftguide {
+  background-color: #ffffff61 !important;
+  /* background-color: #bd090412 !important; */
+  outline: 1px solid #349435 !important;
+  background:url(https://cdn.sewingmachinesplus.com/AE/images/bokeh-2.png);
+  flex: 0 3 auto!important;
+}
+.product-list-grid3_giftguide .productLinkPrice {
+  color: #bd0904;
+  font-weight: 900;
+  /* text-shadow: 1px 1px #000; */
+}
+.product-flag {
+  opacity: .93;
+}
+img.productLinkImg_giftguide {
+  border: 1px solid #bd0904;
+  background: repeating-linear-gradient(-45deg,#cb5a5e,#cb5a5e 12px,white 10px,white 23px);
+  padding: 12px;
+  max-width:250px;
+  max-height:250px;
+  margin:0 10px;
+}
+div#product-list-grid2 {
+  background-color: #3c4c14d4;
+}
+.footer ul.link-list a li {
+  color: #313131;
+  line-height: 30px;
+  font-size: 19px;
+}
+.footer ul.link-list a:hover li {
+  color:#ec010b;
+}
+.footer .container {
+  width: 100% !important;
+}
+.bokeh2 {
+  padding-top:0;
+  background:url(https://cdn.sewingmachinesplus.com/AE/images/bokeh-2.png) repeat;
+}
+.snow-img {
+  padding-top:0;
+  background:url(https://cdn.sewingmachinesplus.com/AE/images/winter-snow-texture.png) repeat-y;
+  background-attachment: fixed;
+  background-color: #bd0904 !important;
+}
+.spooky-messages {
+  color: #349435;
+  line-height: 1.2em;
+  /* text-shadow: 2px 2px #000; */
+}
+.spooky-messages > span.giftcode {
+  color: #bd0904;
+}
+.spooky-treat-wrap > p.giftcode {
+  color: #349435;
+  font-size:1em;
+  text-align: center;
+}
+.spooky-treat-wrap > p.giftcode > span.giftcode {
+  color: #bd0904;
+  font-weight: 900;
+}
+span.exclusions {
+  font-size: .5em;
+  font-style: italic;
+}
+.product-list-grid3_giftguide .productLinkName {
+  min-height: 57px;
+}
+div.spooky-landscapes {
+  width:100%;
+  margin:0 auto;
+}
+.gift-guide-title-desktop {
+  background-color: #fff;
+  margin-bottom: 8px;
+  border: 1px solid #bd0904;
+  border-radius: 5px 5px 5px 5px;
+}
+.gift-guide-title-mobile {
+  background-color: #fff;
+  margin-bottom: 8px;
+  border: 1px solid #bd0904;
+  border-radius: 5px 5px 5px 5px;
+}
+/* .gift-guide-title:before, */
+.gift-guide-title-desktop:after {
+  content: '';
+  display: block;
+  height: 12px;
+  width: 100%;
+  background: #cb5a5e;
+  background: repeating-linear-gradient(
+    -45deg,
+    #cb5a5e,
+    #cb5a5e 12px,
+    transparent 10px,
+    transparent 23px
+  );
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-bottom: 0;
+}
+.gift-guide-title-mobile:after {
+  content: '';
+  display: block;
+  height: 12px;
+  width: 100%;
+  background: #cb5a5e;
+  background: repeating-linear-gradient(
+    -45deg,
+    #cb5a5e,
+    #cb5a5e 12px,
+    transparent 10px,
+    transparent 23px
+  );
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-bottom: 0;
+}
+.flakey2{
+  background: url(https://cdn.sewingmachinesplus.com/AE/images/flakey4.png) repeat;
+  /* background-attachment: fixed; */
+}
+.newsletter .container {
+  width: 100% !important;
+  padding: 20px 40px;
+}
+.newsletter .flakes2 {
+  background-attachment: fixed;
+  background-size:30%;
+}
+.newsletter .snowglobe {
+  background-size:40%;
+  background-attachment: fixed;
+}
+.newsletter {
+  padding: 0;
+}
+/* @media all and (min-width:1280px) {
+  .newsletter .flakes2 {
+    background-size:30%;
+  }
+}
+@media all and (min-width:1500px) {
+  .newsletter .flakes2 {
+    background-size:contain;
+  }
+}
+@media all and (max-width:1280px) {
+  .newsletter .flakes2 {
+    background-size:35%;
+  }
+} */
+@media (min-width:1200px) and (max-width:1399px) {
+  .newsletter .newsletter-btn {
+    padding: 12px 20px !important;
+  }
+  .newsletter h3 {
+    font-size: 20px;
+  }
+}
+@media all and (max-width:1199px){
+  .footer .container {
+    padding:50px 20px 0 20px;
+  }
+  .footer-bottom .container {
+    padding:10px 20px;
+  }
+  .footer-bottom .payment {
+    display: block;
+  }
+  .space-20 .footer-space {
+    display:block;
+  }
+}
+@media all and (min-width:1200px) {
+  .space-20 .footer-space {
+    display:none;
+  }
+}
+@media (min-width:992px) and (max-width:1199px) {
+  .footer ul.social-footer li:nth-child(2n+1) {
+    width: 30%;
+  }
+}
+@media all and (min-width:1024px) {
+  .box {
+    width: 970px;
+  }
+}
+@media all and (min-width:800px) {
+  .box {
+    width: 750px;
+  }
+}
+@media all and (max-width:991px) {
+  .footer-bottom .payment {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media (min-width:769px) and (max-width:991px) {
+  .mobile-margintop {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width:768px) {
+  .gift-guide-title-desktop {
+    display: none;
+  }
+  .gift-guide-title-mobile {
+    display: block;
+  }
+  #gift-guide-mobile {
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (min-width:769px) {
+  .gift-guide-title-desktop {
+    display: block;
+  }
+  .gift-guide-title-mobile {
+    display: none;
+  }
+}
+@media screen (min-width: 521px) and (max-width: 740px) {
+  .product-list-grid3_giftguide {
+    flex: 0 1 50%!important;
+  }
+}
+@media screen and (max-width: 520px) {
+  .product-list-grid3_giftguide {
+    flex: 0 1 100%!important;
+  }
+}
+@media all and (max-width:425px) {
+  .xmas-lights {
+
+  }
+}
+@media all and (max-width:374px) {
+  .footer-bottom .payment {
+    display: none;
+  }
+}

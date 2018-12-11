@@ -1,0 +1,17 @@
+<style>
+/*-----------------------------------------------------------------------
+        								MENU TOGGLE MEDIA QUERIES
+-----------------------------------------------------------------------*/
+
+@media(max-width:1023px) and (min-width:768px){
+	.locations-container{
+		padding:4.4% 0 0 4% !important;
+	}
+}
+</style>
+
+/*---------------------Remove from template to make live-----------------------*/
+
+/* 1. remove div .space-20 above div .banner-wrap */
+/* 2. remove the div #expertsewingconsultants */
+/* 3. in style.css:1666 .jumbotron change padding to 0 0 15px 0; */
