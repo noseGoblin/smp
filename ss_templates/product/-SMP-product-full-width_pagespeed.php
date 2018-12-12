@@ -2,16 +2,16 @@
 [-- IF PRODUCT.DisplayPrice --]
   <div class="media" align="center">
     <div class="media-left">
+<!--
       <a href="[-- PRODUCT.MoreInfoURL --]" style="text-decoration:none;" target="_blank">
-        <!-- <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="img-responsive" style="min-height:10px; max-height:180px;"/> -->
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --].webp" type="image/webp" class="img-responsive">
           <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --].jpg" type="image/jpeg" class="img-responsive">
           <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --].jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="img-responsive">
         </picture>
       </a>
-      <!--<a href="[-- PRODUCT.MoreInfoURL --]" style="color: #000000; text-decoration: none;" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" width="75" height="75" /></a>-->
-      <!--<input type="checkbox" name="itemnum" value="[-- PRODUCT.RECORDNUMBER --]">-->
+-->
+      <a href="[-- PRODUCT.MoreInfoURL --]" style="text-decoration:none;" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="img-responsive" style="min-height:10px; max-height:180px;"/></a>
     </div>
     <div class="media-center">
       <div class="title"><a href="[-- PRODUCT.MoreInfoURL --]" target="_blank">[-- PRODUCT.Name --]</a></div>
@@ -195,9 +195,9 @@
         <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden;">
           <!-- <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" class="productLinkImg" width="130" height="130" /> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].webp" type="image/webp" class="productLinkImg" width="130" height="130">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]webp" type="image/webp" class="productLinkImg" width="130" height="130">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
           </picture>
           <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
         </div>
@@ -210,9 +210,9 @@
       <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden;">
         <!-- <img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]" class="productLinkImg" width="130px" height="130px" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].webp" type="image/webp" class="productLinkImg" width="130" height="130">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --].jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]webp" type="image/webp" class="productLinkImg" width="130" height="130">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
         </picture>
         <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
       </div>
@@ -351,7 +351,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     [--IF PRODUCT.Field23--]
       [--PRODUCT.Field23--]
     [--END_IF--]
-    <script src="//cdn.sewingmachinesplus.com/includes/smp.js" type="text/javascript"></script>
+    <script src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript"></script>
     <style>
       .ui-dialog-titlebar{
         background-color:#ec010b !important;
@@ -561,9 +561,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <header class="header">
         
 
-          [--INCLUDE -SMP-toolbar-kyle--]
+          [-- INCLUDE -SMP-toolbar-kyle_pagespeed --]
 
-        [-- INCLUDE -SMP-header-minicart PROCESS --]
+        [-- INCLUDE -SMP-header-minicart_pagespeed PROCESS --]
       </header>
       <!--header end-->
       <div class="cmlla" id="cmlla">
@@ -808,7 +808,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
               [--END_IF--]
             [--END_IF--]
 
-            <script src="//cdn.sewingmachinesplus.com/AE/jquery-popup/jquery.popupoverlay.js"></script>
+            <script src="//cdn.sewingmachinesplus.com/AE/jquery-popup/jquery.popupoverlay.min.js"></script>
             <script>
               $.get("https://ipinfo.io?token=0423266a427ee0", function (response) {
               if(response.region == "Alabama" || response.region == "Arizona" || response.region == "Arkansas" || response.region == "California" || response.region == "Colorado" || response.region == "Connecticut" || response.region == "Delaware" || response.region == "Florida" || response.region == "Georgia" || response.region == "Idaho" || response.region == "Illinois" || response.region == "Indiana" || response.region == "Iowa" || response.region == "Kansas" || response.region == "Kentucky" || response.region == "Louisiana" || response.region == "Maine" || response.region == "Maryland" || response.region == "Massachusetts" || response.region == "Michigan" || response.region == "Minnesota" || response.region == "Mississippi" || response.region == "Missouri" || response.region == "Montana" || response.region == "Nebraska" || response.region == "Nevada" || response.region == "New Hampshire" || response.region == "New Jersey" || response.region == "New Mexico" || response.region == "New York" || response.region == "North Carolina" || response.region == "North Dakota" || response.region == "Ohio" || response.region == "Oklahoma" || response.region == "Oregon" || response.region == "Pennsylvania" || response.region == "Rhode Island" || response.region == "South Carolina" || response.region == "South Dakota" || response.region == "Tennessee" || response.region == "Texas" || response.region == "Utah" || response.region == "Vermont" || response.region == "Virginia" || response.region == "Washington" || response.region == "West Virginia" || response.region == "Wisconsin" || response.region == "Wyoming") {
@@ -909,19 +909,15 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                           for($n=0; $n<count($field5img); $n++){
                             $medImgLarge = "/media/" . $field5img[$n];
                             $image = $field5img[$n];
+                            $image2 = $image . "jpg";
                             $medImgLarge = "/media/" . $field5img[0];
-                            /*$pos = strrpos($medImgLarge, '.');
-                            $medImg = substr_replace($medImgLarge, '_size2.', $pos, 1);
-                            $medImg = substr_replace($medImg, '/resized/', strrpos($medImg, '/'), 1);*/
                             if($field11){
                               $ititle = $img_title[$n];
                             } else{
                               $ititle = $img_title;
                             }
                             if($n==0){
-                              // echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image."' data-title='".$ititle."' ><img class='mediumImage img-responsive' alt='[-- PRODUCT.Name --]' src='https://cdn.sewingmachinesplus.com/".$medImgLarge."' style='max-height:400px;' /></a>";
-                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image."' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge.".jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='mediumImage img-responsive' style='max-height:400px;'></picture></a>";
-                              //     echo "<a href='//cdn.sewingmachinesplus.com/media/".$image."' title='".$ititle."' ><img class='mediumImage' // alt='[-- PRODUCT.Name --]' src='".$medImg."' style=\"display: none;\" /></a>";
+                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image2."' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge."webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge."jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge."jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='mediumImage img-responsive' style='max-height:400px;'></picture></a>";
                             }
                           };
                         ?>
@@ -2060,7 +2056,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   $mcProducts3Specs = explode(",",$mcp3Product['ss_productfield53']);
                                   $mcProducts4Specs = explode(",",$mcp4Product['ss_productfield53']);
                                 ?>
-                                [-- INCLUDE -SMP-Model-Compare-Sewing --]
+                                [-- INCLUDE -SMP-Model-Compare-Sewing_pagespeed --]
                               [-- END_IF --]
                               [-- IF PRODUCT.Field51 "embroidery" --]
                                 <?php
@@ -2275,8 +2271,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           </div>
         </main><!--main end-->
       </div>
-      [-- INCLUDE -SMP-mailing-list --]
-      [-- INCLUDE -SMP-footer --]
+      [-- INCLUDE -SMP-mailing-list_pagespeed --]
+      [-- INCLUDE -SMP-footer_pagespeed --]
     </div>
     <!--POPUPS JQUERY-->
     <script>
@@ -2582,9 +2578,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <!-- End of LiveChat code -->
     <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
   </body>
-  [-- INCLUDE -SMP-AE-js-plugins-kyle --]
-  <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.js"></script>
-  <script src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.js"></script>
+  [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
+  <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
+  <script src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
   <script>
     function startLightbox(){
       $("a[data-lightbox='thumbnailslightbox']:first").click();

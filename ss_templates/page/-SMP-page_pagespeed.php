@@ -291,7 +291,7 @@
           <div id="geolocationshipping" style="text-align:center;font-size:2.5em;">
             <div id="address"></div>
           </div>
-          <script src="https://www.sewingmachinesplus.com/AE/jquery-popup/jquery.popupoverlay.js"></script>
+          <script src="https://www.sewingmachinesplus.com/AE/jquery-popup/jquery.popupoverlay.min.js"></script>
           <script>
             var j = jQuery.noConflict();
             j(document).ready(function() {
@@ -475,7 +475,7 @@
     </body>
 
     [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
-    <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.js"></script>
+    <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
     <script type="text/javascript">
       lightbox.option({
         'showImageNumberLabel': false,
