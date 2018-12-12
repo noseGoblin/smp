@@ -291,14 +291,14 @@ jQuery(function () {
 });
 
 /**match heights**/
-// jQuery(document).ready(function () {
-// 	$('.item_holder .title h5').matchHeight();
-// 	$('.category-list-thumb h3').matchHeight();
-//     $('.category-brand-list-thumb').matchHeight();
-// 	$('.product-listing .product-listing-row .item_holder .title h2').matchHeight();
-// 	$('ul.sub-menu-list li').matchHeight();
-// 	$('.brand-list-thumb h3').matchHeight();
-// });
+jQuery(document).ready(function () {
+	$('.item_holder .title h5').matchHeight();
+	$('.category-list-thumb h3').matchHeight();
+    $('.category-brand-list-thumb').matchHeight();
+	$('.product-listing .product-listing-row .item_holder .title h2').matchHeight();
+	$('ul.sub-menu-list li').matchHeight();
+	$('.brand-list-thumb h3').matchHeight();
+});
 
 /**temporary hawk search functionality for demo purposes, this should be deleted**/
 jQuery(document).ready(function () {

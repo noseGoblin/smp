@@ -17,6 +17,25 @@
 <script src="/AE/js/_pagespeed/hoverIntent.min.js" type="text/javascript"></script>
 <script src="/AE/js/_pagespeed/smp-nav-kyle.js" type="text/javascript"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+
+<script type="text/javascript">
+  (function(w, d){
+      var b = d.getElementsByTagName('body')[0];
+      var s = d.createElement("script"); 
+      var v = !("IntersectionObserver" in w) ? "8.17.0" : "10.19.0";
+      s.async = true; // This includes the script as async. See the "recipes" section for more information about async loading of LazyLoad.
+      s.src = "https://cdn.jsdelivr.net/npm/vanilla-lazyload@" + v + "/dist/lazyload.min.js";
+      w.lazyLoadOptions = {/* Your options here */};
+      b.appendChild(s);
+  }(window, document));
+  var myLazyLoad = new LazyLoad({
+    elements_selector: ".lazy",
+    to_webp: true
+});
+</script>
+
 <script type="text/javascript">
   var _stk = "87bdb09ea6b2b6d0ee50318759b9ec17251dbc14";
   (function(){

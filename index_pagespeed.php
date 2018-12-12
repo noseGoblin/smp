@@ -120,11 +120,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/events/2018-cybermonday/cyber-homepage-banner.jpg"
-        alt="2018 Cyber Monday Sale" class="img-responsive"> -->
+        alt="2018 Cyber Monday Sale" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/cyber-homepage-banner.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/events/2018-cybermonday/cyber-homepage-banner.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/events/2018-cybermonday/cyber-homepage-banner.jpg" alt="2018 Cyber Monday Sale" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/cyber-homepage-banner.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/events/2018-cybermonday/cyber-homepage-banner.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/events/2018-cybermonday/cyber-homepage-banner.jpg" alt="2018 Cyber Monday Sale" class="lazy img-responsive">
       </picture>
       
       <a href="https://www.sewingmachinesplus.com/2018-cyber-monday-savings.php"></a>
@@ -134,11 +134,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-king-quilter-23.jpg"
-       alt="NEW King Quilter II Long Arm Quilting Machines" class="img-responsive"> -->
+       alt="NEW King Quilter II Long Arm Quilting Machines" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-new-king-quilter-23.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-king-quilter-23.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-king-quilter-23.jpg" alt="NEW King Quilter II Long Arm Quilting Machines" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-new-king-quilter-23.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-king-quilter-23.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-king-quilter-23.jpg" alt="NEW King Quilter II Long Arm Quilting Machines" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/tin-lizzie-18-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Long+Arm+Quilters&Availability=In-Stock+Ready+to+Ship&search_return=all&Brand=King+Quilter"></a>
@@ -148,11 +148,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-530le.jpg"
-       alt="BERNINA B530LE Limited Edition Machine" class="img-responsive"> -->
+       alt="BERNINA B530LE Limited Edition Machine" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-bernina-530le.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-530le.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-530le.jpg" alt="BERNINA B530LE Limited Edition Machine" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-bernina-530le.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-530le.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-530le.jpg" alt="BERNINA B530LE Limited Edition Machine" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/bernina-530-anniversary.php"></a>
@@ -162,11 +162,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-quilters-pro-new.jpg"
-       alt="Quilters Pro Long Arm Quilting Machine" class="img-responsive"> -->
+       alt="Quilters Pro Long Arm Quilting Machine" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-quilters-pro-new.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-quilters-pro-new.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-quilters-pro-new.jpg" alt="Quilters Pro Long Arm Quilting Machine" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-quilters-pro-new.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-quilters-pro-new.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-quilters-pro-new.jpg" alt="Quilters Pro Long Arm Quilting Machine" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/tin-lizzie-18-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Long+Arm+Quilters&Availability=In-Stock+Ready+to+Ship&search_return=all&Brand=Quilter%27s+Pro"></a>
@@ -176,11 +176,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-futura-series2.jpg"
-       alt="Singer Futura Series Sewing and Embroidery Machines" class="img-responsive"> -->
+       alt="Singer Futura Series Sewing and Embroidery Machines" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-futura-series2.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-futura-series2.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-futura-series2.jpg" alt="Singer Futura Series Sewing and Embroidery Machines" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-futura-series2.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-futura-series2.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-futura-series2.jpg" alt="Singer Futura Series Sewing and Embroidery Machines" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=futura#?keywords=futura&Availability=In-Stock+Ready+to+Ship&Googleproducttype=Sewing+%26+Embroidery+Machines&search_return=all&sort_by_field=Price+Low+to+High"></a>
@@ -190,11 +190,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-genuine-collection.jpg"
-       alt="New Baby Lock Genuine Collection" class="img-responsive"> -->
+       alt="New Baby Lock Genuine Collection" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-genuine-collection.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-genuine-collection.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-genuine-collection.jpg" alt="New Baby Lock Genuine Collection" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-genuine-collection.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-genuine-collection.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-genuine-collection.jpg" alt="New Baby Lock Genuine Collection" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=genuine+collection#/?keywords=genuine+collection&search_return=all&Availability=In-Stock+Ready+to+Ship"></a>
@@ -204,11 +204,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-580.jpg"
-       alt="Bernina 580 Sewing and Embroidery" class="img-responsive"> -->
+       alt="Bernina 580 Sewing and Embroidery" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-bernina-580.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-580.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-580.jpg" alt="Bernina 580 Sewing and Embroidery" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-bernina-580.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-580.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-bernina-580.jpg" alt="Bernina 580 Sewing and Embroidery" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/bernina-b580.php"></a>
@@ -218,11 +218,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-financing2.jpg"
-       alt="Memorial Day Sale" class="img-responsive"> -->
+       alt="Memorial Day Sale" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-new-financing2.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-financing2.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-financing2.jpg" alt="Memorial Day Sale" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-new-financing2.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-financing2.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-new-financing2.jpg" alt="Memorial Day Sale" class="lazy img-responsive">
       </picture>
 
       <a href="#financing-pop" class="financing-pop_open"></a>
@@ -232,11 +232,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-juki-kirei-nx72.jpg"
-       alt="Juki Kirei HZL-NX7" class="img-responsive"> -->
+       alt="Juki Kirei HZL-NX7" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-juki-kirei-nx72.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-juki-kirei-nx72.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-juki-kirei-nx72.jpg" alt="Juki Kirei HZL-NX7" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-juki-kirei-nx72.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-juki-kirei-nx72.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-juki-kirei-nx72.jpg" alt="Juki Kirei HZL-NX7" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/juki-hzl-nx7.php"></a>
@@ -246,11 +246,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-qnique-models.jpg"
-       alt="Qnique Machine and Frame Combos" class="img-responsive"> -->
+       alt="Qnique Machine and Frame Combos" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-qnique-models.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-qnique-models.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-qnique-models.jpg" alt="Qnique Machine and Frame Combos" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-qnique-models.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-qnique-models.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-qnique-models.jpg" alt="Qnique Machine and Frame Combos" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/grace-company-quilting-frames.php#/?Category0=Quilting+Supplies&Category1=Brands&Category2=Grace+Company&Availability=In-Stock+Ready+to+Ship&Brand=Grace+Company&search_return=all&Googleproducttype=Long+Arm+Quilting+Machines"></a>
@@ -260,11 +260,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-100-organ-needles.jpg"
-       alt="100 Organ Needles Only $14.99!" class="img-responsive"> -->
+       alt="100 Organ Needles Only $14.99!" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-100-organ-needles.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-100-organ-needles.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-100-organ-needles.jpg" alt="100 Organ Needles Only $14.99!" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/home-sliders-100-organ-needles.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-100-organ-needles.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/home-sliders-100-organ-needles.jpg" alt="100 Organ Needles Only $14.99!" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/organ-household-sewing-needles.php"></a>
@@ -274,11 +274,11 @@
      <div class="ms-slide">
       <!-- slide background -->
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-multineedle.jpg"
-       alt="Multi-Needle Embroidery Machines" class="img-responsive"> -->
+       alt="Multi-Needle Embroidery Machines" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/new-home-slider-multineedle.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-multineedle.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-multineedle.jpg" alt="Multi-Needle Embroidery Machines" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/new-home-slider-multineedle.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-multineedle.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-multineedle.jpg" alt="Multi-Needle Embroidery Machines" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=multi+needle+embroidery+machine#/?keywords=multi+needle+embroidery+machine&search_return=all&Availability=In-Stock+Ready+to+Ship"></a>
@@ -289,11 +289,11 @@
       <!-- slide background -->
    
       <!-- <img src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/blank.gif" data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-longarms.jpg"
-       alt="Long Arm Quilting Machines" class="img-responsive"> -->
+       alt="Long Arm Quilting Machines" class="lazy img-responsive"> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/new-home-slider-longarms.webp" type="image/webp" class="img-responsive">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-longarms.jpg" type="image/jpeg" class="img-responsive">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-longarms.jpg" alt="Long Arm Quilting Machines" class="img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/webp/new-home-slider-longarms.webp" type="image/webp" class="lazy img-responsive">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-longarms.jpg" type="image/jpeg" class="lazy img-responsive">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/hero-banner/newsliders/new-home-slider-longarms.jpg" alt="Long Arm Quilting Machines" class="lazy img-responsive">
       </picture>
 
       <a href="https://www.sewingmachinesplus.com/tin-lizzie-18-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Long+Arm+Quilters&search_return=all&Availability=In-Stock+Ready+to+Ship"></a>
@@ -325,9 +325,9 @@
     
     <!-- 10% OFF Banner and Mobile Coupon
     <div class="container" style="padding:0">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="/domestic-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Household+Machines&Brand=Singer^Brother^EverSewn^Juki^Toyota&search_return=all&Availability=In-Stock+Ready+to+Ship"><img style="width:100%;margin-top:10px;" id="march-madness-coupon-codes" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_03.jpg" class="img-responsive" ></a>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="/domestic-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Household+Machines&Brand=Singer^Brother^EverSewn^Juki^Toyota&search_return=all&Availability=In-Stock+Ready+to+Ship"><img style="width:100%;margin-top:10px;" id="march-madness-coupon-codes" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_03.jpg" class="lazy img-responsive" ></a>
     </div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="/domestic-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Household+Machines&Brand=Singer%5EBrother%5EEverSewn%5EJuki%5EToyota&search_return=all&Availability=In-Stock+Ready+to+Ship"><img style="width:100%;padding-top:30px;" id="march-madness-coupon-codes-mobile" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_26.jpg" class="img-responsive" ></a>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="/domestic-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Household+Machines&Brand=Singer%5EBrother%5EEverSewn%5EJuki%5EToyota&search_return=all&Availability=In-Stock+Ready+to+Ship"><img style="width:100%;padding-top:30px;" id="march-madness-coupon-codes-mobile" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_26.jpg" class="lazy img-responsive" ></a>
     </div>
    <div align="center" style="font-size: 10px;">*Some product restrictions may apply. Not applicable to products with manufacturer restricted pricing or financed purchases over a 12 month term. Limited to in-stock items. Excludes special orders, backorders, and rain checks. Not applicable to previous purchases, giftcards, classes and events, items with manufacturer controled pricing (MAP), Miele, Janome, Accuquilt, Reliable,Sew Steady, Juki QVP, Industrial Machines, Floriani. Some other product exceptions may apply. Cannot combine with other sale offers.
    </div>
@@ -478,12 +478,12 @@
     <!--<div class="container" style="padding:10px 0;">
      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
       <a href="/reliable-senza-200ds.php">
-       <img src="/media/email/2018-mothers-day-sale/md07.jpg" class="img-responsive" />
+       <img src="/media/email/2018-mothers-day-sale/md07.jpg" class="lazy img-responsive" />
       </a>
      </div>
      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
       <a href="/smp-6283610047_ss9073.php">
-       <img src="/media/email/2018-mothers-day-sale/md09.jpg" class="img-responsive" />
+       <img src="/media/email/2018-mothers-day-sale/md09.jpg" class="lazy img-responsive" />
       </a>
      </div>
     </div>-->
@@ -492,12 +492,12 @@
     <div class="container" style="padding:10px 0;">
      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
       <a href="/j-mb7.php">
-       <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_05.jpg" class="img-responsive" />
+       <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_05.jpg" class="lazy img-responsive" />
       </a>
      </div>
      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
       <a href="/janome-MB-4.php">
-       <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_06.jpg" class="img-responsive" />
+       <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_06.jpg" class="lazy img-responsive" />
       </a>
      </div>
     </div>
@@ -505,24 +505,24 @@
    <div class="container" style="padding:10px 0;">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
      <a href="/sewing-needles.php">
-      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_12.jpg" class="img-responsive" />
+      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_12.jpg" class="lazy img-responsive" />
      </a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
      <a href="/thread.php">
-      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_13.jpg" class="img-responsive" /></a>
+      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_13.jpg" class="lazy img-responsive" /></a>
    <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
      <a href="/sewing-bobbins.php">
-      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_14.jpg" class="img-responsive" /></a>
+      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_14.jpg" class="lazy img-responsive" /></a>
    <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
      
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
      <a href="/sewing-feet.php">
-      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_15.jpg" class="img-responsive" /></a>
+      <img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_15.jpg" class="lazy img-responsive" /></a>
    <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
      
     </div>
@@ -536,28 +536,28 @@
     <!-- Christmas in July Set 2 
     <div class="container" style="padding:10px 0;">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
-     <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=2010q#/?keywords=2010q&search_return=all&Brand=Juki"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_07.jpg" class="img-responsive" /></a>
+     <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=2010q#/?keywords=2010q&search_return=all&Brand=Juki"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_07.jpg" class="lazy img-responsive" /></a>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
-     <a href="/bernina-b580.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_08.jpg" class="img-responsive" /></a>
+     <a href="/bernina-b580.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_08.jpg" class="lazy img-responsive" /></a>
     </div>
    </div>
    
    <div class="container" style="padding:10px 0;">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/sewing-accessories-cases.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_16.jpg" class="img-responsive" /></a>
+     <a href="/sewing-accessories-cases.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_16.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/embroidery-hoops.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_17.jpg" class="img-responsive" /></a>
+     <a href="/embroidery-hoops.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_17.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/sewing-accessories-rulers.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_18.jpg" class="img-responsive" /></a>
+     <a href="/sewing-accessories-rulers.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_18.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/sewing-scissors.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_19.jpg" class="img-responsive" /></a>
+     <a href="/sewing-scissors.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_19.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
    </div>
@@ -599,28 +599,28 @@
    <!-- Christmas in July Set 3  
     <div class="container" style="padding:10px 0;">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
-     <a href="/sparrow-30.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_09.jpg" class="img-responsive" /></a>
+     <a href="/sparrow-30.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_09.jpg" class="lazy img-responsive" /></a>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 spring-banner">
-     <a href="/arrow-81100.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_10.jpg" class="img-responsive" /></a>
+     <a href="/arrow-81100.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_10.jpg" class="lazy img-responsive" /></a>
     </div>
    </div>
    
    <div class="container" style="padding:10px 0;">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/irons.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_20.jpg" class="img-responsive" /></a>
+     <a href="/irons.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_20.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/notions-books.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_21.jpg" class="img-responsive" /></a>
+     <a href="/notions-books.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_21.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-     <a href="/bobbin-cases.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_22.jpg" class="img-responsive" /></a>
+     <a href="/bobbin-cases.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_22.jpg" class="lazy img-responsive" /></a>
     <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
      </div>
      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 spring-banner">
-      <a href="/embroidery-designs.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_23.jpg" class="img-responsive" /></a>
+      <a href="/embroidery-designs.php"><img src="/media/email/2018-christmas-in-july/2018-christmas-in-july_23.jpg" class="lazy img-responsive" /></a>
    <div align="center" style="font-size: 10px;">*Some product restrictions may apply.</div>
      </div>
    </div>
@@ -635,9 +635,9 @@
     
     <!-- Christmas in July Set 4  
     <div class="container" style="padding:0">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=Arrow+Kangaroo+Christmas+in+July+Sale"><img style="width:100%;margin-top:10px;" id="march-madness-coupon-codes" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_32.jpg" class="img-responsive" ></a>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=Arrow+Kangaroo+Christmas+in+July+Sale"><img style="width:100%;margin-top:10px;" id="march-madness-coupon-codes" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_32.jpg" class="lazy img-responsive" ></a>
     </div>
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=Arrow+Kangaroo+Christmas+in+July+Sale"><img style="width:100%;padding-top:30px;" id="march-madness-coupon-codes-mobile" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_28.jpg" class="img-responsive" ></a>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=Arrow+Kangaroo+Christmas+in+July+Sale"><img style="width:100%;padding-top:30px;" id="march-madness-coupon-codes-mobile" src="/media/email/2018-christmas-in-july/2018-christmas-in-july_28.jpg" class="lazy img-responsive" ></a>
     </div>
     </div>
      /Christmas in July Set 4 --> 
@@ -664,66 +664,66 @@
       <div class="row">
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="//www.sewingmachinesplus.com/searchresults.php?search_field=king+quilter">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/kingquilter.jpg" alt="King Quilter" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/kingquilter.jpg" alt="King Quilter" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/kingquilter.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/kingquilter.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/kingquilter.jpg" alt="King Quilter" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/kingquilter.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/kingquilter.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/kingquilter.jpg" alt="King Quilter" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/melco-sewing-machines.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/melco.jpg" alt="Melco Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/melco.jpg" alt="Melco Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/melco.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" alt="Melco Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/melco.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" alt="Melco Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/janome-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/janome.jpg" alt="Janome Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/janome.jpg" alt="Janome Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/melco.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" alt="Melco Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/melco.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/melco.jpg" alt="Melco Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/juki-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/juki.jpg" alt="Juki Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/juki.jpg" alt="Juki Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/juki.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/juki.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/juki.jpg" alt="juki Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/juki.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/juki.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/juki.jpg" alt="juki Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/singer-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/singer.jpg" alt="Singer Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/singer.jpg" alt="Singer Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/singer.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/singer.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/singer.jpg" alt="Singer Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/singer.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/singer.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/singer.jpg" alt="Singer Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/babylock-brand.php">
-         <!-- <img class="img-responsive" src="//cdn.sewingmachinesplus.com/media/products/icons/new/babylock-hp.jpg" alt="Baby Lock Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="//cdn.sewingmachinesplus.com/media/products/icons/new/babylock-hp.jpg" alt="Baby Lock Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/babylock-hp.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/babylock-hp.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/babylock-hp.jpg" alt="Baby Lock Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/babylock-hp.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/babylock-hp.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/babylock-hp.jpg" alt="Baby Lock Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
@@ -732,66 +732,66 @@
       <div class="row">
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/brother-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/brother.jpg" alt="Brother Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/brother.jpg" alt="Brother Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/brother.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/brother.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/brother.jpg" alt="Brother Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/brother.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/brother.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/brother.jpg" alt="Brother Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/handiquilter-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/handi-quilter.jpg" alt="Handi Quilter Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/handi-quilter.jpg" alt="Handi Quilter Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/handi-quilter.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/handi-quilter.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/handi-quilter.jpg" alt="Handi Quilter Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/handi-quilter.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/handi-quilter.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/handi-quilter.jpg" alt="Handi Quilter Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/bernina-brand.php">
-         <!-- <img class="img-responsive" src="//cdn.sewingmachinesplus.com/media/products/icons/new/bernina-hp.jpg" alt="Bernina Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="//cdn.sewingmachinesplus.com/media/products/icons/new/bernina-hp.jpg" alt="Bernina Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bernina-hp.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/bernina-hp.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/bernina-hp.jpg" alt="Bernina Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bernina-hp.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/bernina-hp.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/bernina-hp.jpg" alt="Bernina Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/reliable-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/reliable.jpg" alt="Reliable Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/reliable.jpg" alt="Reliable Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/reliable.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/reliable.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/reliable.jpg" alt="Reliable Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/reliable.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/reliable.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/reliable.jpg" alt="Reliable Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/consew-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/consew.jpg" alt="Consew Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/consew.jpg" alt="Consew Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/consew.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/consew.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/consew.jpg" alt="Consew Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/consew.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/consew.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/consew.jpg" alt="Consew Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/arrow-sewing-cabinets.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/arrow.jpg" alt="Arrow Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/arrow.jpg" alt="Arrow Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/arrow.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/arrow.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/arrow.jpg" alt="Arrow Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/arrow.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/arrow.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/arrow.jpg" alt="Arrow Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
@@ -800,66 +800,66 @@
       <div class="row">
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/jiffy-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/jiffy.jpg" alt="Jiffy Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/jiffy.jpg" alt="Jiffy Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/jiffy.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/jiffy.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/jiffy.jpg" alt="Jiffy Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/jiffy.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/jiffy.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/jiffy.jpg" alt="Jiffy Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/irons-oliso.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/oliso.jpg" alt="Oliso Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/oliso.jpg" alt="Oliso Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/oliso.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/oliso.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/oliso.jpg" alt="Oliso Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/oliso.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/oliso.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/oliso.jpg" alt="Oliso Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/floriani-brand.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/floriani.jpg" alt="Floriani Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/floriani.jpg" alt="Floriani Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/floriani.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/floriani.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/floriani.jpg" alt="Floriani Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/floriani.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/floriani.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/floriani.jpg" alt="Floriani Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/dime-accessories.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/dime.jpg" alt="Dime Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/dime.jpg" alt="Dime Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/dime.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/dime.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/dime.jpg" alt="Dime Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/dime.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/dime.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/dime.jpg" alt="Dime Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/brands-madeira.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/madeira.jpg" alt="Madeira Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/madeira.jpg" alt="Madeira Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/madeira.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/madeira.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/madeira.jpg" alt="Madeira Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/madeira.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/madeira.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/madeira.jpg" alt="Madeira Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/king-tut-cotton-thread.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/king-tut.jpg" alt="King Tut Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/king-tut.jpg" alt="King Tut Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/king-tut.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/king-tut.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/king-tut.jpg" alt="King Tut Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/king-tut.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/king-tut.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/king-tut.jpg" alt="King Tut Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
@@ -868,66 +868,66 @@
       <div class="row">
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/threads-brands-masterpiece.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/masterpiece.jpg" alt="Masterpiece Thread" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/masterpiece.jpg" alt="Masterpiece Thread" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/masterpiece.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/masterpiece.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/masterpiece.jpg" alt="Masterpiece Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/masterpiece.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/masterpiece.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/masterpiece.jpg" alt="Masterpiece Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/tutto.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/tutto.jpg" alt="Tutto Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/tutto.jpg" alt="Tutto Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/tutto.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/tutto.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/tutto.jpg" alt="Tutto Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/tutto.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/tutto.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/tutto.jpg" alt="Tutto Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/blue-fig-trolleys.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/bluefig.jpg" alt="Bluefig Products" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/bluefig.jpg" alt="Bluefig Products" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bluefig.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/bluefig.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/bluefig.jpg" alt="Bluefig Products" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bluefig.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/bluefig.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/bluefig.jpg" alt="Bluefig Products" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/notions-organ.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/organ.jpg" alt="Organ Needles" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/organ.jpg" alt="Organ Needles" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/organ.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/organ.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/organ.jpg" alt="Organ Needles" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/organ.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/organ.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/organ.jpg" alt="Organ Needles" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/needles-klasse.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/klasse.jpg" alt="Klasse Needles" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/klasse.jpg" alt="Klasse Needles" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/klasse.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/klasse.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/klasse.jpg" alt="Klasse Needles" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/klasse.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/klasse.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/klasse.jpg" alt="Klasse Needles" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
        </div>
        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
         <a href="/needles-schmetz.php">
-         <!-- <img class="img-responsive" src="/media/products/icons/new/schmetz.jpg" alt="Schmetz Needles" vspace="3" hspace="3" border="0" /> -->
+         <!-- <img class="lazy img-responsive" src="/media/products/icons/new/schmetz.jpg" alt="Schmetz Needles" vspace="3" hspace="3" border="0" /> -->
       <picture>
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/schmetz.webp" type="image/webp" class="img-responsive" vspace="3" hspace="3" border="0">
-        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/schmetz.jpg" type="image/jpeg" class="img-responsive" vspace="3" hspace="3" border="0">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/schmetz.jpg" alt="Schmetz Needles" class="img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/schmetz.webp" type="image/webp" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/schmetz.jpg" type="image/jpeg" class="lazy img-responsive" vspace="3" hspace="3" border="0">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/schmetz.jpg" alt="Schmetz Needles" class="lazy img-responsive" vspace="3" hspace="3" border="0">
       </picture>
 
         </a>
@@ -966,11 +966,11 @@
        <div class="category-brand-list-thumb">
         <a href="/tin-lizzie-18-machines.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-longarms.jpg" class="img-responsive" alt="Long Arm Quilters" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-longarms.jpg" class="lazy img-responsive" alt="Long Arm Quilters" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-longarms.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-longarms.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-longarms.jpg" alt="Long Arm Quilters" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-longarms.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-longarms.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-longarms.jpg" alt="Long Arm Quilters" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Long Arm Quilters
@@ -982,11 +982,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-machines.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-sewing-machines.jpg" class="img-responsive" alt="Sewing Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-sewing-machines.jpg" class="lazy img-responsive" alt="Sewing Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-machines.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" alt="Sewing Machines" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-machines.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" alt="Sewing Machines" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Sewing Machines
@@ -998,11 +998,11 @@
        <div class="category-brand-list-thumb">
         <a href="/embroidery-machines.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-embroidery-machine.jpg" class="img-responsive" alt="Embroidery Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-embroidery-machine.jpg" class="lazy img-responsive" alt="Embroidery Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-machines.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" alt="Sewing Machines" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-machines.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-machines.jpg" alt="Sewing Machines" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Embroidery Machines
@@ -1014,11 +1014,11 @@
        <div class="category-brand-list-thumb">
         <a href="/industrial-sewing-machines.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-industrial-machines.jpg" class="img-responsive" alt="Industrial Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-industrial-machines.jpg" class="lazy img-responsive" alt="Industrial Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-industrial-machines.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-industrial-machines.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-industrial-machines.jpg" alt="Industrial Machines" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-industrial-machines.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-industrial-machines.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-industrial-machines.jpg" alt="Industrial Machines" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Industrial Machines
@@ -1030,11 +1030,11 @@
        <div class="category-brand-list-thumb">
         <a href="/serger.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-sergers.jpg" class="img-responsive" alt="Serger/Overlock Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-sergers.jpg" class="lazy img-responsive" alt="Serger/Overlock Machines" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sergers.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sergers.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sergers.jpg" alt="Serger/Overlock Machines" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sergers.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sergers.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sergers.jpg" alt="Serger/Overlock Machines" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Serger / Overlocks
@@ -1046,11 +1046,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-furniture.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-sewing-furniture.jpg" class="img-responsive" alt="Sewing Furniture" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-sewing-furniture.jpg" class="lazy img-responsive" alt="Sewing Furniture" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-furniture.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-furniture.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-furniture.jpg" alt="Sewing Furniture" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-furniture.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-furniture.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-furniture.jpg" alt="Sewing Furniture" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Sewing Furniture
@@ -1062,11 +1062,11 @@
        <div class="category-brand-list-thumb">
         <a href="/garment-care.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-garmentcare.jpg" class="img-responsive" alt="Garment Care" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-garmentcare.jpg" class="lazy img-responsive" alt="Garment Care" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-garmentcare.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-garmentcare.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-garmentcare.jpg" alt="Garment Care" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-garmentcare.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-garmentcare.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-garmentcare.jpg" alt="Garment Care" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Garment Care
@@ -1078,11 +1078,11 @@
        <div class="category-brand-list-thumb">
         <a href="/vacuum-cleaners.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-vacuums.jpg" class="img-responsive" alt="Vacuum Cleaners" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-vacuums.jpg" class="lazy img-responsive" alt="Vacuum Cleaners" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-vacuums.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-vacuums.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-vacuums.jpg" alt="Garment Care" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-vacuums.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-vacuums.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-vacuums.jpg" alt="Garment Care" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Vacuum Cleaners
@@ -1094,11 +1094,11 @@
        <div class="category-brand-list-thumb">
         <a href="/embroidery-software.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-embroidery-software.jpg" class="img-responsive" alt="Embroidery Software" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-embroidery-software.jpg" class="lazy img-responsive" alt="Embroidery Software" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-embroidery-software.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" alt="Garment Care" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-embroidery-software.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" alt="Garment Care" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Embroidery Software
@@ -1110,11 +1110,11 @@
        <div class="category-brand-list-thumb">
         <a href="/embroidery-supplies.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-embroidery-supplies.jpg" class="img-responsive" alt="Embroidery Supplies &amp; Designs" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-embroidery-supplies.jpg" class="lazy img-responsive" alt="Embroidery Supplies &amp; Designs" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-embroidery-software.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" alt="Garment Care" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-embroidery-software.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-embroidery-software.jpg" alt="Garment Care" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Embroidery Supplies &amp; Designs
@@ -1126,11 +1126,11 @@
        <div class="category-brand-list-thumb">
         <a href="/embroidery-hoops.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-hoops.jpg" class="img-responsive" alt="Embroidery Hoops" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-hoops.jpg" class="lazy img-responsive" alt="Embroidery Hoops" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-hoops.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-hoops.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-hoops.jpg" alt="Garment Care" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-hoops.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-hoops.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-hoops.jpg" alt="Garment Care" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Embroidery Hoops
@@ -1142,11 +1142,11 @@
        <div class="category-brand-list-thumb">
         <a href="/quilting-supplies.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-quilting-supplies.jpg" class="img-responsive" alt="Quilting Supplies" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-quilting-supplies.jpg" class="lazy img-responsive" alt="Quilting Supplies" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-quilting-supplies.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-quilting-supplies.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-quilting-supplies.jpg" alt="Garment Care" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-quilting-supplies.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-quilting-supplies.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-quilting-supplies.jpg" alt="Garment Care" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Quilting Supplies
@@ -1158,11 +1158,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-feet.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-presser-feet.jpg" class="img-responsive" alt="Presser Feet" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-presser-feet.jpg" class="lazy img-responsive" alt="Presser Feet" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-presser-feet.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" alt="Presser Feet" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-presser-feet.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" alt="Presser Feet" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Presser Feet
@@ -1174,11 +1174,11 @@
        <div class="category-brand-list-thumb">
         <a href="/thread.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-thread.jpg" class="img-responsive" alt="Sewing Thread" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-thread.jpg" class="lazy img-responsive" alt="Sewing Thread" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-presser-feet.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" alt="Presser Feet" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-presser-feet.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-presser-feet.jpg" alt="Presser Feet" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Thread
@@ -1190,11 +1190,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-needles.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-needles.jpg" class="img-responsive" alt="Sewing Needles" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-needles.jpg" class="lazy img-responsive" alt="Sewing Needles" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-needles.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-needles.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-needles.jpg" alt="Sewing Needles" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-needles.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-needles.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-needles.jpg" alt="Sewing Needles" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Needles
@@ -1206,11 +1206,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-bobbins.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-bobbins.jpg" class="img-responsive" alt="Sewing Bobbins" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-bobbins.jpg" class="lazy img-responsive" alt="Sewing Bobbins" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-bobbins.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-bobbins.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-bobbins.jpg" alt="Sewing Bobbins" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-bobbins.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-bobbins.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-bobbins.jpg" alt="Sewing Bobbins" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Bobbins
@@ -1222,11 +1222,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-supplies.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-sewing-supplies.jpg" class="img-responsive" alt="Sewing Supplies" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-sewing-supplies.jpg" class="lazy img-responsive" alt="Sewing Supplies" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-supplies.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-supplies.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-supplies.jpg" alt="Sewing Supplies" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-sewing-supplies.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-supplies.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-sewing-supplies.jpg" alt="Sewing Supplies" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Sewing Supplies
@@ -1238,11 +1238,11 @@
        <div class="category-brand-list-thumb">
         <a href="/sewing-accessories-cases.php">
          <center>
-          <!-- <img src="/media/products/icons/new/link-trolley.jpg" class="img-responsive" alt="Cases, Totes &amp; Trolleys" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/products/icons/new/link-trolley.jpg" class="lazy img-responsive" alt="Cases, Totes &amp; Trolleys" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-trolley.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-trolley.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-trolley.jpg" alt="Cases, Totes &amp; Trolleys" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/link-trolley.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-trolley.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/products/icons/new/link-trolley.jpg" alt="Cases, Totes &amp; Trolleys" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Trolleys, Totes, &amp; Cases
@@ -1254,11 +1254,11 @@
        <div class="category-brand-list-thumb">
         <a href="/fabrics.php">
          <center>
-          <!-- <img src="/media/banners/2017-blackfriday/sale-fabric-link.jpg" class="img-responsive" alt="Fabric" width="123" vspace="3" border="0" hspace="3" height="126"> -->
+          <!-- <img src="/media/banners/2017-blackfriday/sale-fabric-link.jpg" class="lazy img-responsive" alt="Fabric" width="123" vspace="3" border="0" hspace="3" height="126"> -->
           <picture>
-            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/sale-fabric-link.webp" type="image/webp" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <source srcset="https://cdn.sewingmachinesplus.com/media/banners/2017-blackfriday/sale-fabric-link.jpg" type="image/jpeg" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/banners/2017-blackfriday/sale-fabric-link.jpg" alt="Fabric" class="img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/sale-fabric-link.webp" type="image/webp" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <source srcset="https://cdn.sewingmachinesplus.com/media/banners/2017-blackfriday/sale-fabric-link.jpg" type="image/jpeg" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/banners/2017-blackfriday/sale-fabric-link.jpg" alt="Fabric" class="lazy img-responsive" width="123" vspace="3" border="0" hspace="3" height="126">
           </picture>
 
           <br>Fabric
@@ -1476,7 +1476,7 @@
     <div class="blocks-main">
      <div class="col-sm-4">
       <a href="/sewing-machines.php" class="blocks-col">
-       <img src="/AE/images/top-categories-1.jpg" alt="" class="img-responsive">
+       <img src="/AE/images/top-categories-1.jpg" alt="" class="lazy img-responsive">
        <div class="block-overlay">
         <h4>House hold sewing machines</h4>
        </div>
@@ -1484,7 +1484,7 @@
      </div>
      <div class="col-sm-4">
       <a href="/industrial-sewing-machines.php" class="blocks-col">
-       <img src="/AE/images/top-categories-2.jpg" alt="" class="img-responsive">
+       <img src="/AE/images/top-categories-2.jpg" alt="" class="lazy img-responsive">
        <div class="block-overlay">
         <h4>Industrial Machines</h4>
        </div>
@@ -1492,7 +1492,7 @@
      </div>
      <div class="col-sm-4">
       <a href="/quilting-notions.php" class="blocks-col">
-       <img src="/AE/images/top-categories-3.jpg" alt="" class="img-responsive">
+       <img src="/AE/images/top-categories-3.jpg" alt="" class="lazy img-responsive">
        <div class="block-overlay">
         <h4>Quilting Supplies</h4>
        </div>
@@ -1500,7 +1500,7 @@
      </div>
      <div class="col-sm-4">
       <a href="/sewing-furniture.php" class="blocks-col">
-       <img src="/AE/images/top-categories-4.jpg" alt="" class="img-responsive">
+       <img src="/AE/images/top-categories-4.jpg" alt="" class="lazy img-responsive">
        <div class="block-overlay">
         <h4>Sewing Furniture</h4>
        </div>
@@ -1508,7 +1508,7 @@
      </div>
      <div class="col-sm-4">
       <a href="/irons-and-presses.php" class="blocks-col">
-       <img src="/AE/images/top-categories-5.jpg" alt="" class="img-responsive">
+       <img src="/AE/images/top-categories-5.jpg" alt="" class="lazy img-responsive">
        <div class="block-overlay">
         <h4>Garment Care</h4>
        </div>
@@ -1516,7 +1516,7 @@
      </div>
      <div class="col-sm-4">
       <a href="/machinebrands.php" class="blocks-col">
-       <img src="/AE/images/top-categories-6.jpg" alt="" class="img-responsive">
+       <img src="/AE/images/top-categories-6.jpg" alt="" class="lazy img-responsive">
        <div class="block-overlay">
         <h4>Popular Brands</h4>
        </div>
@@ -1575,9 +1575,9 @@
           <a href="//www.sewingmachinesplus.com/king-quilter-special-edition.php" id="rotateLink">
             <!-- <img height="445" width="650" id="img_lg" alt="King Quilter Special Edition" src="/ad_homepage/ad1.jpg?mb4spricechange" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/ad1.webp?mb4spricechange" type="image/webp" class="img-responsive">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad1.jpg?mb4spricechange" type="image/jpeg" class="img-responsive">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad1.jpg?mb4spricechange" alt="King Quilter Special Edition" class="img-responsive">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/ad1.webp?mb4spricechange" type="image/webp" class="lazy img-responsive">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad1.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad1.jpg?mb4spricechange" alt="King Quilter Special Edition" class="lazy img-responsive">
             </picture>
           </a>
         </td>
@@ -1588,9 +1588,9 @@
           <a onMouseOver="btnRotate(1, 'on')" onMouseOut="btnRotate(1, 'off'); setNum(1);" href="//www.sewingmachinesplus.com/king-quilter-special-edition.php">
             <!-- <img height="43" width="108" onMouseOver="imgRotate(1)" id="btn1" src="/ad_homepage/bt1.jpg?mb4spricechange" alt="King Quilter Special Edition" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt1.webp?mb4spricechange" type="image/webp" class="img-responsive" onMouseOver="imgRotate(1)" id="btn1">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt1.jpg?mb4spricechange" type="image/jpeg" class="img-responsive" onMouseOver="imgRotate(2)" id="btn1">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt1.jpg?mb4spricechange" alt="King Quilter Special Edition" class="img-responsive" onMouseOver="imgRotate(1)" id="btn1">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt1.webp?mb4spricechange" type="image/webp" class="lazy img-responsive" onMouseOver="imgRotate(1)" id="btn1">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt1.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive" onMouseOver="imgRotate(2)" id="btn1">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt1.jpg?mb4spricechange" alt="King Quilter Special Edition" class="lazy img-responsive" onMouseOver="imgRotate(1)" id="btn1">
             </picture>
           </a>
         </td>
@@ -1598,18 +1598,18 @@
           <a onMouseOver="btnRotate(2, 'on')" onMouseOut="btnRotate(2, 'off'); setNum(2);" href="//www.sewingmachinesplus.com/hq-simply-sixteen.php">
             <!-- <img height="43" width="108" onMouseOver="imgRotate(2)" id="btn2" src="/ad_homepage/bt2.jpg?mb4spricechange" alt="Handi Quilter Simply Sixteen" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt2.webp?mb4spricechange" type="image/webp" class="img-responsive" onMouseOver="imgRotate(2)" id="btn2">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" type="image/jpeg" class="img-responsive" onMouseOver="imgRotate(2)" id="btn2">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" alt="Handi Quilter Simply Sixteen" class="img-responsive" onMouseOver="imgRotate(2)" id="btn2">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt2.webp?mb4spricechange" type="image/webp" class="lazy img-responsive" onMouseOver="imgRotate(2)" id="btn2">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive" onMouseOver="imgRotate(2)" id="btn2">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" alt="Handi Quilter Simply Sixteen" class="lazy img-responsive" onMouseOver="imgRotate(2)" id="btn2">
             </picture>
           </a>
         </td>
         <td valign="top"><a onMouseOver="btnRotate(3, 'on')" onMouseOut="btnRotate(3, 'off'); setNum(3);" href="//www.sewingmachinesplus.com/HandiQuilter-Sweet-Sixteen.php">
             <!-- <img height="43" width="108" onMouseOver="imgRotate(3)" id="btn3" src="/ad_homepage/bt3.jpg?mb4spricechange" alt="Handi Quilter Sweet Sixteen Quilting Machine" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt2.webp?mb4spricechange" type="image/webp" class="img-responsive" onMouseOver="imgRotate(3)" id="btn3">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" type="image/jpeg" class="img-responsive" onMouseOver="imgRotate(3)" id="btn3">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" alt="Handi Quilter Simply Sixteen" class="img-responsive" onMouseOver="imgRotate(3)" id="btn3">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt2.webp?mb4spricechange" type="image/webp" class="lazy img-responsive" onMouseOver="imgRotate(3)" id="btn3">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive" onMouseOver="imgRotate(3)" id="btn3">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/ad_homepage/bt2.jpg?mb4spricechange" alt="Handi Quilter Simply Sixteen" class="lazy img-responsive" onMouseOver="imgRotate(3)" id="btn3">
             </picture>
           </a>
         </td>
@@ -1617,9 +1617,9 @@
           <a onMouseOver="btnRotate(4, 'on')" onMouseOut="btnRotate(4, 'off'); setNum(4);" href="//www.sewingmachinesplus.com/qnique-long-arm-quilter.php">
             <!-- <img height="43" width="108" onMouseOver="imgRotate(4)" id="btn4" src="/ad_homepage/bt4.jpg?mb4spricechange" alt="Qnique Quilting Machine" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt4.webp?mb4spricechange" type="image/webp" class="img-responsive" onMouseOver="imgRotate(4)" id="btn4">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/bt4.jpg?mb4spricechange" type="image/jpeg" class="img-responsive" onMouseOver="imgRotate(4)" id="btn4">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/bt4.jpg?mb4spricechange" alt="King Quilter Special Edition" class="img-responsive" onMouseOver="imgRotate(4)" id="btn4">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt4.webp?mb4spricechange" type="image/webp" class="lazy img-responsive" onMouseOver="imgRotate(4)" id="btn4">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/bt4.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive" onMouseOver="imgRotate(4)" id="btn4">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/bt4.jpg?mb4spricechange" alt="King Quilter Special Edition" class="lazy img-responsive" onMouseOver="imgRotate(4)" id="btn4">
             </picture>
           </a>
         </td>
@@ -1627,9 +1627,9 @@
           <a onMouseOver="btnRotate(5, 'on')" onMouseOut="btnRotate(5, 'off'); setNum(5);" href="//www.sewingmachinesplus.com/Melco-AmayaBravoFullDigitizing.php">
             <!-- <img height="43" width="108" onMouseOver="imgRotate(5)" id="btn5" src="/ad_homepage/bt5.jpg?mb4spricechange" alt="Handi Quilter Avante HQ18" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt5.webp?mb4spricechange" type="image/webp" class="img-responsive" onMouseOver="imgRotate(5)" id="btn5">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/bt5.jpg?mb4spricechange" type="image/jpeg" class="img-responsive" onMouseOver="imgRotate(5)" id="btn5">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/bt5.jpg?mb4spricechange" alt="King Quilter Special Edition" class="img-responsive" onMouseOver="imgRotate(5)" id="btn5">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt5.webp?mb4spricechange" type="image/webp" class="lazy img-responsive" onMouseOver="imgRotate(5)" id="btn5">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/bt5.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive" onMouseOver="imgRotate(5)" id="btn5">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/bt5.jpg?mb4spricechange" alt="King Quilter Special Edition" class="lazy img-responsive" onMouseOver="imgRotate(5)" id="btn5">
             </picture>
           </a>
         </td>
@@ -1637,9 +1637,9 @@
           <a onMouseOver="btnRotate(6, 'on')" onMouseOut="btnRotate(6, 'off'); setNum(6);" href="//www.sewingmachinesplus.com/janome-MB-4.php">
             <!-- <img height="43" width="108" onMouseOver="imgRotate(6)" id="btn6" src="/ad_homepage/bt6.jpg?mb4spricechange" alt="Janome MB4-N Embroidery Machine" /> -->
             <picture>
-              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt6.webp?mb4spricechange" type="image/webp" class="img-responsive" onMouseOver="imgRotate(6)" id="btn6">
-              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/bt6.jpg?mb4spricechange" type="image/jpeg" class="img-responsive" onMouseOver="imgRotate(6)" id="btn6">
-              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/bt6.jpg?mb4spricechange" alt="King Quilter Special Edition" class="img-responsive" onMouseOver="imgRotate(6)" id="btn6">
+              <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bt6.webp?mb4spricechange" type="image/webp" class="lazy img-responsive" onMouseOver="imgRotate(6)" id="btn6">
+              <source srcset="https://cdn.sewingmachinesplus.com/ad_homepage/bt6.jpg?mb4spricechange" type="image/jpeg" class="lazy img-responsive" onMouseOver="imgRotate(6)" id="btn6">
+              <img data-src="https://cdn.sewingmachinesplus.com/ad_homepage/bt6.jpg?mb4spricechange" alt="King Quilter Special Edition" class="lazy img-responsive" onMouseOver="imgRotate(6)" id="btn6">
             </picture>
           </a>
         </td>
@@ -1651,9 +1651,9 @@
       <td colspan="2"><a href="//www.sewingmachinesplus.com/bernina-780-preorder-bundle.php">
         <!-- <img src="//cdn.sewingmachinesplus.com/media/homepage-categories/bernina-home-cat.jpg" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bernina-home-cat.webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/bernina-home-cat.jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/bernina-home-cat.jpg" alt="Bernina 780 Preorder Bundle" class="img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/bernina-home-cat.webp" type="image/webp" class="lazy img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/bernina-home-cat.jpg" type="image/jpeg" class="lazy img-responsive">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/bernina-home-cat.jpg" alt="Bernina 780 Preorder Bundle" class="lazy img-responsive">
         </picture>
       </a>
     </td>
@@ -1662,18 +1662,18 @@
       <td align="right"><a href="//www.sewingmachinesplus.com/best-selling-embroidery-machines-2015.php">
         <!-- <img src="//cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat1.jpg" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat1.webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat1.jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat1.jpg" alt="Best Selling Embroidery Machines" class="img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat1.webp" type="image/webp" class="lazy img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat1.jpg" type="image/jpeg" class="lazy img-responsive">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat1.jpg" alt="Best Selling Embroidery Machines" class="lazy img-responsive">
         </picture>
       </a>
     </td>
       <td align="left"><a href="//www.sewingmachinesplus.com/brands-madeira.php">
       <!-- <img src="//cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat2.jpg" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat2.webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat2.jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat2.jpg" alt="" class="img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat2.webp" type="image/webp" class="lazy img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat2.jpg" type="image/jpeg" class="lazy img-responsive">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat2.jpg" alt="" class="lazy img-responsive">
         </picture>
       </a>
     </td>
@@ -1682,9 +1682,9 @@
       <td colspan="2"><a href="//www.sewingmachinesplus.com/anita-goodesign-clubs.php">
       <!-- <img src="/media/homepage-categories/homecat-anita.jpg" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homecat-anita.webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homecat-anita.jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homecat-anita.jpg" alt="Anita Goodesign Clubs" class="img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homecat-anita.webp" type="image/webp" class="lazy img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homecat-anita.jpg" type="image/jpeg" class="lazy img-responsive">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homecat-anita.jpg" alt="Anita Goodesign Clubs" class="lazy img-responsive">
         </picture>
       </a>
     </td>
@@ -1693,18 +1693,18 @@
       <td align="right"><a href="//www.sewingmachinesplus.com/industrial-sewing-machines.php">
         <!-- <img src="//cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat5.jpg" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat5.webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat5.jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat5.jpg" alt="Industrial Sewing Machines" class="img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat5.webp" type="image/webp" class="lazy img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat5.jpg" type="image/jpeg" class="lazy img-responsive">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat5.jpg" alt="Industrial Sewing Machines" class="lazy img-responsive">
         </picture>
       </a>
     </td>
       <td align="left"><a href="//www.sewingmachinesplus.com/quilting-hardware-software.php">
         <!-- <img src="//cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat6.jpg" /> -->
         <picture>
-          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat6.webp" type="image/webp" class="img-responsive">
-          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat6.jpg" type="image/jpeg" class="img-responsive">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat6.jpg" alt="Quitling Hardware & Software" class="img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/products/icons/new/webp/homepage-cat6.webp" type="image/webp" class="lazy img-responsive">
+          <source srcset="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat6.jpg" type="image/jpeg" class="lazy img-responsive">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/homepage-categories/homepage-cat6.jpg" alt="Quitling Hardware & Software" class="lazy img-responsive">
         </picture>
       </a>
     </td>

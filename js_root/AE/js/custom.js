@@ -149,7 +149,7 @@ jQuery(document).ready(function () {
 		prevArrow: "<button type='button' data-role='none' class='slick-prev'><span class='visuallyhidden'>Previous</span><span class='icon-arrowleft'></span></button>",
 		nextArrow: "<button type='button' data-role='none' class='slick-next'><span class='visuallyhidden'>Next</span><span class='icon-arrowright'></span></button>",
 		asNavFor: '.alt-views',
-		infinite: false,
+		// infinite: false,
 		dots: true
 	});	
 	$('.alt-views').slick({
@@ -290,15 +290,15 @@ jQuery(function () {
     jQuery('[data-toggle="tooltip"]').tooltip();
 });
 
-/**match heights**/
-jQuery(document).ready(function () {
-	$('.item_holder .title h5').matchHeight();
-	$('.category-list-thumb h3').matchHeight();
-    $('.category-brand-list-thumb').matchHeight();
-	$('.product-listing .product-listing-row .item_holder .title h2').matchHeight();
-	$('ul.sub-menu-list li').matchHeight();
-	$('.brand-list-thumb h3').matchHeight();
-});
+// /**match heights**/
+// jQuery(document).ready(function () {
+// 	$('.item_holder .title h5').matchHeight();
+// 	$('.category-list-thumb h3').matchHeight();
+//     $('.category-brand-list-thumb').matchHeight();
+// 	$('.product-listing .product-listing-row .item_holder .title h2').matchHeight();
+// 	$('ul.sub-menu-list li').matchHeight();
+// 	$('.brand-list-thumb h3').matchHeight();
+// });
 
 /**temporary hawk search functionality for demo purposes, this should be deleted**/
 jQuery(document).ready(function () {
