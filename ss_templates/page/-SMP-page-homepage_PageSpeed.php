@@ -428,7 +428,7 @@ _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
 
     </body>
     [-- INCLUDE -SMP-js-plugins_pagespeed --]
-    <script src="/AE/masterslider/_pagespeed/masterslider.min.js"></script>
+    <script src="/AE/masterslider/_pagespeed/masterslider.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
 
     </html>
   [-- END_DEFINE PAGE --]

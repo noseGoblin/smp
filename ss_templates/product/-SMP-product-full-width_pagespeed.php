@@ -184,7 +184,7 @@
     [--IF PRODUCT.Field14--]
       <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
         <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden; background-image: url(/media/[-- IMAGE PRODUCT.Graphic --]); background-size:130px 130px; background-position: center; background-repeat: no-repeat;">
-          <img src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="productLinkImg" width="130" height="130"/>
+          <img src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="lazy productLinkImg" width="130" height="130"/>
           <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
         </div>
         <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>
@@ -197,7 +197,7 @@
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]webp" type="image/webp" class="productLinkImg" width="130" height="130">
             <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="lazy productLinkImg" width="130" height="130">
           </picture>
           <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
         </div>
@@ -212,7 +212,7 @@
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]webp" type="image/webp" class="productLinkImg" width="130" height="130">
           <source srcset="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" type="image/jpeg" class="productLinkImg" width="130" height="130">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="productLinkImg" width="130" height="130">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/[-- IMAGE PRODUCT.Graphic --]jpg" alt="[-- PRODUCT.Name --]" title="[-- PRODUCT.Name --]" class="lazy productLinkImg" width="130" height="130">
         </picture>
         <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
       </div>
@@ -228,19 +228,19 @@
       var flagVal = "[--PRODUCT.Field48--]";
       var flagsUp = "";
       if (flagVal.indexOf("top")!==-1){
-        flagsUp+=("<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>")
+        flagsUp+=("<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/top-rated.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy product-flag'></picture><br>")
       }
       if (flagVal.indexOf("new")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/new-product.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/new-product.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/new-product.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
+        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/new-product.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/new-product.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/new-product.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy product-flag'></picture><br>"
       }
       if (flagVal.indexOf("best")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
+        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/best-seller.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy product-flag'></picture><br>"
       }
       if (flagVal.indexOf("staff")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
+        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/staff-pick.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy product-flag'></picture><br>"
       }
       if (freeShip.indexOf("free")!==-1){
-        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture><br>"
+        flagsUp+="<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy product-flag'></picture><br>"
       }
       j('#flag-[--PRODUCT.sku--]').append(flagsUp);
     });
@@ -248,7 +248,7 @@
   [--ELSE--]
   [--IF Product.Field10 "free"--]
     <script>
-      j('#flag-[--PRODUCT.sku--]').append("<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='product-flag'></picture>");
+      j('#flag-[--PRODUCT.sku--]').append("<picture><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.webp' type='image/webp' class='product-flag'><source srcset='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' type='image/jpeg' class='product-flag'><img data-src='//cdn.sewingmachinesplus.com/media/images/flags/free-delivery.jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy product-flag'></picture>");
     </script>
   [-- END_IF --]
   [--END_IF--]
@@ -277,7 +277,7 @@
       <picture>
         <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.webp" type="image/webp" class="productLinkImg">
         <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.jpg" type="image/jpeg" class="productLinkImg">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.jpg" alt="" title="" class="productLinkImg">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/promotions/pre-black-friday-sale.jpg" alt="" title="" class="lazy productLinkImg">
       </picture>
     [-- END_IF --]
     [--IF Product.Field10 "cyber"--]
@@ -285,7 +285,7 @@
       <picture>
         <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.webp" type="image/webp" class="productLinkImg">
         <source srcset="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.jpg" type="image/jpeg" class="productLinkImg">
-        <img data-src="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.jpg" alt="" title="" class="productLinkImg">
+        <img data-src="https://cdn.sewingmachinesplus.com/media/promotions/cyber-week-sale.jpg" alt="" title="" class="lazy productLinkImg">
       </picture>
     [-- END_IF --]
     [--IF Product.Field10 "nextday"--]
@@ -837,7 +837,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
             </style>
             <div id="geopopup" class="container well2" style="background-color:#ffffff; max-width:65%;">
               <p style="text-align:center;font-size:2.0em;">FREE Shipping on orders $49 and up.<p>
-              <img src="//cdn.sewingmachinesplus.com/images/UPS-ship-time-map.gif" style="margin:0 auto 10px;display:block;"/>
+              <img class="lazy" src="//cdn.sewingmachinesplus.com/images/UPS-ship-time-map.gif" data-srcset="//cdn.sewingmachinesplus.com/images/UPS-ship-time-map.gif" data-src="//cdn.sewingmachinesplus.com/images/UPS-ship-time-map.gif" style="margin:0 auto 10px;display:block;"/>
               <p>Most orders are processed and shipped same day. Orders placed on Friday after 3pm, Saturday, or Sunday are processed on Monday. Processing and shipping does not take place on weekends or holidays.</p>
               <p>Within the continental United States (the contiguous 48 states), Shipping is FREE to customers on orders over $49. Orders being shipped to Hawaii, Alaska, Canada, APO's, FPO's and DPO's are not eligible for free shipping. Also, the free shipping policy does not apply to large or heavy items that require special shipping methods such as assembled industrial sewing machines and some sewing cabinets.</p>
               <p><a class="btn btn-secondary btn-lg geopopup_close" style="background-color:#e70000 !important;" href="#" role="button">Close</a></p>
@@ -884,11 +884,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                 </script>
                 [-- IF PRODUCT.Field47--]
                   <div class="col-md-12">
-                    <!-- <img src="[--PRODUCT.Field47--]" class="img-responsive"> -->
+                    <!-- <img data-src="[--PRODUCT.Field47--]" data-srcset="[--PRODUCT.Field47--]" class="lazy img-responsive"> -->
                     <picture>
-                      <source srcset="[--PRODUCT.Field47--].webp" type="image/webp">
-                      <source srcset="[--PRODUCT.Field47--].jpg" type="image/jpeg">
-                      <img data-src="[--PRODUCT.Field47--].jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]">
+                      <source srcset="[--PRODUCT.Field47--].webp" type="image/webp" class="img-responsive">
+                      <source srcset="[--PRODUCT.Field47--].jpg" type="image/jpeg" class="img-responsive">
+                      <img data-src="[--PRODUCT.Field47--].jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy img-responsive">
                     </picture>
                   </div>
                 [--END_IF--]
@@ -917,7 +917,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                               $ititle = $img_title;
                             }
                             if($n==0){
-                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image2."' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge."webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge."jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge."jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='mediumImage img-responsive' style='max-height:400px;'></picture></a>";
+                              echo "<a onclick='startLightbox(); return false;' href='//cdn.sewingmachinesplus.com/media/".$image2."' data-title='".$ititle."' ><picture><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge."webp' type='image/webp' class='mediumImage img-responsive' style='max-height:400px;'><source srcset='https://cdn.sewingmachinesplus.com/".$medImgLarge."jpg' type='image/jpeg' class='mediumImage img-responsive' style='max-height:400px;'><img data-src='https://cdn.sewingmachinesplus.com/".$medImgLarge."jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy mediumImage img-responsive' style='max-height:400px;'></picture></a>";
                             }
                           };
                         ?>
@@ -937,7 +937,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                           <picture>
                             <source srcset="https://cdn.sewingmachinesplus.com/media/products360/button.webp" type="image/webp" class="image-360">
                             <source srcset="https://cdn.sewingmachinesplus.com/media/products360/button.jpg" type="image/jpeg" class="image-360">
-                            <img data-src="https://cdn.sewingmachinesplus.com/media/products360/button.jpg" alt="" title="" class="image-360">
+                            <img data-src="https://cdn.sewingmachinesplus.com/media/products360/button.jpg" alt="" title="" class="lazy image-360">
                           </picture>
                           </a>
                         </div>
@@ -961,7 +961,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 $pos = strrpos($medImg, '.');
                                 $medImg = substr_replace($medImg, '_size3.', $pos, 1);
                                 echo "<div class='thumbnailoverflow'>";
-                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image2."'><picture><source srcset='https://cdn.sewingmachinesplus.com/media/".$medImg."webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/media/".$medImg."jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/media/".$medImg."jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='thumbnails'></picture></a>";
+                                echo "<a data-lightbox='thumbnailslightbox' href='//cdn.sewingmachinesplus.com/media/".$image2."'><picture><source srcset='https://cdn.sewingmachinesplus.com/media/".$medImg."webp' type='image/webp' class='thumbnails'><source srcset='https://cdn.sewingmachinesplus.com/media/".$medImg."jpg' type='image/jpeg' class='thumbnails'><img data-src='https://cdn.sewingmachinesplus.com/media/".$medImg."jpg' alt='[-- PRODUCT.Name --]' title='[-- PRODUCT.Name --]' class='lazy thumbnails'></picture></a>";
                                 echo "</div>";
                               };
                             ?>
@@ -979,7 +979,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                           <picture>
                             <source srcset="https://cdn.sewingmachinesplus.com/media/images/view-videos.webp" type="image/webp" class="view-videos">
                             <source srcset="https://cdn.sewingmachinesplus.com/media/images/view-videos.jpg" type="image/jpeg" class="view-videos">
-                            <img data-src="https://cdn.sewingmachinesplus.com/media/images/view-videos.jpg" alt="Click to view videos" title="Click to view videos" class="view-videos">
+                            <img data-src="https://cdn.sewingmachinesplus.com/media/images/view-videos.jpg" alt="Click to view videos" title="Click to view videos" class="lazy view-videos">
                           </picture>
                         </a>
                       </div>
@@ -1040,7 +1040,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           </script>
           [-- END_IF --]
                   <div class="product-banner">
-                    <!--<a href="#craftsy-pop" class="craftsy-pop_open"><img src="//cdn.sewingmachinesplus.com/AE/images/product-details-banner.webp" class="img-responsive" alt="" /></a>-->
+                    <!--<a href="#craftsy-pop" class="craftsy-pop_open"><img src="//cdn.sewingmachinesplus.com/AE/images/product-details-banner.webp" class="lazy img-responsive" alt="" /></a>-->
                   </div>
                 </div>
                 <div class="col-md-6 col-md-push-6-item-details">
@@ -1329,7 +1329,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             [-- END_IF --]
                           <!--close form-->
                           <!--Wishlist -->
-                          <!--<a href="/wishlist/listmanage.php/add/i_[-- PRODUCT.SKU --]" title="Add To Your Wish List"><img border="0" alt="Add To Your Wish List" src="//cdn.sewingmachinesplus.com/media/images/add-to-wishlist-green.webp" class="wishlist_button"></a>-->
+                          <!--<a href="/wishlist/listmanage.php/add/i_[-- PRODUCT.SKU --]" title="Add To Your Wish List"><img border="0" alt="Add To Your Wish List" src="//cdn.sewingmachinesplus.com/media/images/add-to-wishlist-green.webp" class="lazy wishlist_button"></a>-->
                         [--END_IF--]
                       [-- END_IF --]
                       <script type="text/javascript">
@@ -1338,7 +1338,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                         //-->
                       </script>
                       <!--<a href="#" onClick="window.open('/cgi-sewdemo2/sb/tellfriend.cgi?storeid=*1a55e44c50fd5a9e18c062cfd94a5c&str=[-- PRODUCT.Name --]&from=[-- PRODUCT.MoreInfoURL --]','tellfriend','width=560,height=560,resizable=yes,scrollbars=yes, status=yes');return false;">
-                      <img src="//cdn.sewingmachinesplus.com/images/send-to-friend2.webp" width="120" style="border: 0px; float: right;" />
+                      <img src="//cdn.sewingmachinesplus.com/images/send-to-friend2.webp" width="120" class="lazy" style="border: 0px; float: right;" />
                       </a>-->
                     <!--</div>end product-detail-desc original extra div-->
 
@@ -1420,7 +1420,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                       <picture>
                                         <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" type="image/webp">
                                         <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" type="image/jpeg">
-                                        <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location">
+                                        <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location" class="lazy">
                                       </picture>
                                       <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" alt="San Marcos, CA location" title="San Marcos, CA location" /> -->
                                     </a>
@@ -1438,7 +1438,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                       <picture>
                                         <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" type="image/webp">
                                         <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" type="image/jpeg">
-                                        <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!">
+                                        <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" class="lazy">
                                       </picture>
                                       <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" /> -->
                                     </a>
@@ -1563,7 +1563,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                     <picture>
                                       <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" type="image/webp">
                                       <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" type="image/jpeg">
-                                      <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location">
+                                      <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-marcos.jpg" alt="San Marcos, CA location" title="San Marcos, CA location" class="lazy">
                                     </picture>
                                     <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-marcos.webp" alt="San Marcos, CA location" title="San Marcos, CA location" /> -->
                                   </a>
@@ -1581,7 +1581,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                     <picture>
                                       <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" type="image/webp">
                                       <source srcset="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" type="image/jpeg">
-                                      <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!">
+                                      <img data-src="https://cdn.sewingmachinesplus.com/images/contact-us/san-diego.jpg" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" class="lazy">
                                     </picture>
                                     <!-- <img src="//cdn.sewingmachinesplus.com/images/contact-us/san-diego.webp" alt="San Diego, CA location - NOW OPEN!!!" title="San Diego, CA location - NOW OPEN!!!" /> -->
                                   </a>
@@ -1614,44 +1614,44 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             name=name.toLowerCase();
 
                             if(name.indexOf("singer") > -1){
-                              document.getElementById('disclink').innerHTML='<a href="/singer-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                              document.getElementById('disclink').innerHTML='<a href="/singer-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                             }else{
                               if(name.indexOf("lizzie") > -1){
-                              document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                              document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                               }else{
                                 if(name.indexOf("long arm") > -1){
-                                  document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                  document.getElementById('disclink').innerHTML='<a href="/long-arm-quilting-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                 }else{
                                   if(name.indexOf("reliable") > -1){
-                                    document.getElementById('disclink').innerHTML='<a href="/reliable-brands.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                    document.getElementById('disclink').innerHTML='<a href="/reliable-brands.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                   }else{
                                     if(name.indexOf("brother") > -1){
-                                      document.getElementById('disclink').innerHTML='<a href="/brother-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                      document.getElementById('disclink').innerHTML='<a href="/brother-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                     }else{
                                       if(name.indexOf("janome")>-1){
                                         if(name.indexOf("9500")>-1 || name.indexOf("9700")>-1){
-                                          document.getElementById('disclink').innerHTML='<a href="/janome-mc11000se.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                          document.getElementById('disclink').innerHTML='<a href="/janome-mc11000se.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                         }else{
-                                          document.getElementById('disclink').innerHTML='<a href="/janome-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                          document.getElementById('disclink').innerHTML='<a href="/janome-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                         }
                                       }else{
                                         if(name.indexOf("juki")>-1){
-                                          document.getElementById('disclink').innerHTML='<a href="/juki-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                          document.getElementById('disclink').innerHTML='<a href="/juki-sewing-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                         }else{
                                           if(name.indexOf("miele")>-1){
-                                            document.getElementById('disclink').innerHTML='<a href="/miele.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                            document.getElementById('disclink').innerHTML='<a href="/miele.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                           }else{
                                             if(name.indexOf("consew")>-1){
-                                              document.getElementById('disclink').innerHTML='<a href="/consew-industrial-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                              document.getElementById('disclink').innerHTML='<a href="/consew-industrial-machines.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                             }else{
                                               if(name.indexOf("handi")>-1){
-                                                document.getElementById('disclink').innerHTML='<a href="/quilt-brand-hq.php.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                                document.getElementById('disclink').innerHTML='<a href="/quilt-brand-hq.php.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                               }else{
                                                 if(name.indexOf("arrow")>-1){
-                                                  document.getElementById('disclink').innerHTML='<a href="/arrow-sewing-cabinets.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                                  document.getElementById('disclink').innerHTML='<a href="/arrow-sewing-cabinets.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                                 }else{
                                                   if(name.indexOf("kangaroo")>-1){
-                                                    document.getElementById('disclink').innerHTML='<a href="/kangaroo-kabinets.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]"></picture></a>';
+                                                    document.getElementById('disclink').innerHTML='<a href="/kangaroo-kabinets.php"><picture><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.webp" type="image/webp"><source srcset="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" type="image/jpeg"><img data-src="https://cdn.sewingmachinesplus.com/media/images/disclink.jpg" alt="[-- Product.Name --]" title="[-- Product.Name --]" class="lazy"></picture></a>';
                                                   }else{
                                                     document.getElementById('disclink').innerHTML='<p><b>This product has been discontinued and is no longer available</b></p>';
                                                   }
@@ -1875,8 +1875,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 }
                               }
                             </style>
-                        <!--     <div id="b2ssaledesktop" style="text-align:center;margin-bottom:20px;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_02.webp"/></a></div>
-                            <div id="b2ssalemobile" style="text-align:center;margin-bottom:20px;display:none;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_09.webp"/></a></div>  -->
+                        <!--     <div id="b2ssaledesktop" style="text-align:center;margin-bottom:20px;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_02.webp" class="lazy" /></a></div>
+                            <div id="b2ssalemobile" style="text-align:center;margin-bottom:20px;display:none;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_09.webp" class="lazy" /></a></div>  -->
                             [-- IF PRODUCT.Field50 "bernette" --]
                               <?php include('manufacturerwarranties/bernette.html'); ?>
                             [-- ELSE_IF PRODUCT.Field50 "bernina"--]
@@ -1908,7 +1908,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   <picture>
                                     <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.webp" type="image/webp">
                                     <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.jpg" type="image/jpeg">
-                                    <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.jpg" alt="Long Arm 3 Year Warranty Included" title="Long Arm 3 Year Warranty Included" class="2col">
+                                    <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/3year-warranty.jpg" alt="Long Arm 3 Year Warranty Included" title="Long Arm 3 Year Warranty Included" class="lazy 2col">
                                   </picture>
                                 </div>
                                 <div class="cTxt2">
@@ -1916,7 +1916,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   <picture>
                                     <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.webp" type="image/webp">
                                     <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.jpg" type="image/jpeg">
-                                    <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.jpg" alt="Long Arm 5 Year Warranty Included" title="Long Arm 5 Year Warranty Included" class="2col">
+                                    <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/5year-warranty-banner.jpg" alt="Long Arm 5 Year Warranty Included" title="Long Arm 5 Year Warranty Included" class="lazy 2col">
                                   </picture>
                                   <h2 class="smp21">Long Arm 3 Year Warranty Included <i>FREE</i></h2>
                                   <ul>
@@ -1926,11 +1926,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   </ul>
                                   <hr style="margin-bottom:0;" />
                                   <blockquote cite="http://" style="margin-bottom:0;" style="padding:20px 40px 20px 40px;">
-                                    <!-- <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.webp" style="float:left !important;border-bottom:1px solid #d6d6d6;" /> -->
+                                    <!-- <img src="//cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.webp" style="float:left !important;border-bottom:1px solid #d6d6d6;" class="lazy" /> -->
                                     <picture>
                                       <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.webp" type="image/webp">
                                       <source srcset="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.jpg" type="image/jpeg">
-                                      <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.jpg" alt="" title="" style="float:left !important;border-bottom:1px solid #d6d6d6;">
+                                      <img data-src="https://cdn.sewingmachinesplus.com/media/smp-guarantee/ron80.jpg" alt="" title="" style="float:left !important;border-bottom:1px solid #d6d6d6;" class="lazy">
                                     </picture>
                                     <p style="font-style:italic; text-align:center; padding:15px 30px;line-height:1.5;">I Ron Martin, owner, have 40 years in the sewing machine business & I give my personal assurance.</p>
                                     <hr />
@@ -1985,25 +1985,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 #moreInfo .modelCompare-outter #modelCompare-table {
                                   width: 1135px !important;
                                 }
-                                @media screen and (max-width: 1399px) {
-                                  #moreInfo .modelCompare-outter #modelCompare-table {
-                                    width:810px !important;
-                                  }
-                                  #moreInfo .modelCompare-outter #modelCompare-table td {
-                                    width: 162px !important;
-                                  }
-                                }
-                                @media screen and (max-width: 1024px) {
-                                  #moreInfo .modelCompare-outter #modelCompare-table {
-                                    width: 768px !important;
-                                  }
-                                  #moreInfo .modelCompare-outter #modelCompare-table td {
-                                    width: 153px !important;
-                                  }
-                                  .modelCompare-outter { 
-                                  overflow-x: scroll;
-                                  }
-                                }
                                 #moreInfo .modelCompare-outter #modelCompare-table a {
                                   color: black !important;
                                 }
@@ -2022,11 +2003,33 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 .mcc {
                                   color:green;
                                 }
+                                @media screen and (max-width: 1399px) {
+                                  #moreInfo .modelCompare-outter #modelCompare-table {
+                                    width:810px !important;
+                                  }
+                                  #moreInfo .modelCompare-outter #modelCompare-table td {
+                                    width: 162px !important;
+                                  }
+                                }
+                                @media screen and (max-width: 1024px) {
+                                  #moreInfo .modelCompare-outter #modelCompare-table {
+                                    width: 768px !important;
+                                  }
+                                  #moreInfo .modelCompare-outter #modelCompare-table td {
+                                    width: 153px !important;
+                                  }
+                                  .modelCompare-outter {
+                                  overflow-x: scroll;
+                                  }
+                                }
                               </style>
+
                               <br/>
+
                               <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/tooltipster.bundle.min.css"/>
                               <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css"/>
-                              <script type="text/javascript" src="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/js/tooltipster.bundle.min.js"></script>
+                              <link type="text/javascript" src="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/js/tooltipster.bundle.min.js"/>
+
                               <script>
                               (function($) {
                                 $(document).ready(function() {
@@ -2143,7 +2146,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                   <picture>
                                     <source srcset="https://cdn.sewingmachinesplus.com/platinum-protection.webp" type="image/webp">
                                     <source srcset="https://cdn.sewingmachinesplus.com/platinum-protection.jpg" type="image/jpeg">
-                                    <img data-src="https://cdn.sewingmachinesplus.com/platinum-protection.jpg" alt="3 Year Platinum Protection Warranty" title="3 Year Platinum Protection Warranty" style="float:right !important; max-width:200px;">
+                                    <img data-src="https://cdn.sewingmachinesplus.com/platinum-protection.jpg" alt="3 Year Platinum Protection Warranty" title="3 Year Platinum Protection Warranty" style="float:right !important; max-width:200px;" class="lazy">
                                   </picture>
                                   <h2 class="smp23">3 Year Platinum Protection Warranty</h2>
                                   <h3>Add on a 3 Year Platinum Protection Warranty to your new machine For 100% Peace Of Mind!</h3>
@@ -2296,7 +2299,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-02.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
         </picture>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2304,7 +2307,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-02.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
         </picture>
       </div>
     </div>
@@ -2314,7 +2317,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/sewing-01.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
         </picture>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2342,7 +2345,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-03.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
         </picture>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2350,7 +2353,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-02.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
         </picture>
       </div>
     </div>
@@ -2360,7 +2363,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/quilting-01.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
         </picture>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2386,7 +2389,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-04.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
           </picture>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2394,7 +2397,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-02.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
           </picture>
         </div>
       </div>
@@ -2404,7 +2407,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/emb-01.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
           </picture>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2431,7 +2434,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/title-05.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
           </picture>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2439,7 +2442,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-02.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
           </picture>
         </div>
       </div>
@@ -2449,7 +2452,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.webp" type="image/webp" class="img-responsive" style="margin:0 auto;">
             <source srcset="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.jpg" type="image/jpeg" class="img-responsive" style="margin:0 auto;">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.jpg" alt="" title="" class="img-responsive" style="margin:0 auto;">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/popups/essentials/longarm-01.jpg" alt="" title="" class="lazy img-responsive" style="margin:0 auto;">
           </picture>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -2479,11 +2482,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <picture>
           <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.webp" type="image/webp" style="float: left;margin-bottom: 5px;">
           <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.jpg" type="image/jpeg" style="float: left;margin-bottom: 5px;">
-          <img data-src="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.jpg" alt="" title="" style="float: left;margin-bottom: 5px;">
+          <img data-src="https://cdn.sewingmachinesplus.com/media/financing-popup/secure-application.jpg" alt="" title="" style="float: left;margin-bottom: 5px;" class="lazy">
         </picture>
         <p style="text-align:right;"><a class="btn btn-secondary btn-lg financing-pop_close" style="background-color:#e70000 !important;" href="#" role="button">Close</a></p>
         <div id="FAstart">
-          <img src="//cdn.sewingmachinesplus.com/media/financing-popup/logo.png"/>
+          <img data-src="//cdn.sewingmachinesplus.com/media/financing-popup/logo.png" data-srcset="//cdn.sewingmachinesplus.com/media/financing-popup/logo.png" class="lazy" />
           <p style="color:#333; font-size:2em;">Start Your Application</p>
           <p>In a few short steps you could own the machine of your dreams with low monthly payments and 0% financing. Completing the application will tell you how much credit Synchrony Financial will extend to you. You are not charged until you place an order with SewingMachinesPlus.com.</p>
           <form>
@@ -2505,7 +2508,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <picture>
             <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.webp" type="image/webp">
             <source srcset="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.jpg" type="image/jpeg">
-            <img data-src="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.jpg" alt="" title="">
+            <img data-src="https://cdn.sewingmachinesplus.com/media/financing-popup/logo-responsive-mysynchrony.jpg" alt="" title="" class="lazy" >
           </picture>
           <p><a class="btn btn-secondary btn-lg" href="https://etail.mysynchrony.com/eapply/eapply.action?uniqueId=D2895D9FF3CADB4EF670CD22E0CF1A52D5A064E2C1629DFE&client=Sewing%20Machines%20Plus" target="_blank" role="button">Apply Online <span class="icon-arrowlink"></span></a></p>
           <img id="FAemailSend" src="" width="0" height="0" border="0" alt="" style="height:0px;"/>
