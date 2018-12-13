@@ -11,7 +11,7 @@
         </picture>
       </a>
 -->
-      <a href="[-- PRODUCT.MoreInfoURL --]" style="text-decoration:none;" target="_blank"><img src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="img-responsive" style="min-height:10px; max-height:180px;"/></a>
+      <a href="[-- PRODUCT.MoreInfoURL --]" style="text-decoration:none;" target="_blank"><img data-src="//cdn.sewingmachinesplus.com/media/[-- IMAGE Product.MoreInformationGraphic --]" class="lazy img-responsive" style="min-height:10px; max-height:180px;"/></a>
     </div>
     <div class="media-center">
       <div class="title"><a href="[-- PRODUCT.MoreInfoURL --]" target="_blank">[-- PRODUCT.Name --]</a></div>
@@ -184,7 +184,7 @@
     [--IF PRODUCT.Field14--]
       <a href="[--PRODUCT.MoreInfoURL--]" style="color:#000000; text-decoration:none;">
         <div style="margin:5px 0; min-height:130px; max-height:130px; overflow:hidden; background-image: url(/media/[-- IMAGE PRODUCT.Graphic --]); background-size:130px 130px; background-position: center; background-repeat: no-repeat;">
-          <img src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="lazy productLinkImg" width="130" height="130"/>
+          <img data-src="//cdn.sewingmachinesplus.com/media/overlay/[-- PRODUCT.Field14 --]" class="lazy productLinkImg" width="130" height="130"/>
           <div id="flag-[--PRODUCT.sku--]" class="product-flag-wrap"></div>
         </div>
         <div class="brand-text" align="center">[--PRODUCT.Brand--]</div>

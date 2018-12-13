@@ -14,7 +14,7 @@
       <a href="tel:1-800-401-8151" class="our-locations"></a>
     </div>
     <div class="logo-container" align="center">
-      <a class="cz-navbar-brand" href="/"><img src="/AE/images/logo.png" class="img-responsive" alt="SewingMachinesPlus.com"></a>
+      <a class="cz-navbar-brand" href="/"><img data-src="//cdn.sewingmachinesplus.com/AE/images/logo.png" class="lazy img-responsive" alt="SewingMachinesPlus.com" title="SewingMachinesPlus.com"></a>
     </div>
     <div class="bag-container">
       <ul class="nav cz-navbar-right" id="header-mobile-bag">
@@ -1776,7 +1776,7 @@
           </div>
           <div class="logo-search">
             <div class="logo-container">
-              <a class="navbar-brand" href="/"><img src="/AE/images/logo.png" class="img-responsive" alt="SewingMachinesPlus.com"></a>
+              <a class="navbar-brand" href="/"><img data-src="//cdn.sewingmachinesplus.com/AE/images/logo.png" class="lazy img-responsive" alt="SewingMachinesPlus.com"></a>
             </div>
             <div class="search-container">
               <div class="branding-links">
@@ -1867,32 +1867,37 @@
                 </div>
               </div>
               <style type="text/css">
-              #machines img, #furniture2 img, #quilting-robotics img, #embroidery-software img, #thread img, #presser-feet img, #embroidery-hoops img, #cases-totes-trolleys img, #bobbins-cases img, #needles img, #foot-power img,
-              #other-cats img, #handiquilter2-menu img, #janome2-menu img, #king-quilter-menu img, #juki2-menu img, #melco-menu img, #grace-menu img, #brother2-menu img, #bernina2-menu img, #arrow-menu img, #reliable2-menu img, 
-              #singer2-menu img {
-                margin: 5px;
-              }
-              #viewall {
-                color:blue;
-                font-style:italic;
-              }
-              #machines .tier3-column span a, #furniture2 .tier3-column span a, #quilting-robotics .tier3-column span a, #embroidery-software .tier3-column span a, #thread .tier3-column span a, #presser-feet .tier3-column span a,
-              #embroidery-hoops .tier3-column span a, #cases-totes-trolleys .tier3-column span a, #bobbins-cases .tier3-column span a, #needles .tier3-column span a, #foot-power .tier3-column span a, #other-cats .tier3-column span a {
-                margin-left:10px;
-              }
-              #machines .tier3-column, #furniture2 .tier3-column, #quilting-robotics .tier3-column, #embroidery-software .tier3-column, #thread .tier3-column, #presser-feet .tier3-column, #embroidery-hoops .tier3-column, 
-              #cases-totes-trolleys .tier3-column, #bobbins-cases .tier3-column, #needles .tier3-column, #foot-power .tier3-column, #other-cats .tier3-column {
-                margin-top:0px !important;
-              }
-              #other-cats .tier3-column {
-                margin-top:6px !important;
-              }
-              #brands-1-menu .tier3-column, #brands-2-menu .tier3-column, #brands-3-menu .tier3-column, #brands-4-menu .tier3-column {
-                margin-top:6px !important;
-              }
+                #machines img, #furniture2 img, #quilting-robotics img, #embroidery-software img, #thread img, #presser-feet img, #embroidery-hoops img, #cases-totes-trolleys img, #bobbins-cases img, #needles img, #foot-power img,
+                #other-cats img, #handiquilter2-menu img, #janome2-menu img, #king-quilter-menu img, #juki2-menu img, #melco-menu img, #grace-menu img, #brother2-menu img, #bernina2-menu img, #arrow-menu img, #reliable2-menu img, 
+                #singer2-menu img {
+                  margin: 5px;
+                }
+                #viewall {
+                  color:blue;
+                  font-style:italic;
+                }
+                #machines .tier3-column span a, #furniture2 .tier3-column span a, #quilting-robotics .tier3-column span a, #embroidery-software .tier3-column span a, #thread .tier3-column span a, #presser-feet .tier3-column span a,
+                #embroidery-hoops .tier3-column span a, #cases-totes-trolleys .tier3-column span a, #bobbins-cases .tier3-column span a, #needles .tier3-column span a, #foot-power .tier3-column span a, #other-cats .tier3-column span a {
+                  margin-left:10px;
+                }
+                #machines .tier3-column, #furniture2 .tier3-column, #quilting-robotics .tier3-column, #embroidery-software .tier3-column, #thread .tier3-column, #presser-feet .tier3-column, #embroidery-hoops .tier3-column, 
+                #cases-totes-trolleys .tier3-column, #bobbins-cases .tier3-column, #needles .tier3-column, #foot-power .tier3-column, #other-cats .tier3-column {
+                  margin-top:0px !important;
+                }
+                #other-cats .tier3-column {
+                  margin-top:6px !important;
+                }
+                #brands-1-menu .tier3-column, #brands-2-menu .tier3-column, #brands-3-menu .tier3-column, #brands-4-menu .tier3-column {
+                  margin-top:6px !important;
+                }
               </style>
               <div id="machines" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-machines.php"><span class="category-title">SEWING MACHINES <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/tin-lizzie-18-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Long+Arm+Quilters&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link">Long Arm Quilting Machines</a></span><br>
@@ -1919,7 +1924,12 @@
                 </div>
               </div>
               <div id="furniture2" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-cabinets.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-cabinets.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-cabinets.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-cabinets.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-cabinets.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-furniture.php"><span class="category-title">SEWING FURNITURE <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/sewing-cabinets.php#/?Category0=Sewing+Furniture&Category1=Category&Category2=Sewing+Cabinets&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link">Cabinets/Tables</a></span><br>
@@ -1940,10 +1950,16 @@
                 </div>
               </div>
               <div id="quilting-robotics" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-robotics.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-robotics.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-robotics.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-robotics.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-robotics.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/quilting-hardware-software.php#/?Category0=Quilting+Supplies&Category1=Categories&Category2=Hardware+%26+Software&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">QUILTING ROBOTICS <span id="viewall">View All >></span></span></a><br>
-                  <span><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=quilting+robotics" class="category-link">Quilting Robots</a></span><br>                  
+                  <span><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=quilting+robotics" class="category-link">Quilting Robots</a></span><br>
+
                   <span><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=stitch+regulators#/?keywords=stitch+regulators&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link">Stitch Regulators</a></span><br>
                   <span><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=speed+control" class="category-link">Speed Controls</a></span><br>
                   <span><a href="https://www.sewingmachinesplus.com/quilting-hardware-software.php#/?Category0=Quilting+Supplies&Category1=Categories&Category2=Hardware+%26+Software&Availability=In-Stock+Ready+to+Ship&search_return=all&Googleproducttype=Quilting+Software" class="category-link">Quilting Software</a></span><br>
@@ -1955,7 +1971,12 @@
                 </div>
               </div>
               <div id="embroidery-software" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-software.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-software.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-software.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-software.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-software.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/embroidery-software.php"><span class="category-title">SOFTWARE <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/janome_software.php#/?Category0=Embroidery+Accessories&Category1=Category&Category2=Embroidery+Software&Category3=Brands&Category4=Janome&Availability=In-Stock+Ready+to+Ship&search_return=all&Brand=Artistic" class="category-link">Artistic Software</a></span><br>
@@ -1982,7 +2003,12 @@
                 </div>
               </div>
               <div id="thread" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-thread.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-thread.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-thread.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-thread.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-thread.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/thread.php"><span class="category-title">THREAD <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/thread-kits.php#/?Category0=Thread&Category1=Category&Category2=Thread+Kits&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link">Thread Kits</a></span><br>
@@ -2004,7 +2030,12 @@
                 </div>
               </div>
               <div id="presser-feet" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-presser-feet.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-presser-feet.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-feet.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-feet.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-feet.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-feet.php"><span class="category-title">PRESSER FEET <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/serger-feet.php" class="category-link">Serger Presser Feet</a></span><br>
@@ -2029,7 +2060,12 @@
                 </div>
               </div>
               <div id="embroidery-hoops" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-hoops.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-hoops.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-hoops.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-hoops.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-hoops.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/embroidery-hoops.php"><span class="category-title">EMBROIDERY HOOPS <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=snap+hoop#/?keywords=snap+hoop&search_return=all&Brand=DIME" class="category-link">Snap Hoop Monster</a></span><br>
@@ -2046,7 +2082,12 @@
                 </div>
               </div>
               <div id="cases-totes-trolleys" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-totes.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-totes.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-totes.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-totes.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-totes.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-accessories-cases.php"><span class="category-title">TROLLEYS & BAGS <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/trolley-category.php#/?Category0=Sewing+Cases+and+Trolleys&Category1=Category&Category2=Trolleys&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link">Trolley Bags</a></span><br>
@@ -2062,7 +2103,12 @@
                 </div>
               </div>
               <div id="bobbins-cases" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-bobbins-cases.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-bobbins-cases.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-bobbins-cases.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-bobbins-cases.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-bobbins-cases.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-bobbins.php"><span class="category-title">BOBBINS <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/babylock-bobbins.php#/?Category0=Bobbins&Category1=Brand&Category2=Baby+Lock&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link">Baby Lock Bobbins</a></span><br>
@@ -2089,7 +2135,12 @@
                 </div>
               </div>
               <div id="needles" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-needles.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-needles.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-needles.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-needles.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-needles.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-needles.php"><span class="category-title">NEEDLES <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/needles-category-universal.php" class="category-link">Universal Needles</a></span><br>
@@ -2116,7 +2167,12 @@
                 </div>
               </div>
               <div id="foot-power" class="tier3-content" style="width:570px;">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-foot-power.webp"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-foot-power.webp"/> -->
+                <picture>
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-foot-power.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-foot-power.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-foot-power.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/foot-controls.php"><span class="category-title">FOOT CONTROLS <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/babylock-foot-controls.php" class="category-link">Baby Lock Foot Controls</a></span><br>
@@ -2249,7 +2305,12 @@
                 </div>
               </div>
               <div id="handiquilter2-menu" class="tier3-content" style="width:570px;" name="handiquilter2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-hq2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-hq2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/handiquilter-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-hq2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-hq2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-hq2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/handiquilter-brand.php"><span class="category-title">HANDI-QUILTER <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/handi-quilter-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Brands&Category2=Handi+Quilter+Sewing+Machine&search_return=all&Googleproducttype=Long+Arm+Quilting+Machines" class="category-link">Long Arm Quilting Machines</a></span><br>
@@ -2262,7 +2323,12 @@
                 </div>
               </div>
               <div id="janome2-menu" class="tier3-content" style="width:570px;" name="janome2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-janome2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-janome2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/janome-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-janome2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-janome2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-janome2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/janome-brand.php"><span class="category-title">JANOME <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/janome-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Brands&Category2=Janome+Sewing+Machines&Availability=In-Stock+Ready+to+Ship&search_return=all&Googleproducttype=Embroidery+Machines" class="category-link">Embroidery Machines</a></span><br>
@@ -2281,7 +2347,12 @@
                 </div>
               </div>
               <div id="king-quilter-menu" class="tier3-content" style="width:570px;" name="king-quilter">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-king-quilter2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-king-quilter2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=king+quilter#/?keywords=king+quilter&search_return=all&Availability=In-Stock+Ready+to+Ship">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-king-quilter2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-king-quilter2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-king-quilter2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=king+quilter#/?keywords=king+quilter&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">KING QUILTER <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/king-quilter-special-edition.php" class="category-link">King Quilter Special Edition</a></span><br>
@@ -2292,7 +2363,12 @@
                 </div>
               </div>
               <div id="juki2-menu" class="tier3-content" style="width:570px;" name="juki2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-juki2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-juki2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/juki-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-juki2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-juki2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-juki2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/juki-brand.php"><span class="category-title">JUKI <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/tin-lizzie-18-machines.php#/?Category0=Sewing+Machines&Category1=Category&Category2=Long+Arm+Quilters&search_return=all&Brand=Juki" class="category-link">Long Arm Quilting Machines</a></span><br>
@@ -2310,7 +2386,12 @@
                 </div>
               </div>
               <div id="melco-menu" class="tier3-content" style="width:570px;" name="melco">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-melco2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-melco2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/melco-sewing-machines.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-melco2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-melco2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-melco2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/melco-sewing-machines.php"><span class="category-title">MELCO <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/Melco-AmayaBravoFullDigitizing.php" class="category-link">Melco Full Digitizing C Package</a></span><br>
@@ -2320,7 +2401,12 @@
                 </div>
               </div>
               <div id="grace-menu" class="tier3-content" style="width:570px;" name="grace">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-grace2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-grace2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/grace-company-quilting-frames.php#/?Category0=Quilting+Supplies&Category1=Brands&Category2=Grace+Company&search_return=all&Availability=In-Stock+Ready+to+Ship">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-grace2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-grace2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-grace2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/grace-company-quilting-frames.php#/?Category0=Quilting+Supplies&Category1=Brands&Category2=Grace+Company&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">GRACE COMPANY <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/grace-company-quilting-frames.php#/?Category0=Quilting+Supplies&Category1=Brands&Category2=Grace+Company&Availability=In-Stock+Ready+to+Ship&Brand=Grace+Company&search_return=all&Googleproducttype=Long+Arm+Quilting+Machines" class="category-link">Q'nique Quilting Machines</a></span><br>
@@ -2334,7 +2420,12 @@
                 </div>
               </div>
               <div id="brother2-menu" class="tier3-content" style="width:570px;" name="brother2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-brother2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-brother2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/brother-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-brother2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-brother2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-brother2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/brother-brand.php"><span class="category-title">BROTHER <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/brother-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Brands&Category2=Brother+Sewing+Machines&Availability=In-Stock+Ready+to+Ship&search_return=all&Googleproducttype=Embroidery+Machines" class="category-link">Embroidery Machines</a></span><br>
@@ -2354,7 +2445,12 @@
                 </div>
               </div>
               <div id="bernina2-menu" class="tier3-content" style="width:570px;" name="bernina2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-bernina2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-bernina2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/bernina-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-bernina2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-bernina2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-bernina2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/bernina-brand.php"><span class="category-title">BERNINA & BERNETTE <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/bernina.php#/?Category0=Sewing+Machines&Category1=Brands&Category2=Bernina+Sewing+Machines&Availability=In-Stock+Ready+to+Ship&search_return=all&Googleproducttype=Sewing+%26+Embroidery+Machines" class="category-link">Sewing & Embroidery Machines</a></span><br>
@@ -2370,7 +2466,12 @@
                 </div>
               </div>
               <div id="arrow-menu" class="tier3-content" style="width:570px;" name="arrow">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-arrow2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-arrow2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=arrow+and+kangaroo+all#/?keywords=arrow+and+kangaroo+all&search_return=all&Availability=In-Stock+Ready+to+Ship">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-arrow2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-arrow2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-arrow2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=arrow+and+kangaroo+all#/?keywords=arrow+and+kangaroo+all&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">ARROW & KANGAROO <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/kangaroo-kabinets.php" class="category-link">Kangaroo Cabinets</a></span><br>
@@ -2381,7 +2482,12 @@
                 </div>
               </div>
               <div id="reliable2-menu" class="tier3-content" style="width:570px;" name="reliable2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-reliable2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-reliable2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/reliable-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-reliable2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-reliable2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-reliable2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/reliable-brand.php"><span class="category-title">RELIABLE <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/reliable-sewing-machines.php" class="category-link">Industrial Sewing Machines</a></span><br>
@@ -2392,7 +2498,12 @@
                 </div>
               </div>
               <div id="singer2-menu" class="tier3-content" style="width:570px;" name="singer2">
-                <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-singer2.png"/>
+                <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-singer2.png"/> -->
+                <picture><a href="https://www.sewingmachinesplus.com/singer-brand.php">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-singer2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-singer2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-singer2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/singer-brand.php"><span class="category-title">SINGER <span id="viewall">View All >></span></span></a><br>
                   <span><a href="https://www.sewingmachinesplus.com/singer-sewing-machines.php#/?Category0=Sewing+Machines&Category1=Brands&Category2=Singer+Sewing+Machines&Availability=In-Stock+Ready+to+Ship&search_return=all&Googleproducttype=Sewing+Machines" class="category-link">Sewing Machines</a></span><br>
@@ -2642,20 +2753,20 @@
             </div>
 
             <style>
-#tooltiptextBC {
-    visibility: hidden;
-    position: absolute;
-    z-index: 1;
-    top: 70%;
-    left: 50%;
-    margin-left: -76px;
-}
-#tooltip-browse-history{
-  pointer-events: none;
-}
-</style>
+              #tooltiptextBC {
+                  visibility: hidden;
+                  position: absolute;
+                  z-index: 1;
+                  top: 70%;
+                  left: 50%;
+                  margin-left: -76px;
+              }
+              #tooltip-browse-history{
+                pointer-events: none;
+              }
+            </style>
 
-<div id="tooltip-browse-history"><span id="tooltiptextBC"><img src="//cdn.sewingmachinesplus.com/browse-tooltip/browse-tooltip.png"/></span></div>
+            <div id="tooltip-browse-history"><span id="tooltiptextBC"><img class="lazy" data-src="//cdn.sewingmachinesplus.com/browse-tooltip/browse-tooltip.png"/></span></div>
 
             <div class="navbar-browse-dropdown">
               <div class="tier2-container">
@@ -2670,232 +2781,232 @@
               <a href="/current-promotions.php" style="color:#fff;">CURRENT PROMOTIONS</a>
             </div>
           </div> -->
-<script>
-/* Show browse history button only*/
-/*var the_cookie = document.cookie.split(';');
-for (var i = 0; i < the_cookie.length; i++) {
-  var x = the_cookie[i].substr(0, the_cookie[i].indexOf("=")).replace(/^\s+|\s+$/g, "");
-  var y = the_cookie[i].substr(the_cookie[i].indexOf("=") + 1);
-  if (x === "4Tell") {
-    var foo = JSON.parse(unescape(y));
-    //To filter out bad cookies.
-    if (foo.Viewed && typeof (foo.Viewed) === "object" && foo.Viewed.length) {
-      document.getElementById("browse-btn").style.display="block";
-    }
-  }
-}*/
+          <script>
+            /* Show browse history button only*/
+            /*var the_cookie = document.cookie.split(';');
+            for (var i = 0; i < the_cookie.length; i++) {
+              var x = the_cookie[i].substr(0, the_cookie[i].indexOf("=")).replace(/^\s+|\s+$/g, "");
+              var y = the_cookie[i].substr(the_cookie[i].indexOf("=") + 1);
+              if (x === "4Tell") {
+                var foo = JSON.parse(unescape(y));
+                //To filter out bad cookies.
+                if (foo.Viewed && typeof (foo.Viewed) === "object" && foo.Viewed.length) {
+                  document.getElementById("browse-btn").style.display="block";
+                }
+              }
+            }*/
 
-/*tooltip test*/
-var the_cookie = document.cookie.split(';');
-for (var i = 0; i < the_cookie.length; i++) {
-  var x = the_cookie[i].substr(0, the_cookie[i].indexOf("=")).replace(/^\s+|\s+$/g, "");
-  var y = the_cookie[i].substr(the_cookie[i].indexOf("=") + 1);
-  if (x === "4Tell") {
-    var foo = JSON.parse(unescape(y));
-    //To filter out bad cookies.
-    if (foo.Viewed && typeof (foo.Viewed) === "object" && foo.Viewed.length) {
-        document.getElementById("browse-btn").style.display="block";
-      var nameBC = "browseCookie";
-      var caBC = document.cookie.split(';');
-      var counterBC = 0;
-      for(var i=0; i<caBC.length; i++) {
-          var c = caBC[i];
-          while (c.charAt(0)==' ') c = c.substring(1);
-          if (c.indexOf(nameBC) == 0) {
-            counterBC = 1;
-          }
-      }
-      if (counterBC == 0) {
-        document.cookie = "browseCookie=yes";
-        document.getElementById("tooltiptextBC").style.visibility="visible";
-        $("#tooltiptextBC").css({opacity: 1.0}).delay(5000).animate({opacity: 0.0},{duration: 3000});
-      }
-    }
-  }
-}
-</script>
-<style>
-  #browse-btn {
-    display: none;
-  }
-  #brands-btn, #browse-btn {
-    padding-right:10px;
-  }
-  #callouts-pop-link {
-    padding-left:10px;
-  }
-  .main-btn-txt:after {
-    content: "\2c";
-    font-size: 12px;
-    font-family: 'icomoon';
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    right: 9px;
-    margin: 2px 0 0 5px;
-    vertical-align: middle;
-    -wekbit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    -webkit-transform: scale(0.98) translateY(-50%);
-    -ms-transform: scale(0.98) translateY(-50%);
-    transform: scale(0.98) translateY(-50%);
-  }
-  .navbar-brands-dropdown {
-    left: -145px !important;
-  }
-  .navbar-browse-dropdown {
-    left: -251px !important;
-  }
-  .main-sale-btn-txt {
-    background-color: #3a6bb1;
-  }
-  .navbar-browse-dropdown .tier2-container {
-    width: 1240px !important;
-    background-color: white !important;
-    height: 304px !important;
-  }
-  .navbar-browse-dropdown {
-    height: 320px !important;
-    padding: 8px !important;
-    background-color: white !important;
-  }
-  #morerecs {
-    text-align: center !important;
-  }
-  #morerecs a {
-    color: #0000EE !important;
-    font-weight: bold;
-  }
-  @media (max-width: 1399px) {
-    .navbar-browse-dropdown .tier2-container {
-      width: 915px !important;
-    }
-  }
-  #geolocationshipping {
-    margin-top:10px;
-  }
-  #callouts-pop {
-    transform: scale(0.8) !important;
-  }
-</style>
-<style>
-.xp012017-a{
-display:block;
-}
-</style>
+            /*tooltip test*/
+            var the_cookie = document.cookie.split(';');
+            for (var i = 0; i < the_cookie.length; i++) {
+              var x = the_cookie[i].substr(0, the_cookie[i].indexOf("=")).replace(/^\s+|\s+$/g, "");
+              var y = the_cookie[i].substr(the_cookie[i].indexOf("=") + 1);
+              if (x === "4Tell") {
+                var foo = JSON.parse(unescape(y));
+                //To filter out bad cookies.
+                if (foo.Viewed && typeof (foo.Viewed) === "object" && foo.Viewed.length) {
+                    document.getElementById("browse-btn").style.display="block";
+                  var nameBC = "browseCookie";
+                  var caBC = document.cookie.split(';');
+                  var counterBC = 0;
+                  for(var i=0; i<caBC.length; i++) {
+                      var c = caBC[i];
+                      while (c.charAt(0)==' ') c = c.substring(1);
+                      if (c.indexOf(nameBC) == 0) {
+                        counterBC = 1;
+                      }
+                  }
+                  if (counterBC == 0) {
+                    document.cookie = "browseCookie=yes";
+                    document.getElementById("tooltiptextBC").style.visibility="visible";
+                    $("#tooltiptextBC").css({opacity: 1.0}).delay(5000).animate({opacity: 0.0},{duration: 3000});
+                  }
+                }
+              }
+            }
+          </script>
+          <style>
+            #browse-btn {
+              display: none;
+            }
+            #brands-btn, #browse-btn {
+              padding-right:10px;
+            }
+            #callouts-pop-link {
+              padding-left:10px;
+            }
+            .main-btn-txt:after {
+              content: "\2c";
+              font-size: 12px;
+              font-family: 'icomoon';
+              color: white;
+              display: inline-block;
+              position: absolute;
+              top: 50%;
+              right: 9px;
+              margin: 2px 0 0 5px;
+              vertical-align: middle;
+              -wekbit-transition: all 0.4s ease-in-out;
+              transition: all 0.4s ease-in-out;
+              -webkit-transform: scale(0.98) translateY(-50%);
+              -ms-transform: scale(0.98) translateY(-50%);
+              transform: scale(0.98) translateY(-50%);
+            }
+            .navbar-brands-dropdown {
+              left: -145px !important;
+            }
+            .navbar-browse-dropdown {
+              left: -251px !important;
+            }
+            .main-sale-btn-txt {
+              background-color: #3a6bb1;
+            }
+            .navbar-browse-dropdown .tier2-container {
+              width: 1240px !important;
+              background-color: white !important;
+              height: 304px !important;
+            }
+            .navbar-browse-dropdown {
+              height: 320px !important;
+              padding: 8px !important;
+              background-color: white !important;
+            }
+            #morerecs {
+              text-align: center !important;
+            }
+            #morerecs a {
+              color: #0000EE !important;
+              font-weight: bold;
+            }
+            @media (max-width: 1399px) {
+              .navbar-browse-dropdown .tier2-container {
+                width: 915px !important;
+              }
+            }
+            #geolocationshipping {
+              margin-top:10px;
+            }
+            #callouts-pop {
+              transform: scale(0.8) !important;
+            }
+          </style>
+          <style>
+            .xp012017-a{
+            display:block;
+            }
+          </style>
                                         <div class="xp012017-a">
-                                                 <style>
-a#callouts-pop-link{
-  font-family: "Lato", sans-serif;
-  color:#fff;
-  text-decoration: underline;
-}
-a#callouts-pop-link:hover{
-  font-family: "Lato", sans-serif;
-  color:#1aca9a;
-  text-decoration: underline;
-}
-#callouts-pop{
-  font-size:26px;
-}
-.callout-content span{
-  font-size:18px;
-}
-.callout-service{
-  margin-top:5px;
-  padding:5px;
-}
-#pop-financing .ficon:after{
-  display:inline-block;
-  content:"\46";
-  font-family:'icomoon';
-  color:#1aca9a;
-  font-size:47px;
-  line-height:38px;
-  vertical-align: middle;
-  font-style:normal;
-  margin:13px 10px 0 0;
-}
-#pop-price-match{
-  background-color:#e1e1e1;
-}
-#pop-price-match .ficon:after{
-  display:inline-block;
-  content:"\45";
-  font-family:'icomoon';
-  color:#1aca9a;
-  font-size:47px;
-  line-height:38px;
-  vertical-align: middle;
-  font-style:normal;
-  margin:13px 10px 0 0;
-}
-#pop-shipping .ficon:after{
-  display:inline-block;
-  content:"\35";
-  font-family:'icomoon';
-  color:#1aca9a;
-  font-size:47px;
-  line-height:38px;
-  vertical-align: middle;
-  font-style:normal;
-  margin:13px 10px 0 0;
-}
-#pop-money-back{
-  background-color:#e1e1e1;
-}
-#pop-money-back .ficon:after{
-  display:inline-block;
-  content:"\48";
-  font-family:'icomoon';
-  color:#1aca9a;
-  font-size:47px;
-  line-height:38px;
-  vertical-align: middle;
-  font-style:normal;
-  margin:13px 10px 0 0;
-}
-#pop-sale-tax .ficon:after{
-  display:inline-block;
-  content:"\3c";
-  font-family:'icomoon';
-  color:#1aca9a;
-  font-size:47px;
-  line-height:38px;
-  vertical-align: middle;
-  font-style:normal;
-  margin:13px 10px 0 0;
-}
-#pop-support{
-  background-color:#e1e1e1;
-}
-#pop-support .ficon:after{
-  display:inline-block;
-  content:"\48";
-  font-family:'icomoon';
-  color:#1aca9a;
-  font-size:47px;
-  line-height:38px;
-  vertical-align: middle;
-  font-style:normal;
-  margin:13px 10px 0 0;
-}
-@media(max-width:624px){
-  div.callout-content span{
-    display:none;
-  }
-  div.callout-content p{
-    margin-top:10px;
-  }
-  .callout-content{
-    text-align:center;
-  }
-  .ficon{
-    text-align: center;
-  }
-}
-                                                 </style>
+          <style>
+            a#callouts-pop-link{
+              font-family: "Lato", sans-serif;
+              color:#fff;
+              text-decoration: underline;
+            }
+            a#callouts-pop-link:hover{
+              font-family: "Lato", sans-serif;
+              color:#1aca9a;
+              text-decoration: underline;
+            }
+            #callouts-pop{
+              font-size:26px;
+            }
+            .callout-content span{
+              font-size:18px;
+            }
+            .callout-service{
+              margin-top:5px;
+              padding:5px;
+            }
+            #pop-financing .ficon:after{
+              display:inline-block;
+              content:"\46";
+              font-family:'icomoon';
+              color:#1aca9a;
+              font-size:47px;
+              line-height:38px;
+              vertical-align: middle;
+              font-style:normal;
+              margin:13px 10px 0 0;
+            }
+            #pop-price-match{
+              background-color:#e1e1e1;
+            }
+            #pop-price-match .ficon:after{
+              display:inline-block;
+              content:"\45";
+              font-family:'icomoon';
+              color:#1aca9a;
+              font-size:47px;
+              line-height:38px;
+              vertical-align: middle;
+              font-style:normal;
+              margin:13px 10px 0 0;
+            }
+            #pop-shipping .ficon:after{
+              display:inline-block;
+              content:"\35";
+              font-family:'icomoon';
+              color:#1aca9a;
+              font-size:47px;
+              line-height:38px;
+              vertical-align: middle;
+              font-style:normal;
+              margin:13px 10px 0 0;
+            }
+            #pop-money-back{
+              background-color:#e1e1e1;
+            }
+            #pop-money-back .ficon:after{
+              display:inline-block;
+              content:"\48";
+              font-family:'icomoon';
+              color:#1aca9a;
+              font-size:47px;
+              line-height:38px;
+              vertical-align: middle;
+              font-style:normal;
+              margin:13px 10px 0 0;
+            }
+            #pop-sale-tax .ficon:after{
+              display:inline-block;
+              content:"\3c";
+              font-family:'icomoon';
+              color:#1aca9a;
+              font-size:47px;
+              line-height:38px;
+              vertical-align: middle;
+              font-style:normal;
+              margin:13px 10px 0 0;
+            }
+            #pop-support{
+              background-color:#e1e1e1;
+            }
+            #pop-support .ficon:after{
+              display:inline-block;
+              content:"\48";
+              font-family:'icomoon';
+              color:#1aca9a;
+              font-size:47px;
+              line-height:38px;
+              vertical-align: middle;
+              font-style:normal;
+              margin:13px 10px 0 0;
+            }
+            @media(max-width:624px){
+              div.callout-content span{
+                display:none;
+              }
+              div.callout-content p{
+                margin-top:10px;
+              }
+              .callout-content{
+                text-align:center;
+              }
+              .ficon{
+                text-align: center;
+              }
+            }
+          </style>
 <div style="padding:15px;">
   <a href="#callouts-pop" id="callouts-pop-link" class="callouts-pop_open">Why Shop with Us?</a>
   <div class="smp-revs" style="float:right;position: relative;bottom: 7px;">
@@ -2906,7 +3017,7 @@ a#callouts-pop-link:hover{
 <!--BEGIN CALLOUTS POPUP-->
 <div id="callouts-pop" class="container well" style="background-color:#ededeb; max-width:75%!important;" align="center">
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-    <img src="/media/financing-popup/logo.png" class="img-responsive" style="float:left;">
+    <img data-src="//cdn.sewingmachinesplus.com/media/financing-popup/logo.png" class="lazy img-responsive" style="float:left;">
     <a class="btn btn-secondary btn-lg callouts-pop_close" style="background-color:#e70000 !important; float:right;font-size:20px;" href="#" role="button">Close</a>
   </div>
   <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -3003,7 +3114,7 @@ a#callouts-pop-link:hover{
       </div>
     </div>
   </div>
-  
+
 </div>
 
 <div id="blinder-overlay"></div>

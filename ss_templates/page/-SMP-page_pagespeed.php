@@ -312,7 +312,7 @@
 
           <div id="geopopup" class="container well2" style="background-color:#ffffff; max-width:65%;">
             <p style="text-align:center;font-size:2.0em;">FREE Shipping on orders $49 and up.<p>
-            <img src="https://cdn.sewingmachinesplus.com/images/UPS-ship-time-map.gif" style="margin:0 auto 10px;display:block;"/>
+            <img class="lazy" data-src="https://cdn.sewingmachinesplus.com/images/UPS-ship-time-map.gif" style="margin:0 auto 10px;display:block;"/>
             <p>Most orders are processed and shipped same day. Orders placed on Friday after 3pm, Saturday, or Sunday are processed on Monday. Processing and shipping does not take place on weekends or holidays.</p>
             <p>Within the continental United States (the contiguous 48 states), Shipping is FREE to customers on orders over $49. Orders being shipped to Hawaii, Alaska, Canada, APO's, FPO's and DPO's are not eligible for free shipping. Also, the free shipping policy does not apply to large or heavy items that require special shipping methods such as assembled industrial sewing machines and some sewing cabinets.</p>
             <p><a class="btn btn-secondary btn-lg geopopup_close" style="background-color:#e70000 !important;" href="#" role="button">Close</a></p>
@@ -323,12 +323,7 @@
             <div class="container">
               <div class="row clearfix">
                 <div class="col-md-12">
-                  <!--<ul class="breadcrumb">
-                    <li><a href="[-- MyStoreURL --]">[-- STORE.Home --]</a></li>
-                    <li><a href="[-- OUTPUT_DIRECTORY_URL --]/[-- PAGE.FileName --]">[-- PAGE.Name --]</a></li>
-                  </ul>-->
                   <div class="page-header" style="padding-bottom:0px;">
-                    <!--<h1>[-- PAGE.Field7 --]</h1>-->
                   </div>
                 </div>
               </div>
@@ -338,16 +333,6 @@
           <div class="space-20"></div>
           <div class="container">
             <div class="row">
-              <!--<div id="longarmsale" style="text-align:center;">
-              <a href="/2015-king-of-long-arms-sale.php"><img src="//cdn.sewingmachinesplus.com/media/email/2015-king-of-long-arms-sale/long-arm-650x100.jpg"/></a>
-              </div>-->
-              <!--XMAS SHIPPING BANNER
-              <div id="xmas-shipping" align="center">
-                <img src="//cdn.sewingmachinesplus.com/media/promotions/2014-holiday/2014-shipping-call-in-special-banner.jpg">
-              </div>-->
-              <!--END XMAS SHIPPING BANNER
-              <div id="promo-banner" style="display:none; color:#fff;">
-              </div>-->
               [-- IF PAGE.Field2 --]
                 <div align="center">[-- PAGE.Field2 --]</div>
               [--END_IF--]
@@ -449,17 +434,6 @@
               <script src="https://cdn.bronto.com/bba/bba.js" data-bbaid="55ff0542-adde-4334-99f1-3bed861620e0" async></script>
               <script src="https://cdn.bronto.com/popup/delivery.js" bronto-popup-id="0ea2bf54-c520-4caa-adc3-28ceeea06625"></script>
 
-              <!-- Start of LiveChat (www.livechatinc.com) code -->
-              <script type="text/javascript">
-                /*window.__lc = window.__lc || {};
-                window.__lc.license = 8753261;
-                (function() {
-                  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-                  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-                })();*/
-              </script>
-              <!-- End of LiveChat code -->
               <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
             </div>
           </div>

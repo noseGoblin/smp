@@ -25,7 +25,7 @@
       </div>
       <div class="col-md-6">
         <h2 style="text-align:center;">Thank You for Signing Up!</h2>
-        <img id="emailSend" src="" width="0" height="0" border="0" alt="" title=""/>
+        <img id="emailSend" class="lazy" data-src="" width="0" height="0" border="0" alt="" title=""/>
       </div>
     </div>
     <div class="row" id="email-signup-form">

@@ -3,10 +3,10 @@
 <table id="modelCompare-table" class="whitebg">
   <tr>
     <td></td>
-    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp1Product['ss_filename']; ?>"><img src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp1Product['ss_graphic']; ?>.jpg"/><br/><?php echo $mcp1Product['ss_name']; ?></a></td>
-    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp2Product['ss_filename']; ?>"><img src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp2Product['ss_graphic']; ?>"/><br/><?php echo $mcp2Product['ss_name']; ?></a></td>
-    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp3Product['ss_filename']; ?>"><img src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp3Product['ss_graphic']; ?>"/><br/><?php echo $mcp3Product['ss_name']; ?></a></td>
-    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp4Product['ss_filename']; ?>"><img src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp4Product['ss_graphic']; ?>"/><br/><?php echo $mcp4Product['ss_name']; ?></a></td>
+    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp1Product['ss_filename']; ?>"><img class="lazy" data-src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp1Product['ss_graphic']; ?>.jpg"/><br/><?php echo $mcp1Product['ss_name']; ?></a></td>
+    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp2Product['ss_filename']; ?>"><img class="lazy" data-src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp2Product['ss_graphic']; ?>"/><br/><?php echo $mcp2Product['ss_name']; ?></a></td>
+    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp3Product['ss_filename']; ?>"><img class="lazy" data-src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp3Product['ss_graphic']; ?>"/><br/><?php echo $mcp3Product['ss_name']; ?></a></td>
+    <td class="modelCompareText"><a href="<?php echo "https://www.sewingmachinesplus.com/".$mcp4Product['ss_filename']; ?>"><img class="lazy" data-src="<?php echo "//cdn.sewingmachinesplus.com/media/".$mcp4Product['ss_graphic']; ?>"/><br/><?php echo $mcp4Product['ss_name']; ?></a></td>
   </tr>
   <tr>
     <td></td>
