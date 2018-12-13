@@ -2038,7 +2038,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                       maxWidth: 310
                                     });
                                 });
-                              })(jQuery); 
+                              })(jQuery);
                               </script>
                               <?php
                                 require_once("/home/sewingmachinesplus/shopsite_api_new/includes/api_include.php");
