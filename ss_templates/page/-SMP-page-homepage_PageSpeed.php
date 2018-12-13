@@ -117,17 +117,17 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <!-- Google Fonts -->
       <link href="//fonts.googleapis.com/css?family=Lato:400,100,300,700,900,900italic,700italic,400italic|Open+Sans" rel="stylesheet" type="text/css">
       <!-- Bootstrap -->
-      <link href="/AE/bootstrap/css/_pagespeed/bootstrap.css" rel="stylesheet">
+      <link href="/AE/bootstrap/css/_pagespeed/bootstrap.min.css" rel="stylesheet">
       <!--plugins-->
       <link href="/AE/bower_components/font-awesome/css/_pagespeed/font-awesome.min.css" rel="stylesheet">
-      <link href="/AE/custom-scrollbar/_pagespeed/jquery.mCustomScrollbar.css" rel="stylesheet">
-      <link href="/AE/css/_pagespeed/yamm.css" rel="stylesheet">
-      <link href="/AE/css/_pagespeed/navigation.css" rel="stylesheet">
+      <link href="/AE/custom-scrollbar/_pagespeed/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/_pagespeed/yamm.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/_pagespeed/navigation.min.css" rel="stylesheet">
       <!--sky form pro css-->
-      <link href="/AE/sky-form/css/_pagespeed/sky-forms.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'">
+      <link href="/AE/sky-form/css/_pagespeed/_pagespeed/sky-forms.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'">
       <!--custom css file-->
-      <link href="/AE/css/_pagespeed/fonts.css" rel="stylesheet">
-      <link href="/AE/css/_pagespeed/style.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/_pagespeed/fonts.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/_pagespeed/style.min.css" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -150,7 +150,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <meta name="twitter:description" content="[-- PAGE.MetaDescription --]">
       <meta name="twitter:image" content="https://www.sewingmachinesplus.com/media/facebook/thread2.gif">
       <!-- Start Google Remarketing Code for Category -->
-      <script type="text/javascript">
+      <script defer type="text/javascript">
         var google_tag_params = {
         ecomm_prodid : '',
         ecomm_pagetype : 'category',
@@ -169,7 +169,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <script defer type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" async></script>
       <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css" media="none" onload="if(media!=='all')media='all'">
       <script defer src="https://cdn.optimizely.com/js/3534250896.js"></script>
-      <link href="/AE/css/_pagespeed/smp-nav-kyle.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/smp-nav-kyle.min.css" rel="stylesheet">
 <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
 <script>
     (function(h,o,t,j,a,r){
@@ -335,7 +335,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
               <!--end new arrivals-->
             [--END_IF--]
 
-           <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+           <script defer type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
 <script type="text/javascript">
 window.criteo_q = window.criteo_q || [];
 var deviceType = /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : /iPad/.test(navigator.userAgent) ? "t" : "d";
@@ -361,7 +361,7 @@ window.criteo_q.push(
         </div>
       </div>
       <div id="data_4Tell" data-customer="" data-cart=""></div>
-<script type="text/javascript">
+<script defer type="text/javascript">
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
@@ -379,7 +379,7 @@ document.getElementById("data_4Tell").setAttribute("data-customer", fourTellCook
 <!--4-Tell Recommendations End-->
 
 <!-- BEGIN: Bronto Cart Abandon Code -->
-<script type="text/javascript">
+<script defer type="text/javascript">
   var _bsw = _bsw || [];
   _bsw.push(['_bswId', 'a8ab4636c5a9a0b661c43f970b573cb86cec5615a882a5fda052dc5277ff5127']);
   (function() {
@@ -389,10 +389,10 @@ document.getElementById("data_4Tell").setAttribute("data-customer", fourTellCook
   })();
 </script>
 <!-- END: Bronto Cart Abandon Code -->
-<script src="https://cdn.bronto.com/bba/bba.js" data-bbaid="55ff0542-adde-4334-99f1-3bed861620e0" async></script>
-<script bronto-popup-id="0ea2bf54-c520-4caa-adc3-28ceeea06625" src="https://cdn.bronto.com/popup/delivery.js"></script>
+<script defer src="https://cdn.bronto.com/bba/bba.js" data-bbaid="55ff0542-adde-4334-99f1-3bed861620e0" async></script>
+<script defer bronto-popup-id="0ea2bf54-c520-4caa-adc3-28ceeea06625" src="https://cdn.bronto.com/popup/delivery.js"></script>
 <!-- Start of LiveChat (www.livechatinc.com) code -->
-<script type="text/javascript">
+<script defer type="text/javascript">
 /*window.__lc = window.__lc || {};
 window.__lc.license = 8753261;
 (function() {
@@ -407,11 +407,11 @@ window.__lc.license = 8753261;
 <script type="text/javascript">
 _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
 </script>
-<script type="text/javascript" async src="//4tcdn.blob.core.windows.net/4tjs3/4TellLoader.js?alias=sewingma"></script>
+<script defer type="text/javascript" async src="//4tcdn.blob.core.windows.net/4tjs3/4TellLoader.js?alias=sewingma"></script>
 
 
 <!--4-Tell Recommendations End-->
-<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+<script defer>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
 
 <!-- <script type="text/javascript">
   function downloadJSAtOnload() {

@@ -2781,7 +2781,7 @@
               <a href="/current-promotions.php" style="color:#fff;">CURRENT PROMOTIONS</a>
             </div>
           </div> -->
-          <script>
+          <script defer>
             /* Show browse history button only*/
             /*var the_cookie = document.cookie.split(';');
             for (var i = 0; i < the_cookie.length; i++) {
@@ -3010,7 +3010,8 @@
 <div style="padding:15px;">
   <a href="#callouts-pop" id="callouts-pop-link" class="callouts-pop_open">Why Shop with Us?</a>
   <div class="smp-revs" style="float:right;position: relative;bottom: 7px;">
-    <a href="http://www.shopperapproved.com/reviews/SewingMachinesPlus.com/" class="shopperlink"><img src="//www.shopperapproved.com/newseals/21959/white-header-basic.gif" style="border: 0" alt="Customer Reviews" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by Shopper Approved \251 '+d.getFullYear()+'.'); return false;"></a><script type="text/javascript">(function() { var js = window.document.createElement("script"); js.src = '//www.shopperapproved.com/seals/certificate.js'; js.type = "text/javascript"; document.getElementsByTagName("head")[0].appendChild(js); })();</script>
+    <a href="http://www.shopperapproved.com/reviews/SewingMachinesPlus.com/" class="shopperlink"><img src="//www.shopperapproved.com/newseals/21959/white-header-basic.gif" style="border: 0" alt="Customer Reviews" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by Shopper Approved \251 '+d.getFullYear()+'.'); return false;"></a>
+    <script defer type="text/javascript">(function() { var js = window.document.createElement("script"); js.src = '//www.shopperapproved.com/seals/certificate.js'; js.type = "text/javascript"; document.getElementsByTagName("head")[0].appendChild(js); })();</script>
   </div>
 </div>
 

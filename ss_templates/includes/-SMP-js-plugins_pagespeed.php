@@ -47,7 +47,7 @@
 </script>
 
 <!--sticky topbar-->
-<script type="text/javascript">
+<script defer type="text/javascript">
   var ss_jQuerydocument = ss_jQuery(document),
       ss_jQueryelement = ss_jQuery('.top-bar'),
       className = 'top-bar-stickybar';
