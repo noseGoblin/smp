@@ -124,7 +124,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <link href="/AE/css/_pagespeed/yamm.css" rel="stylesheet">
       <link href="/AE/css/_pagespeed/navigation.css" rel="stylesheet">
       <!--sky form pro css-->
-      <link href="/AE/sky-form/css/_pagespeed/sky-forms.css" rel="stylesheet">
+      <link href="/AE/sky-form/css/_pagespeed/sky-forms.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'">
       <!--custom css file-->
       <link href="/AE/css/_pagespeed/fonts.css" rel="stylesheet">
       <link href="/AE/css/_pagespeed/style.css" rel="stylesheet">
@@ -166,9 +166,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <meta name="msvalidate.01" content="12AD6C5141FE93FD2FF7B8446A324041" /><!-- Bing -->
       <meta name="google-site-verification" content="8rPIzca1hZ5v9_y9LBo9iPIa1WIHcr07q597xD-EkTg" /><!-- Google -->
       <meta name="y_key" content="7d41bcfbacac9f58" /><!-- Yahoo -->
-      <script type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" async></script>
-      <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css">
-      <script src="https://cdn.optimizely.com/js/3534250896.js"></script>
+      <script defer type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" async></script>
+      <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css" media="none" onload="if(media!=='all')media='all'">
+      <script defer src="https://cdn.optimizely.com/js/3534250896.js"></script>
       <link href="/AE/css/_pagespeed/smp-nav-kyle.css" rel="stylesheet">
 <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
 <script>
@@ -428,7 +428,8 @@ _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
 
     </body>
     [-- INCLUDE -SMP-js-plugins_pagespeed --]
-    <script src="/AE/masterslider/_pagespeed/masterslider.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
+    <script src="/AE/masterslider/_pagespeed/masterslider.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script> -->
 
     </html>
   [-- END_DEFINE PAGE --]
