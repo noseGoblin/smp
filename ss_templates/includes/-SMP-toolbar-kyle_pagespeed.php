@@ -2032,9 +2032,9 @@
               <div id="presser-feet" class="tier3-content" style="width:570px;">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-presser-feet.webp"/> -->
                 <picture>
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-feet.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-feet.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-feet.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-presser-feet.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-presser-feet.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-free-shipping-presser-feet.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/sewing-feet.php"><span class="category-title">PRESSER FEET <span id="viewall">View All >></span></span></a><br>
