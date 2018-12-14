@@ -4827,11 +4827,11 @@ body .loadmask {z-index:2001;}
 .productmsrp{
   font-size:15px;
 }
-.top-brands img,
-.top-brands source {
+.brand-list img,
+.brand-list source {
   display: block;
   position: relative;
-  margin: 0 auto;
+  margin: 5 auto;
 }
 @media (min-width:1400px){
   .product-grid-nxt{width:23%;}
