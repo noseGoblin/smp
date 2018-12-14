@@ -512,7 +512,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       }
     </script>
     <script defer src="https://cdn.optimizely.com/js/3534250896.js"></script>
-    <link href="/AE/css/smp-nav-kyle.min.css" rel="stylesheet">
+    <link href="/AE/css/_pagespeed/smp-nav-kyle.min.css" rel="stylesheet">
     <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
     <script>
       (function(h,o,t,j,a,r){

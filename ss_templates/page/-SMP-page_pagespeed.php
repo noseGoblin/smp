@@ -181,7 +181,7 @@
       <script src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" type="text/javascript" async></script>
       <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css">
       <script src="https://cdn.optimizely.com/js/3534250896.js"></script>
-      <link type="text/css" rel="stylesheet" href="/AE/css/smp-nav-kyle.min.css">
+      <link type="text/css" rel="stylesheet" href="/AE/css/_pagespeed/smp-nav-kyle.min.css">
       <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
       <script>
         (function(h,o,t,j,a,r){

@@ -121,13 +121,13 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <!--plugins-->
       <link href="/AE/bower_components/font-awesome/css/_pagespeed/font-awesome.min.css" rel="stylesheet">
       <link href="/AE/custom-scrollbar/_pagespeed/jquery.mCustomScrollbar.min.css" rel="stylesheet">
-      <link href="/AE/css/_pagespeed/_pagespeed/yamm.min.css" rel="stylesheet">
-      <link href="/AE/css/_pagespeed/_pagespeed/navigation.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/yamm.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/navigation.min.css" rel="stylesheet">
       <!--sky form pro css-->
-      <link href="/AE/sky-form/css/_pagespeed/_pagespeed/sky-forms.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'">
+      <link href="/AE/sky-form/css/_pagespeed/sky-forms.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'">
       <!--custom css file-->
-      <link href="/AE/css/_pagespeed/_pagespeed/fonts.min.css" rel="stylesheet">
-      <link href="/AE/css/_pagespeed/_pagespeed/style.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/fonts.min.css" rel="stylesheet">
+      <link href="/AE/css/_pagespeed/style.min.css" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
