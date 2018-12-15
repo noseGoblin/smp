@@ -168,7 +168,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       <meta name="y_key" content="7d41bcfbacac9f58" /><!-- Yahoo -->
       <script defer type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" async></script>
       <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css" media="none" onload="if(media!=='all')media='all'">
-      <script defer src="https://cdn.optimizely.com/js/3534250896.js"></script>
+      <script src="https://cdn.optimizely.com/js/3534250896.js"></script>
       <link href="/AE/css/_pagespeed/smp-nav-kyle.min.css" rel="stylesheet">
 <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
 <script>
@@ -389,7 +389,7 @@ document.getElementById("data_4Tell").setAttribute("data-customer", fourTellCook
   })();
 </script>
 <!-- END: Bronto Cart Abandon Code -->
-<script defer src="https://cdn.bronto.com/bba/bba.js" data-bbaid="55ff0542-adde-4334-99f1-3bed861620e0" async></script>
+<script src="https://cdn.bronto.com/bba/bba.js" data-bbaid="55ff0542-adde-4334-99f1-3bed861620e0" async></script>
 <script defer bronto-popup-id="0ea2bf54-c520-4caa-adc3-28ceeea06625" src="https://cdn.bronto.com/popup/delivery.js"></script>
 <!-- Start of LiveChat (www.livechatinc.com) code -->
 <script defer type="text/javascript">
