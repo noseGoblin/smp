@@ -14,7 +14,7 @@
       <a href="tel:1-800-401-8151" class="our-locations"></a>
     </div>
     <div class="logo-container" align="center">
-      <a class="cz-navbar-brand" href="/"><img data-src="//cdn.sewingmachinesplus.com/AE/images/logo.png" class="lazy img-responsive" alt="SewingMachinesPlus.com" title="SewingMachinesPlus.com"></a>
+      <a class="cz-navbar-brand" href="/"><img src="//cdn.sewingmachinesplus.com/AE/images/logo.png" class="lazy img-responsive" alt="SewingMachinesPlus.com" title="SewingMachinesPlus.com"></a>
     </div>
     <div class="bag-container">
       <ul class="nav cz-navbar-right" id="header-mobile-bag">
@@ -2307,9 +2307,9 @@
               <div id="handiquilter2-menu" class="tier3-content" style="width:570px;" name="handiquilter2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-hq2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/handiquilter-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-hq2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-hq2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-hq2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-hq2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-hq2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-hq2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/handiquilter-brand.php"><span class="category-title">HANDI-QUILTER <span id="viewall">View All >></span></span></a><br>
@@ -2325,9 +2325,9 @@
               <div id="janome2-menu" class="tier3-content" style="width:570px;" name="janome2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-janome2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/janome-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-janome2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-janome2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-janome2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-janome2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-janome2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-janome2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/janome-brand.php"><span class="category-title">JANOME <span id="viewall">View All >></span></span></a><br>
@@ -2349,9 +2349,9 @@
               <div id="king-quilter-menu" class="tier3-content" style="width:570px;" name="king-quilter">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-king-quilter2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=king+quilter#/?keywords=king+quilter&search_return=all&Availability=In-Stock+Ready+to+Ship">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-king-quilter2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-king-quilter2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-king-quilter2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-king-quilter2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-king-quilter2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-king-quilter2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=king+quilter#/?keywords=king+quilter&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">KING QUILTER <span id="viewall">View All >></span></span></a><br>
@@ -2365,9 +2365,9 @@
               <div id="juki2-menu" class="tier3-content" style="width:570px;" name="juki2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-juki2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/juki-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-juki2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-juki2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-juki2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-juki2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-juki2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-juki2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/juki-brand.php"><span class="category-title">JUKI <span id="viewall">View All >></span></span></a><br>
@@ -2388,9 +2388,9 @@
               <div id="melco-menu" class="tier3-content" style="width:570px;" name="melco">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-melco2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/melco-sewing-machines.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-melco2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-melco2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-melco2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-melco2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-melco2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-melco2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/melco-sewing-machines.php"><span class="category-title">MELCO <span id="viewall">View All >></span></span></a><br>
@@ -2403,9 +2403,9 @@
               <div id="grace-menu" class="tier3-content" style="width:570px;" name="grace">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-grace2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/grace-company-quilting-frames.php#/?Category0=Quilting+Supplies&Category1=Brands&Category2=Grace+Company&search_return=all&Availability=In-Stock+Ready+to+Ship">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-grace2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-grace2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-grace2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-grace2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-grace2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-grace2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/grace-company-quilting-frames.php#/?Category0=Quilting+Supplies&Category1=Brands&Category2=Grace+Company&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">GRACE COMPANY <span id="viewall">View All >></span></span></a><br>
@@ -2422,9 +2422,9 @@
               <div id="brother2-menu" class="tier3-content" style="width:570px;" name="brother2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-brother2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/brother-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-brother2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-brother2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-brother2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-brother2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-brother2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-brother2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/brother-brand.php"><span class="category-title">BROTHER <span id="viewall">View All >></span></span></a><br>
@@ -2447,9 +2447,9 @@
               <div id="bernina2-menu" class="tier3-content" style="width:570px;" name="bernina2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-bernina2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/bernina-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-bernina2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-bernina2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-bernina2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-bernina2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-bernina2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-bernina2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/bernina-brand.php"><span class="category-title">BERNINA & BERNETTE <span id="viewall">View All >></span></span></a><br>
@@ -2468,9 +2468,9 @@
               <div id="arrow-menu" class="tier3-content" style="width:570px;" name="arrow">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-arrow2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=arrow+and+kangaroo+all#/?keywords=arrow+and+kangaroo+all&search_return=all&Availability=In-Stock+Ready+to+Ship">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-arrow2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-arrow2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-arrow2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-arrow2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-arrow2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-arrow2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/searchresults.php?search_field=arrow+and+kangaroo+all#/?keywords=arrow+and+kangaroo+all&search_return=all&Availability=In-Stock+Ready+to+Ship"><span class="category-title">ARROW & KANGAROO <span id="viewall">View All >></span></span></a><br>
@@ -2484,9 +2484,9 @@
               <div id="reliable2-menu" class="tier3-content" style="width:570px;" name="reliable2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-reliable2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/reliable-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-reliable2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-reliable2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-reliable2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-reliable2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-reliable2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-reliable2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/reliable-brand.php"><span class="category-title">RELIABLE <span id="viewall">View All >></span></span></a><br>
@@ -2500,9 +2500,9 @@
               <div id="singer2-menu" class="tier3-content" style="width:570px;" name="singer2">
                 <!-- <img src="//cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-singer2.png"/> -->
                 <picture><a href="https://www.sewingmachinesplus.com/singer-brand.php">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-singer2.webp" type="image/webp" class="smp650">
-                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-singer2.jpg" type="image/jpeg" class="smp650">
-                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/nav-nav-promos-singer2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-singer2.webp" type="image/webp" class="smp650">
+                  <source srcset="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-singer2.jpg" type="image/jpeg" class="smp650">
+                  <img data-src="https://cdn.sewingmachinesplus.com/images/new-nav/new-nav-promos-singer2.jpg" alt="Free Shipping on orders over $49" title="Free Shipping on orders over $49" class="lazy">
                 </a></picture>
                 <div class="tier3-column">
                   <a href="https://www.sewingmachinesplus.com/singer-brand.php"><span class="category-title">SINGER <span id="viewall">View All >></span></span></a><br>
@@ -2781,7 +2781,7 @@
               <a href="/current-promotions.php" style="color:#fff;">CURRENT PROMOTIONS</a>
             </div>
           </div> -->
-          <script>
+          <script defer>
             /* Show browse history button only*/
             /*var the_cookie = document.cookie.split(';');
             for (var i = 0; i < the_cookie.length; i++) {
@@ -3010,7 +3010,8 @@
 <div style="padding:15px;">
   <a href="#callouts-pop" id="callouts-pop-link" class="callouts-pop_open">Why Shop with Us?</a>
   <div class="smp-revs" style="float:right;position: relative;bottom: 7px;">
-    <a href="http://www.shopperapproved.com/reviews/SewingMachinesPlus.com/" class="shopperlink"><img src="//www.shopperapproved.com/newseals/21959/white-header-basic.gif" style="border: 0" alt="Customer Reviews" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by Shopper Approved \251 '+d.getFullYear()+'.'); return false;"></a><script type="text/javascript">(function() { var js = window.document.createElement("script"); js.src = '//www.shopperapproved.com/seals/certificate.js'; js.type = "text/javascript"; document.getElementsByTagName("head")[0].appendChild(js); })();</script>
+    <a href="http://www.shopperapproved.com/reviews/SewingMachinesPlus.com/" class="shopperlink"><img src="//www.shopperapproved.com/newseals/21959/white-header-basic.gif" style="border: 0" alt="Customer Reviews" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by Shopper Approved \251 '+d.getFullYear()+'.'); return false;"></a>
+    <script defer type="text/javascript">(function() { var js = window.document.createElement("script"); js.src = '//www.shopperapproved.com/seals/certificate.js'; js.type = "text/javascript"; document.getElementsByTagName("head")[0].appendChild(js); })();</script>
   </div>
 </div>
 

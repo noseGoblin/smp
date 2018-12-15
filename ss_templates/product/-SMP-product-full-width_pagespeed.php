@@ -406,22 +406,22 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <!-- Google Fonts -->
     <link href="//fonts.googleapis.com/css?family=Lato:400,100,300,700,900,900italic,700italic,400italic|Open+Sans" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
-    <link href="/AE/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/AE/bootstrap/css/_pagespeed/bootstrap.min.css" rel="stylesheet">
     <!--plugins-->
     <link href="/AE/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/AE/custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet">
-    <link href="/AE/css/yamm.css" rel="stylesheet">
-    <link href="/AE/css/navigation.css" rel="stylesheet">
+    <link href="/AE/custom-scrollbar/_pagespeed/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="/AE/css/_pagespeed/yamm.min.css" rel="stylesheet">
+    <link href="/AE/css/_pagespeed/navigation.min.css" rel="stylesheet">
     <!--sky form pro css-->
-    <link href="/AE/sky-form/css/sky-forms.css" rel="stylesheet">
+    <link href="/AE/sky-form/css/_pagespeed/sky-forms.min.css" rel="stylesheet">
     <!--custom css file-->
-    <link href="/AE/css/fonts.css" rel="stylesheet">
-    <link href="/AE/css/style.css?v=1.2" rel="stylesheet">
+    <link href="/AE/css/_pagespeed/fonts.min.css" rel="stylesheet">
+    <link href="/AE/css/_pagespeed/style.min.css?v=1.2" rel="stylesheet">
     <!-- MoreInfo product description custom css -->
-    <link href="/AE/css/moreInfo.styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.carousel.css">
-    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.theme.default.css"/>
-    <link rel="stylesheet" href="/AE/js/lightbox/css/lightbox.css">
+    <link href="/AE/css/_pagespeed/moreInfo.styles.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="/AE/js/lightbox/css/lightbox.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -495,7 +495,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <meta name="twitter:url" content="[-- PRODUCT.MoreInfoURL --]">
     <meta name="twitter:description" content="[-- PRODUCT.MoreInformationMetaDescription --]">
     <meta name="twitter:image" content="<?php echo "//cdn.sewingmachinesplus.com/media/$field5img2[0]" ?>">
-    <script type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" async></script>
+    <script type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" defer async></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css">
     <style>
       .share-buttons .share-main-tab{
@@ -511,8 +511,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         return false;
       }
     </script>
-    <script src="https://cdn.optimizely.com/js/3534250896.js"></script>
-    <link href="/AE/css/smp-nav-kyle.css" rel="stylesheet">
+    <script defer src="https://cdn.optimizely.com/js/3534250896.js"></script>
+    <link href="/AE/css/_pagespeed/smp-nav-kyle.min.css" rel="stylesheet">
     <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
     <script>
       (function(h,o,t,j,a,r){
@@ -853,7 +853,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
             <div class="container">
               <div class="row single-product">
                 <a name="accessanchor"></a>
-                <script type="text/javascript">
+                <script defer type="text/javascript">
                   $(document).ready(function () {
                     if(window.location.href.indexOf("js-accessories") > -1) {
                       contentDisplay('acc');
@@ -983,7 +983,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                           </picture>
                         </a>
                       </div>
-                      <script>
+                      <script defer>
                         $('#videos-anchor-btn').click(function(event){
                           event.preventDefault();
                           $('html, body').animate({
@@ -996,7 +996,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                     [--END_IF--]
                     <div class="space-20"></div>
                     <!-- BEGIN AddShoppers -->
-                    <script type="text/javascript">
+                    <script defer type="text/javascript">
                       var js = document.createElement('script'); js.type = 'text/javascript'; js.async = true;
                       js.id = 'AddShoppers';
                       js.src = ('https:' == document.location.protocol ? 'https://shop.pe/widget/' : 'http://cdn.shop.pe/widget/') + 'widget_async.js#5602d9f8a3876472ed906a10';
@@ -1049,7 +1049,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                   <!--END XMAS SHIPPING BANNER-->
                   <!--CUSTOM DYNAMIC BANNER FOR PROMOTIONS CZ 9/11/2014-->
                   <div id="data_4Tell" data-products="[--PRODUCT.SKU--]" data-customer="" data-cart=""></div>
-                  <script type="text/javascript">
+                  <script defer type="text/javascript">
                     function getCookie(cname) {
                       var name = cname + "=";
                       var ca = document.cookie.split(';');
@@ -1138,7 +1138,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                           font-size: 30px;
                         }
                       </style>
-                      <script type="text/javascript">
+                      <script defer type="text/javascript">
                         var sa_product = '[-- PRODUCT.SKU --]'; function saLoadScript(src) {
                           var js = window.document.createElement("script");
                           js.src = src; js.type = "text/javascript";
@@ -1332,15 +1332,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                           <!--<a href="/wishlist/listmanage.php/add/i_[-- PRODUCT.SKU --]" title="Add To Your Wish List"><img border="0" alt="Add To Your Wish List" src="//cdn.sewingmachinesplus.com/media/images/add-to-wishlist-green.webp" class="lazy wishlist_button"></a>-->
                         [--END_IF--]
                       [-- END_IF --]
-                      <script type="text/javascript">
-                        <!--
-                        var var1 = 'test.php';
-                        //-->
-                      </script>
-                      <!--<a href="#" onClick="window.open('/cgi-sewdemo2/sb/tellfriend.cgi?storeid=*1a55e44c50fd5a9e18c062cfd94a5c&str=[-- PRODUCT.Name --]&from=[-- PRODUCT.MoreInfoURL --]','tellfriend','width=560,height=560,resizable=yes,scrollbars=yes, status=yes');return false;">
-                      <img src="//cdn.sewingmachinesplus.com/images/send-to-friend2.webp" width="120" class="lazy" style="border: 0px; float: right;" />
-                      </a>-->
-                    <!--</div>end product-detail-desc original extra div-->
+
 
                     <!-- PRODUCT CONDITION, AVAILABILITY, ETC -->
                     [--IF Product.Field3--]
@@ -1609,7 +1601,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                       [--IF Product.Field1--]
                         [-- IF Product.Field1 "disclink" --]
                           <p id="disclink"></p>
-                          <script type="text/javascript">
+                          <script defer type="text/javascript">
                             var name="[-- Product.Name --]";
                             name=name.toLowerCase();
 
@@ -2026,11 +2018,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
                               <br/>
 
-                              <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/tooltipster.bundle.min.css"/>
-                              <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css"/>
-                              <link type="text/javascript" src="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/js/tooltipster.bundle.min.js"/>
+                              <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/tooltipster.bundle.min.css" media="none" onload="if(media!=='all')media='all'" />
+                              <link rel="stylesheet" type="text/css" href="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css" media="none" onload="if(media!=='all')media='all'" />
+                              <link type="text/javascript" src="//cdn.sewingmachinesplus.com/AE/tooltipster-master/dist/js/tooltipster.bundle.min.js" media="none" onload="if(media!=='all')media='all'" />
 
-                              <script>
+                              <script defer>
                               (function($) {
                                 $(document).ready(function() {
                                     $('.mctt').tooltipster({
@@ -2038,7 +2030,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                       maxWidth: 310
                                     });
                                 });
-                              })(jQuery); 
+                              })(jQuery);
                               </script>
                               <?php
                                 require_once("/home/sewingmachinesplus/shopsite_api_new/includes/api_include.php");
@@ -2244,7 +2236,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                 [-- ELSE --]
                   <div id="tout2_pdp_4Tell" ></div>
                 [-- END_IF --]
-                <script type="text/javascript">
+                <script defer type="text/javascript">
                   var sa_products_count = 7;
                   var sa_date_format = 'F j, Y';
                   var sa_product = '[-- PRODUCT.SKU --]';
@@ -2561,25 +2553,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       </div>
     </div>
     </div>
-    <script>
-      // Initialize the plugin
-      $('#packages, #craftsy-pop, #local-pop, #financing-pop, #geopopup, #lowest-price-pop, #callouts-pop').popup({
-        transition: 'all 0.3s',
-        scrolllock: true
-      });
-    </script>
-    <!-- Start of LiveChat (www.livechatinc.com) code -->
-    <script type="text/javascript">
-      /*window.__lc = window.__lc || {};
-      window.__lc.license = 8753261;
-      (function() {
-        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-      })();*/
-    </script>
-    <!-- End of LiveChat code -->
-    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+    <script defer>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
   </body>
   [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
   <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
