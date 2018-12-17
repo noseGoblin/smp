@@ -335,22 +335,22 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
               <!--end new arrivals-->
             [--END_IF--]
 
-           <script defer type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
+           <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
 <script type="text/javascript">
-window.criteo_q = window.criteo_q || [];
-var deviceType = /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : /iPad/.test(navigator.userAgent) ? "t" : "d";
-var viewList = new Array();
-ss_jQuery("input[class='viewlist']").each(function(i){
-if(i < 3){
-viewList[i] = ss_jQuery(this).val();
-}
-});
+  window.criteo_q = window.criteo_q || [];
+  var deviceType = /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : /iPad/.test(navigator.userAgent) ? "t" : "d";
+  var viewList = new Array();
+  ss_jQuery("input[class='viewlist']").each(function(i){
+  if(i < 3){
+  viewList[i] = ss_jQuery(this).val();
+  }
+  });
 
-window.criteo_q.push(
-{ event: "setAccount", account: 19481},
-{ event: "setSiteType", type: deviceType},
-{ event: "setHashedEmail", email: [""]},
-{ event: "viewList", item: [viewList[0], viewList[1], viewList[2]] });
+  window.criteo_q.push(
+  { event: "setAccount", account: 19481},
+  { event: "setSiteType", type: deviceType},
+  { event: "setHashedEmail", email: [""]},
+  { event: "viewList", item: [viewList[0], viewList[1], viewList[2]] });
 </script>
             
 
@@ -361,19 +361,19 @@ window.criteo_q.push(
         </div>
       </div>
       <div id="data_4Tell" data-customer="" data-cart=""></div>
-<script defer type="text/javascript">
-function getCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for(var i=0; i<ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0)==' ') c = c.substring(1);
-        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
-    }
-    return "";
-}
-var fourTellCookieContents = getCookie("fourtellemail");
-document.getElementById("data_4Tell").setAttribute("data-customer", fourTellCookieContents);
+<script type="text/javascript">
+  function getCookie(cname) {
+      var name = cname + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0; i<ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1);
+          if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+      }
+      return "";
+  }
+  var fourTellCookieContents = getCookie("fourtellemail");
+  document.getElementById("data_4Tell").setAttribute("data-customer", fourTellCookieContents);
 </script>
 <!--4-Tell Recommendations Begin (www.4-tell.com)-->
 <!--4-Tell Recommendations End-->
@@ -407,11 +407,11 @@ window.__lc.license = 8753261;
 <script type="text/javascript">
 _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
 </script>
-<script defer type="text/javascript" async src="//4tcdn.blob.core.windows.net/4tjs3/4TellLoader.js?alias=sewingma"></script>
+<script type="text/javascript" async src="//4tcdn.blob.core.windows.net/4tjs3/4TellLoader.js?alias=sewingma"></script>
 
 
 <!--4-Tell Recommendations End-->
-<script defer>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
 
 <!-- <script type="text/javascript">
   function downloadJSAtOnload() {
