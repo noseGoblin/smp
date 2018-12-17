@@ -413,7 +413,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <link href="/AE/css/_pagespeed/yamm.min.css" rel="stylesheet">
     <link href="/AE/css/_pagespeed/navigation.min.css" rel="stylesheet">
     <!--sky form pro css-->
-    <link href="/AE/sky-form/css/_pagespeed/sky-forms.min.css" rel="stylesheet">
+    <link href="/AE/sky-form/css/_pagespeed/sky-forms.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
     <!--custom css file-->
     <link href="/AE/css/_pagespeed/fonts.min.css" rel="stylesheet">
     <link href="/AE/css/_pagespeed/style.min.css?v=1.2" rel="stylesheet">
@@ -502,7 +502,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         z-index:99999 !important;
       }
     </style>
-    <script>
+    <script defer>
       function popEssentials(url) {
         syncpop=window.open(url,'name','height=600, width=690, top=120, left=650, toolbar=no, menubar=no, location=no, scrollbars=yes');
         if (window.focus) {
@@ -511,7 +511,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         return false;
       }
     </script>
-    <script src="https://cdn.optimizely.com/js/3534250896.js"></script>
+    <script defer src="https://cdn.optimizely.com/js/3534250896.js"></script>
     <link href="/AE/css/_pagespeed/smp-nav-kyle.min.css" rel="stylesheet">
     <!-- Hotjar Tracking Code for www.sewingmachinesplus.com -->
     <script>
@@ -2554,12 +2554,12 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     </div>
     </div>
 
-    <script defer>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+    <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
   </body>
   [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
-  <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
-  <script src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
-  <script>
+  <script defer src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
+  <script defer src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
+  <script defer>
     function startLightbox(){
       $("a[data-lightbox='thumbnailslightbox']:first").click();
     }
@@ -2595,7 +2595,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       }
     })
   </script>
-  <script>
+  <script defer>
     lightbox.option({
       'showImageNumberLabel': false,
       'alwaysShowNavOnTouchDevices': true,
