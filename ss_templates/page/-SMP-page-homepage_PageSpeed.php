@@ -211,9 +211,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         <!--header start-->
         <header class="header">
 
-          [-- INCLUDE -SMP-toolbar-kyle --]
+          [-- INCLUDE -SMP-toolbar-kyle_pagespeed --]
 
-          [-- INCLUDE -SMP-header-minicart PROCESS --]
+          [-- INCLUDE -SMP-header-minicart_pagespeed PROCESS --]
         </header>
         <!--header end-->
         <div class="cmlla" id="cmlla">
@@ -356,8 +356,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
           </main>
           <!--main end-->
-          [-- INCLUDE -SMP-mailing-list --]
-          [-- INCLUDE -SMP-footer --]
+          [-- INCLUDE -SMP-mailing-list_pagespeed --]
+          [-- INCLUDE -SMP-footer_pagespeed --]
         </div>
       </div>
       <div id="data_4Tell" data-customer="" data-cart=""></div>
