@@ -662,6 +662,13 @@
         <a href="https://www.sewingmachinesplus.com/zone-heaters.php#/?Category0=Zone+Heaters&search_return=all&Availability=In-Stock+Ready+to+Ship" class="category-link-brands"><div style="padding:13px; color:#fff; border-bottom:thin solid #fff; font-size:17px; font-weight:bold;">
             <span style="margin-left:15px;">Zone Heaters</span>
           </div></a>
+
+<!-- ... React Component test START ... -->
+
+<div id="like_button_container"></div>
+
+<!-- ... React Component test END ... -->
+
         </div>
       </div>
       <div id="navblock1300" class="emb-mach">
