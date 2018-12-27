@@ -25,6 +25,7 @@
 <script src="/AE/js/_pagespeed/like_button.js"></script>
 
 <!-- Lazyload imgs -->
+<script src="/AE/js/_pagespeed/lazyload.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
 

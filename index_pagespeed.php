@@ -1780,7 +1780,8 @@
 
 
 
-
+<!-- img placeholder padding-bottom sizing formula -->
+padding-bottom: (height ÷ width) x 100
 
 
 
