@@ -81,6 +81,11 @@
   <!DOCTYPE html>
   <html lang="en">
     <head>
+      <!-- React app START -->
+      <link rel="manifest" href="/manifest.json">
+      <link href="/static/css/1.65bade87.chunk.css" rel="stylesheet">
+      <link href="/static/css/main.c7a7efaf.chunk.css" rel="stylesheet">
+      <!-- React app END -->
       <style>.async-hide{ opacity: 0 !important}</style>
       <script>
         (function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;

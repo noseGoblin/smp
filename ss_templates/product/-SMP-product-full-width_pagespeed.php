@@ -326,6 +326,11 @@
   <!-- test product -->
   <html lang="en">
   <head>
+    <!-- React app START -->
+    <link rel="manifest" href="/manifest.json">
+    <link href="/static/css/1.65bade87.chunk.css" rel="stylesheet">
+    <link href="/static/css/main.c7a7efaf.chunk.css" rel="stylesheet">
+    <!-- React app END -->
     <style>.async-hide { opacity: 0 !important} </style>
 <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
@@ -351,7 +356,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     [--IF PRODUCT.Field23--]
       [--PRODUCT.Field23--]
     [--END_IF--]
-    <script src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript"></script>
     <style>
       .ui-dialog-titlebar{
         background-color:#ec010b !important;
@@ -408,20 +412,20 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <!-- Bootstrap -->
     <link href="/AE/bootstrap/css/_pagespeed/bootstrap.min.css" rel="stylesheet">
     <!--plugins-->
-    <link href="/AE/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/AE/custom-scrollbar/_pagespeed/jquery.mCustomScrollbar.min.css" rel="stylesheet">
-    <link href="/AE/css/_pagespeed/yamm.min.css" rel="stylesheet">
+    <link href="/AE/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
+    <link href="/AE/custom-scrollbar/_pagespeed/jquery.mCustomScrollbar.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
+    <link href="/AE/css/_pagespeed/yamm.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
     <link href="/AE/css/_pagespeed/navigation.min.css" rel="stylesheet">
     <!--sky form pro css-->
     <link href="/AE/sky-form/css/_pagespeed/sky-forms.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
     <!--custom css file-->
-    <link href="/AE/css/_pagespeed/fonts.min.css" rel="stylesheet">
+    <link href="/AE/css/_pagespeed/fonts.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
     <link href="/AE/css/_pagespeed/style.min.css?v=1.2" rel="stylesheet">
     <!-- MoreInfo product description custom css -->
-    <link href="/AE/css/_pagespeed/moreInfo.styles.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="/AE/js/lightbox/css/lightbox.min.css">
+    <link href="/AE/css/_pagespeed/moreInfo.styles.min.css" rel="stylesheet" media="none" onload="if(media!=='all')media='all'" >
+    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.carousel.min.css" media="none" onload="if(media!=='all')media='all'" >
+    <link rel="stylesheet" href="/AE/js/owl/newkyleowl/assets/owl.theme.default.min.css" media="none" onload="if(media!=='all')media='all'" />
+    <link rel="stylesheet" href="/AE/js/lightbox/css/lightbox.min.css" media="none" onload="if(media!=='all')media='all'" >
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -496,7 +500,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <meta name="twitter:description" content="[-- PRODUCT.MoreInformationMetaDescription --]">
     <meta name="twitter:image" content="<?php echo "//cdn.sewingmachinesplus.com/media/$field5img2[0]" ?>">
     <script type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" defer async></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css" media="none" onload="if(media!=='all')media='all'" >
     <style>
       .share-buttons .share-main-tab{
         z-index:99999 !important;
@@ -1039,9 +1043,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           });
           </script>
           [-- END_IF --]
-                  <div class="product-banner">
-                    <!--<a href="#craftsy-pop" class="craftsy-pop_open"><img src="//cdn.sewingmachinesplus.com/AE/images/product-details-banner.webp" class="lazy img-responsive" alt="" /></a>-->
-                  </div>
                 </div>
                 <div class="col-md-6 col-md-push-6-item-details">
                   <!--XMAS SHIPPING BANNER-->
@@ -2557,6 +2558,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
   </body>
   [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
+  <script defer src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript"></script>
   <script defer src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
   <script defer src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
   <script defer>
