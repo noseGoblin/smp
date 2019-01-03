@@ -1,7 +1,7 @@
 window.onload = function() {
   
   var placeholder = document.querySelector('.placeholder'),
-      small = placeholder.querySelector('.img-small')
+      small = placeholder.querySelector('.img-small');
   
   // 1: load small image and show it
   var img = new Image();

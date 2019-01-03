@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import './style.css';
-import Fansworth from './professor_hubert_j__farnsworth_by_tranzorz3d-d495mex.jpg';
+import Farnsworth from './professor_hubert_j__farnsworth_by_tranzorz3d-d495mex.jpg';
 
 function component() {
   let element = document.createElement('div');

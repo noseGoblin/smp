@@ -326,11 +326,6 @@
   <!-- test product -->
   <html lang="en">
   <head>
-    <!-- React app START -->
-    <link rel="manifest" href="/manifest.json">
-    <link href="/static/css/1.65bade87.chunk.css" rel="stylesheet">
-    <link href="/static/css/main.c7a7efaf.chunk.css" rel="stylesheet">
-    <!-- React app END -->
     <style>.async-hide { opacity: 0 !important} </style>
 <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
 h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
@@ -356,6 +351,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     [--IF PRODUCT.Field23--]
       [--PRODUCT.Field23--]
     [--END_IF--]
+    <script src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript"></script>
     <style>
       .ui-dialog-titlebar{
         background-color:#ec010b !important;
@@ -499,7 +495,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <meta name="twitter:url" content="[-- PRODUCT.MoreInfoURL --]">
     <meta name="twitter:description" content="[-- PRODUCT.MoreInformationMetaDescription --]">
     <meta name="twitter:image" content="<?php echo "//cdn.sewingmachinesplus.com/media/$field5img2[0]" ?>">
-    <script type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" defer async></script>
+    <script type="text/javascript" src="//cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.js" async></script>
     <link type="text/css" rel="stylesheet" href="https://cdn.nextopia.net/v1.5.1/d237f9d9ae7166c0aa227ca5904ff0ee.css" media="none" onload="if(media!=='all')media='all'" >
     <style>
       .share-buttons .share-main-tab{
@@ -2558,7 +2554,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
   </body>
   [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
-  <script defer src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript"></script>
   <script defer src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
   <script defer src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
   <script defer>
