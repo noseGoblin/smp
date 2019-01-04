@@ -2554,8 +2554,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
   </body>
   [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
-  <script defer src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
-  <script defer src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
+  <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
+  <script src="//cdn.sewingmachinesplus.com/AE/js/owl/owl.carousel.min.js"></script>
   <script defer>
     function startLightbox(){
       $("a[data-lightbox='thumbnailslightbox']:first").click();
