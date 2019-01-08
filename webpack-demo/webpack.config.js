@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Output Management'
+      title: 'Hot Module Replacement'
     }),
     new webpack.HotModuleReplacementPlugin()
   ],
@@ -23,9 +23,6 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
-  },
-  optimization: {
-    usedExports: true
   },
   mode: 'production'
 };

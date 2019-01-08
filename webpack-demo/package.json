@@ -3,13 +3,10 @@
   "version": "1.0.0",
   "description": "This is a demo of webpack for the smp project module bundling.",
   "private": true,
-  "main": "src/ndex.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch",
-    "server": "node server.js",
-    "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
