@@ -351,7 +351,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     [--IF PRODUCT.Field23--]
       [--PRODUCT.Field23--]
     [--END_IF--]
-    <script src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript"></script>
+    <!-- <script src="//cdn.sewingmachinesplus.com/includes/smp.min.js" type="text/javascript" defer></script> -->
     <style>
       .ui-dialog-titlebar{
         background-color:#ec010b !important;
@@ -477,7 +477,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         font-weight: normal !important;
       }
     </style>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>-->
     <?php
       $field5img2 = explode("|", "[-- PRODUCT.Field5 --]");
     ?>
@@ -882,6 +882,45 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                     }
                   });
                 </script>
+
+<script type="text/javascript">
+  $(document).ready(function($) {
+    $('#accordion').find('.accordion-toggle').click(function(){
+
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".accordion-content").not($(this).next()).slideUp('fast');
+
+    });
+  });
+</script>
+
+<!-- CSS -->
+<style>
+  .accordion-toggle {cursor: pointer;}
+  .accordion-content {display: none;}
+  .accordion-content.default {display: block;}
+</style>
+
+<!-- HTML -->
+<div id="accordion">
+  <h4 class="accordion-toggle">Accordion 1</h4>
+  <div class="accordion-content default">
+    <p>Cras malesuada ultrices augue molestie risus.</p>
+  </div>
+  <h4 class="accordion-toggle">Accordion 2</h4>
+  <div class="accordion-content">
+    <p>Lorem ipsum dolor sit amet mauris eu turpis.</p>
+  </div>
+  <h4 class="accordion-toggle">Accordion 3</h4>
+  <div class="accordion-content">
+    <p>Vivamus facilisisnibh scelerisque laoreet.</p>
+  </div>
+</div>
+
+
                 [-- IF PRODUCT.Field47--]
                   <div class="col-md-12">
                     <!-- <img data-src="[--PRODUCT.Field47--]" data-srcset="[--PRODUCT.Field47--]" class="lazy img-responsive"> -->
@@ -1224,10 +1263,10 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                         [-- IF PRODUCT.DisplayPrice --]
                           [--IF PRODUCT.Field29 "yes"--]
                           [--ELSE--]
-                            <input type=hidden name="storeid" value="[--Store.id--]">
-                            <input type=hidden name="dbname" value="products">
+                            <input type="hidden" name="storeid" value="[--Store.id--]">
+                            <input type="hidden" name="dbname" value="products">
                             <input type="hidden" name="itemnum" value="[-- PRODUCT.RecordNumber --]">
-                            <input type=hidden name="function" value="add">
+                            <input type="hidden" name="function" value="add">
                             <!--quantity drop down-->
                             <div class="col-lg-12 col-md-12 col-sm-12">
                               [-- IF product.DisplayOrderQuantity? --]
@@ -2613,7 +2652,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
   <script src="https://cdn.bronto.com/bba/bba.js" data-bbaid="55ff0542-adde-4334-99f1-3bed861620e0" async></script>
   <script bronto-popup-id="0ea2bf54-c520-4caa-adc3-28ceeea06625" src="https://cdn.bronto.com/popup/delivery.js"></script>
   <!--4-Tell Recommendations Begin (www.4-tell.com)-->
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript">
     _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
   </script>

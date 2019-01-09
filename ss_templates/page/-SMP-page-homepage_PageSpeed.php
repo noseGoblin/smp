@@ -403,7 +403,6 @@ window.__lc.license = 8753261;
 </script>
 <!-- End of LiveChat code -->
 <!--4-Tell Recommendations Begin (www.4-tell.com)-->
-<!-- <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 <script type="text/javascript">
 _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
 </script>

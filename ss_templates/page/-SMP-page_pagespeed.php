@@ -458,7 +458,6 @@
       })
     </script>
     <!--4-Tell Recommendations Begin (www.4-tell.com)-->
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script> -->
     <script defer type="text/javascript">
       _4TellBoost={}; _4TellBoost.jq=jQuery.noConflict(true);
     </script>
