@@ -17,17 +17,17 @@
 <script src="/AE/js/_pagespeed/hoverIntent.min.js" type="text/javascript"></script>
 <script src="/AE/js/_pagespeed/smp-nav-kyle.js" type="text/javascript"></script>
 
-<!-- Load React. -->
+<!-- Load React
 <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script> -->
 
-<!-- Load test React component. -->
-<script src="/AE/js/_pagespeed/like_button.js"></script>
+<!-- Load test React component
+<script src="/AE/js/_pagespeed/like_button.js"></script> -->
 
 <!-- Lazyload imgs -->
 <script src="/AE/js/_pagespeed/lazyload.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@10.19.0/dist/lazyload.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@8.17.0/dist/lazyload.min.js"></script>
 
 <script type="text/javascript">
   (function(w, d){
