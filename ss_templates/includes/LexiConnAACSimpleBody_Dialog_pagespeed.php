@@ -1,6 +1,6 @@
 <!-- BEGIN MODULE BODY -->
 <!--[if lt IE 9]>
-     <script src="[-- OUTPUT_DIRECTORY_URL --]/media/en-US/javascript/jquery/jquery.js?v=1.2" type="text/javascript"></script>
+     <script src="[-- OUTPUT_DIRECTORY_URL --]/media/en-US/javascript/jquery/jquery.js?v=1.2" type="text/javascript" defer></script>
      <script type="text/javascript">
          var ss_jQuery = jQuery.noConflict(true);
 
@@ -23,12 +23,11 @@
 </div>
 
 <script src="[-- OUTPUT_DIRECTORY_URL --]/media/en-US/javascript/jquery/jquery.js?v=1.2" type="text/javascript" defer></script>
-<!--<script type="text/javascript" src="/aac_module/scripts/jquery.form.js"></script> -->
+<script type="text/javascript" src="/aac_module/scripts/jquery.form.js" defer></script>
 <script type="text/javascript">
   var ss_jQuery = jQuery.noConflict(true);
 </script>
-<script type="text/javascript" src="/aac_module/scripts/jquery.loadmask.min.js"></script>
-<script type="text/javascript" src="/aac_module/scripts/jquery_ui.js?v=1.2"></script>
+<script type="text/javascript" src="/aac_module/scripts/jquery.loadmask.min.js" defer></script>
 <script type="text/javascript">
   window.add_cart_loadmaskphrase='[-- VAR.AddCartMessage --]';
   window.empty_cart_loadmaskphrase='[-- VAR.EmptyCartMessage --]';

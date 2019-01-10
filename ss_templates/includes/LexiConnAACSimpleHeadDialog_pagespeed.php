@@ -52,7 +52,7 @@
 
 <!-- [-- VAR.JQueryUITheme "blitzer" --] -->
 
-<link type="text/css" rel="stylesheet" href="[-- OUTPUT_DIRECTORY_URL --]/media/en-US/css/jquery.loadmask.css" defer>
+<link type="text/css" rel="stylesheet" href="[-- OUTPUT_DIRECTORY_URL --]/media/en-US/css/jquery.loadmask.css" media="none" onload="if(media!=='all')media='all'" >
 
 <style type="text/css">
 .loadmask {background-color:#CCCCCC;}
