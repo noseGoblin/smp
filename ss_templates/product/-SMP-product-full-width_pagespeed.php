@@ -360,7 +360,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
         color:#fff;
       }
     </style>
-    [-- INCLUDE LexiConnAACSimpleHeadDialog PROCESS --]<!--AJAX CART-->
+    [-- INCLUDE LexiConnAACSimpleHeadDialog_pagespeed PROCESS --]<!--AJAX CART-->
     <!-- Start Google Remarketing for Products -->
     <script type="text/javascript">
       var google_tag_params = {
@@ -882,43 +882,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                     }
                   });
                 </script>
-
-<script type="text/javascript">
-  $(document).ready(function($) {
-    $('#accordion').find('.accordion-toggle').click(function(){
-
-      //Expand or collapse this panel
-      $(this).next().slideToggle('fast');
-
-      //Hide the other panels
-      $(".accordion-content").not($(this).next()).slideUp('fast');
-
-    });
-  });
-</script>
-
-<!-- CSS -->
-<style>
-  .accordion-toggle {cursor: pointer;}
-  .accordion-content {display: none;}
-  .accordion-content.default {display: block;}
-</style>
-
-<!-- HTML -->
-<div id="accordion">
-  <h4 class="accordion-toggle">Accordion 1</h4>
-  <div class="accordion-content default">
-    <p>Cras malesuada ultrices augue molestie risus.</p>
-  </div>
-  <h4 class="accordion-toggle">Accordion 2</h4>
-  <div class="accordion-content">
-    <p>Lorem ipsum dolor sit amet mauris eu turpis.</p>
-  </div>
-  <h4 class="accordion-toggle">Accordion 3</h4>
-  <div class="accordion-content">
-    <p>Vivamus facilisisnibh scelerisque laoreet.</p>
-  </div>
-</div>
 
 
                 [-- IF PRODUCT.Field47--]
@@ -1709,11 +1672,12 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                       [-- END_IF --]<!--END DISCONTINUED PRODUCT LINK - CHRISTIAN 05/27/2014-->
                     [-- END_IF --]
                     [-- IF PRODUCT.DisplayPrice --]
-                      [--IF Product.Field6 "6"--]
+                        [--IF Product.Field6--]
                         <p class="n-link-icon"><span>Financing:</span>
                           <span style="color:#313131;">
                             <?php
                               $price = 0;
+                              $months = "[--Product.Field6--]";
                             ?>
                             [--IF PRODUCT.SaleOn--]
                               <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
@@ -1723,128 +1687,8 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                             <?php
                               $price = ltrim($price, "$");
                               $price = str_replace(",", "", $price);
-                              $price = number_format($price / 6, 2);
-                              echo ("Available @ $".$price."/month for 6 months, 0% interest");
-                            ?>
-                          </span>
-                        </p>
-                      [-- END_IF --]
-                      [--IF Product.Field6 "12"--]
-                        <p class="n-link-icon"><span>Financing:</span>
-                          <span style="color:#313131;">
-                            <?php
-                              $price = 0;
-                            ?>
-                            [--IF PRODUCT.SaleOn--]
-                              <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
-                            [--ELSE--]
-                              <?php $price = "[-- PRODUCT.Price --]"; ?>
-                            [--END_IF--]
-                            <?php
-                              $price = ltrim($price, "$");
-                              $price = str_replace(",", "", $price);
-                              $price = number_format($price / 12, 2);
-                              echo ("Available @ $".$price."/month for 12 months, 0% interest");
-                            ?>
-                          </span>
-                        </p>
-                      [-- END_IF --]
-                      [--IF Product.Field6 "18"--]
-                        <p class="n-link-icon"><span>Financing:</span>
-                          <span style="color:#313131;">
-                            <?php
-                              $price = 0;
-                            ?>
-                            [--IF PRODUCT.SaleOn--]
-                              <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
-                            [--ELSE--]
-                              <?php $price = "[-- PRODUCT.Price --]"; ?>
-                            [--END_IF--]
-                            <?php
-                              $price = ltrim($price, "$");
-                              $price = str_replace(",", "", $price);
-                              $price = number_format($price / 18, 2);
-                              echo ("Available @ $".$price."/month for 18 months, 0% interest");
-                            ?>
-                          </span>
-                        </p>
-                      [-- END_IF --]
-                      [--IF Product.Field6 "24"--]
-                        <p class="n-link-icon"><span>Financing:</span>
-                          <span style="color:#313131;">
-                            <?php
-                              $price = 0;
-                            ?>
-                            [--IF PRODUCT.SaleOn--]
-                              <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
-                            [--ELSE--]
-                              <?php $price = "[-- PRODUCT.Price --]"; ?>
-                            [--END_IF--]
-                            <?php
-                              $price = ltrim($price, "$");
-                              $price = str_replace(",", "", $price);
-                              $price = number_format($price / 24, 2);
-                              echo ("Available @ $".$price."/month for 24 months, 0% interest");
-                            ?>
-                          </span>
-                        </p>
-                      [-- END_IF --]
-                      [--IF Product.Field6 "36"--]
-                        <p class="n-link-icon"><span>Financing:</span>
-                          <span style="color:#313131;">
-                            <?php
-                              $price = 0;
-                            ?>
-                            [--IF PRODUCT.SaleOn--]
-                              <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
-                            [--ELSE--]
-                              <?php $price = "[-- PRODUCT.Price --]"; ?>
-                            [--END_IF--]
-                            <?php
-                              $price = ltrim($price, "$");
-                              $price = str_replace(",", "", $price);
-                              $price = round($price / 36, 2);
-                              echo ("$".$price."/month for 36 months, 0% interest");
-                            ?>
-                          </span>
-                        </p>
-                      [-- END_IF --]
-                      [--IF Product.Field6 "48"--]
-                        <p class="n-link-icon"><span>Financing:</span>
-                          <span style="color:#313131;">
-                            <?php
-                              $price = 0;
-                            ?>
-                            [--IF PRODUCT.SaleOn--]
-                              <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
-                            [--ELSE--]
-                              <?php $price = "[-- PRODUCT.Price --]"; ?>
-                            [--END_IF--]
-                            <?php
-                              $price = ltrim($price, "$");
-                              $price = str_replace(",", "", $price);
-                              $price = number_format($price / 48, 2);
-                              echo ("Available @ $".$price."/month for 48 months, 0% interest");
-                            ?>
-                          </span>
-                        </p>
-                      [-- END_IF --]
-                      [--IF Product.Field6 "60"--]
-                        <p class="n-link-icon"><span>Financing:</span>
-                          <span style="color:#313131;">
-                            <?php
-                              $price = 0;
-                            ?>
-                            [--IF PRODUCT.SaleOn--]
-                              <?php $price = "[-- PRODUCT.SaleAmount --]"; ?>
-                            [--ELSE--]
-                              <?php $price = "[-- PRODUCT.Price --]"; ?>
-                            [--END_IF--]
-                            <?php
-                              $price = ltrim($price, "$");
-                              $price = str_replace(",", "", $price);
-                              $price = number_format($price / 60, 2);
-                              echo ("Available @ $".$price."/month for 60 months, 0% interest");
+                              $price = number_format($price / $months, 2);
+                              echo ("Available @ $".$price."/month for ".$months." months, 0% interest");
                             ?>
                           </span>
                         </p>
@@ -1872,6 +1716,57 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                   <div class="space-60"></div>
                 </div><!--sidebar col-->
               </div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function($) {
+    $('#accordion-test').find('.accordion-toggley').click(function(){
+
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+
+      //Hide the other panels
+      $(".accordion-contentus").not($(this).next()).slideUp('fast');
+
+    });
+  });
+</script>
+
+<!-- CSS -->
+<style>
+  .accordion-toggley {cursor: pointer;}
+  .accordion-contentus {display: none;}
+  .accordion-contentus.default {display: block;}
+</style>
+
+<!-- HTML -->
+<div id="accordion-test">
+  <h4 class="accordion-toggley">Accordion 1</h4>
+  <div class="accordion-contentus default">
+    <p>Cras malesuada ultrices augue molestie risus.</p>
+  </div>
+  <h4 class="accordion-toggley">Accordion 2</h4>
+  <div class="accordion-contentus">
+    <p>Lorem ipsum dolor sit amet mauris eu turpis.</p>
+  </div>
+  <h4 class="accordion-toggley">Accordion 3</h4>
+  <div class="accordion-contentus">
+    <p>Vivamus facilisisnibh scelerisque laoreet.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
               <div class="container accordion-container">
                 <div class="space-60"></div>
                 [-- IF PRODUCT.Field3 "local" --]
@@ -1903,8 +1798,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                                 }
                               }
                             </style>
-                        <!--     <div id="b2ssaledesktop" style="text-align:center;margin-bottom:20px;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_02.webp" class="lazy" /></a></div>
-                            <div id="b2ssalemobile" style="text-align:center;margin-bottom:20px;display:none;"><a href="https://www.sewingmachinesplus.com/index.php"><img style="width:100%;" src="https://cdn.sewingmachinesplus.com/media/banners/2017-holidays/sale-end-banners_09.webp" class="lazy" /></a></div>  -->
                             [-- IF PRODUCT.Field50 "bernette" --]
                               <?php include('manufacturerwarranties/bernette.html'); ?>
                             [-- ELSE_IF PRODUCT.Field50 "bernina"--]
@@ -2263,7 +2156,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                     </div>
                     <!-- END TABS -->
                     <!-- END BLOCK -->
-                    [-- INCLUDE LexiConnAACSimpleBody_Dialog PROCESS --]<!--AJAX CART-->
+                    [-- INCLUDE LexiConnAACSimpleBody_Dialog_pagespeed PROCESS --]<!--AJAX CART-->
                     <!-- END ADD TO CART FORM -->
                   </div>
                 </div>
