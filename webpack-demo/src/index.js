@@ -1,5 +1,13 @@
 import { cube } from './math.js';
 
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
+module.exports = {
+  plugins: [
+    new BundleAnalyzerPlugin()
+  ]
+}
+
 if (process.env.NODE_ENV !== 'production') {
   console.log('Looks like we are in development mode!');
 }
