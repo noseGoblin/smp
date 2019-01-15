@@ -1721,52 +1721,6 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 
 
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function($) {
-    $('#accordion-test').find('.accordion-toggley').click(function(){
-
-      //Expand or collapse this panel
-      $(this).next().slideToggle('fast');
-
-      //Hide the other panels
-      $(".accordion-contentus").not($(this).next()).slideUp('fast');
-
-    });
-  });
-</script>
-
-<!-- CSS -->
-<style>
-  .accordion-toggley {cursor: pointer;}
-  .accordion-contentus {display: none;}
-  .accordion-contentus.default {display: block;}
-</style>
-
-<!-- HTML -->
-<div id="accordion-test">
-  <h4 class="accordion-toggley">Accordion 1</h4>
-  <div class="accordion-contentus default">
-    <p>Cras malesuada ultrices augue molestie risus.</p>
-  </div>
-  <h4 class="accordion-toggley">Accordion 2</h4>
-  <div class="accordion-contentus">
-    <p>Lorem ipsum dolor sit amet mauris eu turpis.</p>
-  </div>
-  <h4 class="accordion-toggley">Accordion 3</h4>
-  <div class="accordion-contentus">
-    <p>Vivamus facilisisnibh scelerisque laoreet.</p>
-  </div>
-</div>
-
-
-
-
-
-
-
-
               <div class="container accordion-container">
                 <div class="space-60"></div>
                 [-- IF PRODUCT.Field3 "local" --]
@@ -2292,7 +2246,7 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
           <ul>
             <li>Quilter's Academy Freshman Book ($28)</li>
             <li>Patch Abilities P52 Wave It! Pattern ($9)</li>
-            <li>Frixion Asst. Eraseable Gel Pen 3pk ($16)</li>
+            <li>Frixion Asst. Erasable Gel Pen 3pk ($16)</li>
             <li>Olfa Heavy Duty 45mm Rotary Cutter ($23)</li>
             <li>Quilt Pounce and Stencil Combo ($33)</li>
             <li>Creative Grids Ruler 6 1/4" x 24 1/4" ($26)</li>
