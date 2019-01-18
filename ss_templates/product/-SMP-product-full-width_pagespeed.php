@@ -547,6 +547,10 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
        $output = array_combine ( $matches[1], $matches[2] );
     }
     ?>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/AE/css/_pagespeed/styles.2b22f1fcd1d785651948.css">
   </head>
   <body>
 <script>
@@ -1729,6 +1733,14 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
                   <div id="tout1_pdp_4Tell" ></div>
                 [-- END_IF --]
                 <div class="col-md-12">
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<div class="mat-app-background basic-container">
+  <expansion-steps-example>loading</expansion-steps-example>
+</div>
+
+
                   <div class="accordion" id="accordion">
                     <!-- TABBED BLOCKS GO HERE: MORE INFO, IMAGES, & ADD-ON ACCESSORIES -->
                     <!-- BEGIN TABS -->
@@ -2438,6 +2450,10 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
     </div>
 
     <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5665943"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5665943&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+
+    <script type="text/javascript" src="/AE/js/_pagespeed/runtime.b57bf819d5bdce77f1c7.js"></script>
+    <script type="text/javascript" src="/AE/js/_pagespeed/polyfills.1dc446d41edca377a60d.js"></script>
+    <script type="text/javascript" src="/AE/js/_pagespeed/main.55f575c45dc3f91b8349.js"></script>
   </body>
   [-- INCLUDE -SMP-AE-js-plugins-kyle_pagespeed --]
   <script src="//cdn.sewingmachinesplus.com/AE/js/lightbox/js/lightboxkyle.min.js"></script>
